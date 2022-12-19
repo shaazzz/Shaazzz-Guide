@@ -1,0 +1,1069 @@
+{
+    "problems": [
+        {
+            "judge": "cf",
+            "name": "Duff in Mafia",
+            "url": "https://codeforces.com/problemset/problem/587/D",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "Too Many Constraints",
+            "url": "https://codeforces.com/problemset/problem/1697/F",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "2800"
+        },
+        {
+            "judge": "gym",
+            "name": "Crossword Puzzle",
+            "url": "https://codeforces.com/gym/103104/problem/G",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "المپیادی",
+            "name": "تبعید",
+            "url": "https://quera.org/problemset/18780/",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "National Property",
+            "url": "https://codeforces.com/contest/876/problem/E",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Ring Road 2",
+            "url": "https://codeforces.com/problemset/problem/27/D",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Catowice City",
+            "url": "https://codeforces.com/contest/1239/problem/D",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Radio Stations",
+            "url": "https://codeforces.com/problemset/problem/1215/F",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Words on Tree",
+            "url": "https://codeforces.com/problemset/problem/1657/F",
+            "tags": [
+                "2_sat"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Ants",
+            "url": "https://codeforces.com/problemset/problem/1007/D",
+            "tags": [
+                "2_sat",
+                "fake_vertex"
+            ],
+            "difficulty": "3100"
+        },
+        {
+            "judge": "cf",
+            "name": "Graph Transpositions",
+            "url": "https://codeforces.com/problemset/problem/1442/C",
+            "tags": [
+                "djikstra"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Mike and Fish",
+            "url": "https://codeforces.com/problemset/problem/547/D",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Mashtali: a Space Oddysey",
+            "url": "https://codeforces.com/problemset/problem/1610/F",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "cf",
+            "name": "Points and Segments",
+            "url": "https://codeforces.com/contest/429/problem/E",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "Data Center Drama",
+            "url": "https://codeforces.com/problemset/problem/527/E",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Johnny and Megan's Necklace",
+            "url": "https://codeforces.com/contest/1361/problem/C",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "oj",
+            "name": "Postmen",
+            "url": "https://oj.uz/problem/view/BOI14_postmen",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Fair Share",
+            "url": "https://codeforces.com/contest/1634/problem/E",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Tanya and Password",
+            "url": "https://codeforces.com/problemset/problem/508/D",
+            "tags": [
+                "euler_tour"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "usaco",
+            "name": "Fenced In",
+            "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=625",
+            "tags": [
+                "kruskal"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "المپیادی",
+            "name": "مدکا",
+            "url": "https://quera.org/problemset/2742/",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cses",
+            "name": "Graph Paths I",
+            "url": "https://cses.fi/problemset/task/1723",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Good Vertices",
+            "url": "https://atcoder.jp/contests/abc236/tasks/abc236_g",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cses",
+            "name": "Graph Paths II",
+            "url": "https://cses.fi/problemset/task/1724",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Walk",
+            "url": "https://atcoder.jp/contests/dp/tasks/dp_r",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "baekjoon",
+            "name": "Reading",
+            "url": "https://www.acmicpc.net/problem/7081",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2600"
+        },
+        {
+            "judge": "cf",
+            "name": "Little Pony and Elements of Harmony",
+            "url": "https://codeforces.com/problemset/problem/453/D",
+            "tags": [
+                "matrix",
+                "fwht"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "Magic Gems",
+            "url": "https://codeforces.com/contest/1117/problem/D",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "المپیادی",
+            "name": "قورباغه ها",
+            "url": "https://quera.org/problemset/2741/",
+            "tags": [
+                "matix"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Stairs and Lines",
+            "url": "https://codeforces.com/contest/498/problem/E",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Subsequences Return",
+            "url": "https://codeforces.com/problemset/problem/497/E",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "cf",
+            "name": "Once Again",
+            "url": "https://codeforces.com/contest/582/problem/B",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Wet Shark and Blocks",
+            "url": "https://codeforces.com/contest/621/problem/E",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Flight for Regular Customers",
+            "url": "https://codeforces.com/contest/576/problem/D",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "gym",
+            "name": "Long Grid Covering",
+            "url": "https://codeforces.com/gym/103098/problem/L",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Axel and Marston in Bitland",
+            "url": "https://codeforces.com/contest/780/problem/F",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "لبوی خسته",
+            "url": "https://quera.org/course/add_to_course/course/12879/",
+            "tags": [
+                "matrix"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "sgu",
+            "name": "Inversions",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/180",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Enemy Is Weak",
+            "url": "https://codeforces.com/problemset/problem/61/E",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Subsequence",
+            "url": "https://codeforces.com/contest/1580/problem/D",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "cf",
+            "name": "Closest Point Pair",
+            "url": "https://www.spoj.com/problems/CLOPPAIR/",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "Swap and Maximum Block",
+            "url": "https://codeforces.com/contest/1716/problem/E",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Meta Universe",
+            "url": "https://codeforces.com/contest/475/problem/F",
+            "tags": [
+                "divide",
+                "dsu"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "cf",
+            "name": "Yet Another Array Counting Problem",
+            "url": "https://codeforces.com/contest/1748/problem/E",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Superset",
+            "url": "https://codeforces.com/problemset/problem/97/B",
+            "tags": [
+                "divide"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "codechef",
+            "name": "Best Path",
+            "url": "https://www.codechef.com/problems/BESTPATH?tab=statement",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Bracket Query",
+            "url": "https://codeforces.com/gym/103931/problem/B",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2800"
+        },
+        {
+            "judge": "oj",
+            "name": "Merchant",
+            "url": "https://oj.uz/problem/view/APIO17_merchant",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Greedy Path",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/236",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "spoj",
+            "name": "NEGCYC",
+            "url": "https://www.spoj.com/problems/NEGCYC/",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Flights",
+            "url": "https://codeforces.com/problemset/problem/241/E",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2600"
+        },
+        {
+            "judge": "quera",
+            "name": "رشته‌ی خیلی بزرگ",
+            "url": "https://quera.org/problemset/80649/",
+            "tags": [
+                "bellman",
+                "aho"
+            ],
+            "difficulty": "2800"
+        },
+        {
+            "judge": "sharecode",
+            "name": "Fruit Weights",
+            "url": "http://sharecode.io/section/problemset/problem/2730",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Meeting Her",
+            "url": "https://codeforces.com/problemset/problem/238/E",
+            "tags": [
+                "bellman"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cf",
+            "name": "Capitalism",
+            "url": "https://codeforces.com/problemset/problem/1450/E",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Ela and the Wiring Wizard",
+            "url": "https://codeforces.com/problemset/problem/1737/D",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Algorace",
+            "url": "https://codeforces.com/problemset/problem/187/B",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Useful Edges",
+            "url": "https://codeforces.com/contest/1482/problem/F",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Roads In Berland",
+            "url": "https://codeforces.com/problemset/problem/25/C",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Greg and Graph",
+            "url": "https://codeforces.com/problemset/problem/296/D/",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Edge Deletion",
+            "url": "https://atcoder.jp/contests/abc243/tasks/abc243_e",
+            "tags": [
+                "floyd"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "کوئرا",
+            "name": "نوشابه خنک",
+            "url": "https://quera.org/problemset/62460/",
+            "tags": [
+                "pbs"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Stamp Rally",
+            "url": "https://atcoder.jp/contests/agc002/tasks/agc002_d",
+            "tags": [
+                "pbs",
+                "dsu_tree",
+                "dsu_history"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "szkopul",
+            "name": "Meteors",
+            "url": "https://szkopul.edu.pl/problemset/problem/7JrCYZ7LhEK4nBR5zbAXpcmM/site/?key=statement",
+            "tags": [
+                "pbs"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "Odd Mineral Resource",
+            "url": "https://codeforces.com/contest/1479/problem/D",
+            "tags": [
+                "pbs",
+                "swipe_line",
+                "mo"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Ice Skating",
+            "url": "https://codeforces.com/problemset/problem/217/A",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Construct Highway",
+            "url": "https://atcoder.jp/contests/abc239/tasks/abc239_f",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Graph Without Long Directed Paths",
+            "url": "https://codeforces.com/contest/1144/problem/F",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Wizard's Tour",
+            "url": "https://codeforces.com/problemset/problem/858/F",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Book of Evil",
+            "url": "https://codeforces.com/contest/337/problem/d",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Guard Towers",
+            "url": "https://codeforces.com/problemset/problem/85/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2600"
+        },
+        {
+            "judge": "cf",
+            "name": "Little Pony and Summer Sun Celebration",
+            "url": "https://codeforces.com/problemset/problem/453/C",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Super M",
+            "url": "https://codeforces.com/contest/592/problem/d",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Mahmoud and a xor trip",
+            "url": "https://codeforces.com/problemset/problem/766/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Ant on the Tree",
+            "url": "https://codeforces.com/problemset/problem/29/D?locale=en",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Subtree K-th Max",
+            "url": "https://atcoder.jp/contests/abc239/tasks/abc239_e",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Johnny Solving",
+            "url": "https://codeforces.com/problemset/problem/1103/C",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Number of Simple Paths",
+            "url": "https://codeforces.com/contest/1454/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Blood Cousins",
+            "url": "https://codeforces.com/problemset/problem/208/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Blood Cousins Return",
+            "url": "https://codeforces.com/problemset/problem/246/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Cycling Coloring",
+            "url": "https://codeforces.com/problemset/problem/183/C",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Leha and another game about graph",
+            "url": "https://codeforces.com/contest/841/problem/D",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Bertown roads",
+            "url": "https://codeforces.com/contest/118/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "sgu",
+            "name": "Computer Network",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/149",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "usaco",
+            "name": "Wormhole Sort",
+            "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=992v",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "sgu",
+            "name": "Challenging Tic-Tac-Toe",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/289",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "AquaMoon and Permutations",
+            "url": "https://codeforces.com/contest/1545/problem/C",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2800"
+        },
+        {
+            "judge": "oj",
+            "name": "T-covering",
+            "url": "https://oj.uz/problem/view/eJOI19_covering",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "cf",
+            "name": "Graph",
+            "url": "https://codeforces.com/contest/1387/problem/A",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Fairy",
+            "url": "https://codeforces.com/contest/19/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Graph Cutting",
+            "url": "https://codeforces.com/contest/405/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Road Problem",
+            "url": "https://codeforces.com/contest/45/problem/h",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "usaco",
+            "name": "Where's Bessie?",
+            "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=740",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Pursuit for artifacts",
+            "url": "https://codeforces.com/contest/652/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "المپیادی",
+            "name": "کپی پیست",
+            "url": "https://quera.org/problemset/3017/",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Minimal Diameter Forest",
+            "url": "https://codeforces.com/contest/1092/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "oj",
+            "name": "Prison",
+            "url": "https://oj.uz/problem/view/BOI21_prison",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Vasya and a tree",
+            "url": "https://codeforces.com/contest/1076/problem/E",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "usaco",
+            "name": "Milk Visits",
+            "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=968",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Tourists",
+            "url": "https://codeforces.com/problemset/problem/487/E",
+            "tags": [
+                "hld",
+                "block_tree"
+            ],
+            "difficulty": "3400"
+        },
+        {
+            "judge": "cf",
+            "name": "Cycling City",
+            "url": "https://codeforces.com/problemset/problem/521/E",
+            "tags": [
+                "block_tree"
+            ],
+            "difficulty": "2600"
+        },
+        {
+            "judge": "oj",
+            "name": "Jail",
+            "url": "https://oj.uz/problem/submit/JOI22_jail",
+            "tags": [
+                "lca",
+                "fake_vertex",
+                "topol_sort"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "Cycle",
+            "url": "https://codeforces.com/contest/117/problem/c",
+            "tags": [
+                "digraph"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cses",
+            "name": "Game Routes",
+            "url": "https://cses.fi/problemset/task/1681",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Giving Award",
+            "url": "https://codeforces.com/contest/412/problem/D",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Fox And Names",
+            "url": "https://codeforces.com/problemset/problem/510/C",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "المپیادی",
+            "name": "توپولو‌های به هم چسبیده",
+            "url": "https://quera.org/problemset/9857/",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Plan of lectures",
+            "url": "https://codeforces.com/contest/1463/problem/E",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Unordered Swaps",
+            "url": "https://codeforces.com/contest/1682/problem/E",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2600"
+        },
+        {
+            "judge": "cf",
+            "name": "Upgrading Cities",
+            "url": "https://codeforces.com/problemset/problem/1062/F",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": ""
+        },
+        {
+            "judge": "cf",
+            "name": "Count Seconds",
+            "url": "https://codeforces.com/contest/1704/problem/E",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Mr. Kitayuta's Technology",
+            "url": "https://codeforces.com/contest/505/problem/D",
+            "tags": [
+                "digraph"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cses",
+            "name": "Flight Routes Check ",
+            "url": "https://cses.fi/problemset/task/1682",
+            "tags": [
+                "digraph"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cses",
+            "name": "Longest Flight Route",
+            "url": "https://cses.fi/problemset/task/1680",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "المپیادی",
+            "name": "غازززلند",
+            "url": "https://quera.org/problemset/107493/",
+            "tags": [
+                "random_algorithm",
+                "adhoc"
+            ],
+            "difficulty": "3300"
+        },
+        {
+            "judge": "cses",
+            "name": "Course Schedule II",
+            "url": "https://cses.fi/problemset/task/1757",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "Course Schedule",
+            "url": "https://quera.org/course/add_to_course/course/12879/",
+            "tags": [
+                "topol_sort"
+            ],
+            "difficulty": "2000"
+        }
+    ]
+}

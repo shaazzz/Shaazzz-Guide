@@ -1,0 +1,118 @@
+Judge,Name,URL,Tag,Difficulty
+cf,Duff in Mafia,https://codeforces.com/problemset/problem/587/D,2_sat,3000
+cf,Too Many Constraints,https://codeforces.com/problemset/problem/1697/F,2_sat,2800
+gym,Crossword Puzzle,https://codeforces.com/gym/103104/problem/G,2_sat,2700
+المپیادی,تبعید,https://quera.org/problemset/18780/,2_sat,3000
+cf,National Property,https://codeforces.com/contest/876/problem/E,2_sat,2100
+cf,Ring Road 2,https://codeforces.com/problemset/problem/27/D,2_sat,1900
+cf,Catowice City,https://codeforces.com/contest/1239/problem/D,2_sat,2400
+cf,Radio Stations,https://codeforces.com/problemset/problem/1215/F,2_sat,2700
+cf,Words on Tree,https://codeforces.com/problemset/problem/1657/F,2_sat,2700
+cf,Ants,https://codeforces.com/problemset/problem/1007/D,2_sat | Fake_vertex,3100
+cf,Graph Transpositions,https://codeforces.com/problemset/problem/1442/C,Djikstra,2400
+cf,Mike and Fish,https://codeforces.com/problemset/problem/547/D,Euler_tour,2100
+cf,Mashtali: a Space Oddysey,https://codeforces.com/problemset/problem/1610/F,Euler_tour,2900
+cf,Points and Segments,https://codeforces.com/contest/429/problem/E,Euler_tour,3000
+cf,Data Center Drama,https://codeforces.com/problemset/problem/527/E,Euler_tour,1900
+cf,Johnny and Megan's Necklace,https://codeforces.com/contest/1361/problem/C,Euler_tour,2500
+oj,Postmen,https://oj.uz/problem/view/BOI14_postmen,Euler_tour,2000
+cf,Fair Share,https://codeforces.com/contest/1634/problem/E,Euler_tour,2300
+cf,Tanya and Password,https://codeforces.com/problemset/problem/508/D,Euler_tour,2300
+usaco,Fenced In,http://www.usaco.org/index.php?page=viewproblem2&cpid=625,Kruskal,2300
+المپیادی,مدکا,https://quera.org/problemset/2742/,Matrix,2500
+cses,Graph Paths I,https://cses.fi/problemset/task/1723,Matrix,1600
+atcoder,Good Vertices,https://atcoder.jp/contests/abc236/tasks/abc236_g,Matrix,2100
+cses,Graph Paths II,https://cses.fi/problemset/task/1724,Matrix,1600
+atcoder,Walk,https://atcoder.jp/contests/dp/tasks/dp_r,Matrix,1600
+baekjoon,Reading,https://www.acmicpc.net/problem/7081,Matrix,2600
+cf,Little Pony and Elements of Harmony,https://codeforces.com/problemset/problem/453/D,Matrix | FWHT,3000
+cf,Magic Gems,https://codeforces.com/contest/1117/problem/D,Matrix,1800
+المپیادی,قورباغه ها,https://quera.org/problemset/2741/,Matix,2700
+cf,Stairs and Lines,https://codeforces.com/contest/498/problem/E,Matrix,2700
+cf,Subsequences Return,https://codeforces.com/problemset/problem/497/E,Matrix,2900
+cf,Once Again,https://codeforces.com/contest/582/problem/B,Matrix,1900
+cf,Wet Shark and Blocks,https://codeforces.com/contest/621/problem/E,Matrix,2000
+cf,Flight for Regular Customers,https://codeforces.com/contest/576/problem/D,Matrix,2700
+gym,Long Grid Covering,https://codeforces.com/gym/103098/problem/L,Matrix,2100
+cf,Axel and Marston in Bitland,https://codeforces.com/contest/780/problem/F,Matrix,2400
+shaazzz,لبوی خسته,https://quera.org/course/add_to_course/course/12879/,Matrix,2400
+sgu,Inversions,https://codeforces.com/problemsets/acmsguru/problem/99999/180,Divide,1600
+cf,Enemy Is Weak,https://codeforces.com/problemset/problem/61/E,Divide,1900
+cf,Subsequence,https://codeforces.com/contest/1580/problem/D,Divide,2900
+cf,Closest Point Pair,https://www.spoj.com/problems/CLOPPAIR/,Divide,3000
+cf,Swap and Maximum Block,https://codeforces.com/contest/1716/problem/E,Divide,2300
+cf,Meta Universe,https://codeforces.com/contest/475/problem/F,Divide | DSU,2900
+cf,Yet Another Array Counting Problem,https://codeforces.com/contest/1748/problem/E,Divide,2300
+cf,Superset,https://codeforces.com/problemset/problem/97/B,Divide,2300
+codechef,Best Path,https://www.codechef.com/problems/BESTPATH?tab=statement,Bellman,2200
+cf,Bracket Query,https://codeforces.com/gym/103931/problem/B,Bellman,2800
+oj,Merchant,https://oj.uz/problem/view/APIO17_merchant,Bellman,2700
+cf,Greedy Path,https://codeforces.com/problemsets/acmsguru/problem/99999/236,Bellman,2400
+spoj,NEGCYC,https://www.spoj.com/problems/NEGCYC/,Bellman,1600
+cf,Flights,https://codeforces.com/problemset/problem/241/E,Bellman,2600
+quera,رشته‌ی خیلی بزرگ,https://quera.org/problemset/80649/,Bellman | Aho,2800
+sharecode,Fruit Weights,http://sharecode.io/section/problemset/problem/2730,Bellman,2400
+cf,Meeting Her,https://codeforces.com/problemset/problem/238/E,Bellman,2500
+cf,Capitalism,https://codeforces.com/problemset/problem/1450/E,Floyd,2700
+cf,Ela and the Wiring Wizard,https://codeforces.com/problemset/problem/1737/D,Floyd,2100
+cf,Algorace,https://codeforces.com/problemset/problem/187/B,Floyd,1600
+cf,Useful Edges,https://codeforces.com/contest/1482/problem/F,Floyd,2400
+cf,Roads In Berland,https://codeforces.com/problemset/problem/25/C,Floyd,1900
+cf,Greg and Graph,https://codeforces.com/problemset/problem/296/D/,Floyd,1700
+atcoder,Edge Deletion,https://atcoder.jp/contests/abc243/tasks/abc243_e,Floyd,2000
+کوئرا,نوشابه خنک,https://quera.org/problemset/62460/,PBS,2700
+atcoder,Stamp Rally,https://atcoder.jp/contests/agc002/tasks/agc002_d,PBS | dsu_tree | dsu_history,2400
+szkopul,Meteors,https://szkopul.edu.pl/problemset/problem/7JrCYZ7LhEK4nBR5zbAXpcmM/site/?key=statement,PBS,1700
+cf,Odd Mineral Resource,https://codeforces.com/contest/1479/problem/D,PBS | swipe_line | Mo,2700
+cf,Ice Skating,https://codeforces.com/problemset/problem/217/A,DFS,1200
+atcoder,Construct Highway,https://atcoder.jp/contests/abc239/tasks/abc239_f,DFS,2100
+cf,Graph Without Long Directed Paths,https://codeforces.com/contest/1144/problem/F,DFS,1800
+cf,Wizard's Tour,https://codeforces.com/problemset/problem/858/F,DFS,2300
+cf,Book of Evil,https://codeforces.com/contest/337/problem/d,DFS,2000
+cf,Guard Towers,https://codeforces.com/problemset/problem/85/E,DFS,2600
+cf,Little Pony and Summer Sun Celebration,https://codeforces.com/problemset/problem/453/C,DFS,2200
+cf,Super M,https://codeforces.com/contest/592/problem/d,DFS,2200
+cf,Mahmoud and a xor trip,https://codeforces.com/problemset/problem/766/E,DFS,2100
+cf,Ant on the Tree,https://codeforces.com/problemset/problem/29/D?locale=en,DFS,2000
+atcoder,Subtree K-th Max,https://atcoder.jp/contests/abc239/tasks/abc239_e,DFS,1900
+cf,Johnny Solving,https://codeforces.com/problemset/problem/1103/C,DFS,2700
+cf,Number of Simple Paths,https://codeforces.com/contest/1454/problem/E,DFS,2000
+cf,Blood Cousins,https://codeforces.com/problemset/problem/208/E,DFS,2100
+cf,Blood Cousins Return,https://codeforces.com/problemset/problem/246/E,DFS,2400
+cf,Cycling Coloring,https://codeforces.com/problemset/problem/183/C,DFS,2200
+cf,Leha and another game about graph,https://codeforces.com/contest/841/problem/D,DFS,2100
+cf,Bertown roads,https://codeforces.com/contest/118/problem/E,DFS,2100
+sgu,Computer Network,https://codeforces.com/problemsets/acmsguru/problem/99999/149,DFS,2000
+usaco,Wormhole Sort,http://www.usaco.org/index.php?page=viewproblem2&cpid=992v,DFS,2000
+sgu,Challenging Tic-Tac-Toe,https://codeforces.com/problemsets/acmsguru/problem/99999/289,DFS,2400
+cf,AquaMoon and Permutations,https://codeforces.com/contest/1545/problem/C,DFS,2800
+oj,T-covering,https://oj.uz/problem/view/eJOI19_covering,DFS,2900
+cf,Graph,https://codeforces.com/contest/1387/problem/A,DFS,2100
+cf,Fairy,https://codeforces.com/contest/19/problem/E,DFS,2700
+cf,Graph Cutting,https://codeforces.com/contest/405/problem/E,DFS,2300
+cf,Road Problem,https://codeforces.com/contest/45/problem/h,DFS,2400
+usaco,Where's Bessie?,http://www.usaco.org/index.php?page=viewproblem2&cpid=740,DFS,2000
+cf,Pursuit for artifacts,https://codeforces.com/contest/652/problem/E,DFS,2300
+المپیادی,کپی پیست,https://quera.org/problemset/3017/,DFS,2200
+cf,Minimal Diameter Forest,https://codeforces.com/contest/1092/problem/E,DFS,2000
+oj,Prison,https://oj.uz/problem/view/BOI21_prison,DFS,2700
+cf,Vasya and a tree,https://codeforces.com/contest/1076/problem/E,DFS,1900
+usaco,Milk Visits,http://www.usaco.org/index.php?page=viewproblem2&cpid=968,DFS,2000
+cf,Tourists,https://codeforces.com/problemset/problem/487/E,HLD | Block_tree,3400
+cf,Cycling City,https://codeforces.com/problemset/problem/521/E,Block_tree,2600
+oj,Jail,https://oj.uz/problem/submit/JOI22_jail,LCA | Fake_vertex | Topol_Sort,3000
+cf,Cycle,https://codeforces.com/contest/117/problem/c,Digraph,2000
+cses,Game Routes,https://cses.fi/problemset/task/1681,Topol_Sort,1600
+cf,Giving Award,https://codeforces.com/contest/412/problem/D,Topol_Sort,2000
+cf,Fox And Names,https://codeforces.com/problemset/problem/510/C,Topol_Sort,2100
+المپیادی,توپولو‌های به هم چسبیده,https://quera.org/problemset/9857/,Topol_Sort,2400
+cf,Plan of lectures,https://codeforces.com/contest/1463/problem/E,Topol_Sort,2400
+cf,Unordered Swaps,https://codeforces.com/contest/1682/problem/E,Topol_Sort,2600
+cf,Upgrading Cities,https://codeforces.com/problemset/problem/1062/F,Topol_Sort,
+cf,Count Seconds,https://codeforces.com/contest/1704/problem/E,Topol_Sort,2200
+cf,Mr. Kitayuta's Technology,https://codeforces.com/contest/505/problem/D,Digraph,2200
+cses,Flight Routes Check ,https://cses.fi/problemset/task/1682,Digraph,2000
+cses,Longest Flight Route,https://cses.fi/problemset/task/1680,Topol_Sort,1700
+المپیادی,غازززلند,https://quera.org/problemset/107493/,Random_Algorithm | adhoc,3300
+cses,Course Schedule II,https://cses.fi/problemset/task/1757,Topol_Sort,2200
+shaazzz,Course Schedule,https://quera.org/course/add_to_course/course/12879/,Topol_Sort,2000
