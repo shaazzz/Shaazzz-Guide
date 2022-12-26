@@ -1,36 +1,17 @@
-# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
-
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to
-# deal in the Software without restriction, including without limitation the
-# rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-# sell copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
-
-# The above copyright notice and this permission notice shall be included in
-# all copies or substantial portions of the Software.
-
-# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-# FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-# IN THE SOFTWARE.
-
 # Project information
 site_name: Shaazzz Guide
 site_url: https://sohsoh84.github.io/Shaazzz-Guide/
 site_author: Shaazzz
-site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project
+site_description: Shaazzz Guide
 # Repository
 repo_name: sohsoh84/Shaazzz-Guide
 repo_url: https://github.com/sohsoh84/Shaazzz-Guide
 
 # Copyright
-# copyright: Copyright &copy; 2016 - 2022 Martin Donath
+copyright: |
+  تمامی مطالب این وب‌سایت تحت پروانه
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" style="color: #4ab6f1">CC-BY-SA</a>
+  در دسترس است.
 
 # Configuration
 theme:
@@ -57,9 +38,10 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+    - language: fa
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Vazirmatn
+    code: Source Code Pro
   favicon: assets/favicon.png
   icon:
     logo: logo
@@ -74,10 +56,15 @@ plugins:
 # Customization
 extra:
   social:
+    - icon: material/web
+      link: https://shaazzz.ir
+      name: وب‌سایت
     - icon: fontawesome/brands/github
-      link: https://github.com/shaazzz/site
+      link: https://github.com/shaazzz
+      name: گیت‌هاب
     - icon: fontawesome/brands/telegram
       link: https://t.me/shaazzz
+      name: تلگرام
 
 # Extensions
 markdown_extensions:
