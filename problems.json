@@ -1067,12 +1067,610 @@
         },
         {
             "judge": "cf",
-            "name": "test",
-            "url": "https://codeforces.com/contest/274/problem/D",
+            "name": "Petr and a Combination Lock",
+            "url": "https://codeforces.com/contest/1097/problem/B",
             "tags": [
-                "chert"
+                "bitmask"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Preparing Olympiad",
+            "url": "https://codeforces.com/contest/550/problem/B",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "1400"
+        },
+        {
+            "judge": "cf",
+            "name": "Xor Guessing",
+            "url": "https://codeforces.com/problemset/problem/1207/E",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "Bitwise Queries (Hard Version)",
+            "url": "https://codeforces.com/problemset/problem/1451/E2",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Fedor and new game",
+            "url": "https://codeforces.com/problemset/problem/467/B",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "cf",
+            "name": "New Year's Eve",
+            "url": "https://codeforces.com/problemset/problem/912/B",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "Anton and School",
+            "url": "https://codeforces.com/contest/734/problem/f",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cf",
+            "name": "AND, OR and square sum",
+            "url": "https://codeforces.com/contest/1368/problem/D",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "Apollo versus Pan",
+            "url": "https://codeforces.com/contest/1466/problem/E",
+            "tags": [
+                "bitmask"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "sgu",
+            "name": "a + b",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/100",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "sgu",
+            "name": "a^b - b^a",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/112",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "projecteuler",
+            "name": "Factorial digit sum",
+            "url": "https://projecteuler.net/problem=20",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "quera",
+            "name": "فاکتوریل",
+            "url": "https://quera.org/problemset/589/",
+            "tags": [
+                "implementation",
+                "recursive"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "اعداد فیثاغورثی",
+            "url": "https://quera.org/problemset/9774/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "cf",
+            "name": "Distinc Digits",
+            "url": "https://codeforces.com/contest/1228/problem/A",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "مثلث خیام پاسکال",
+            "url": "https://quera.org/problemset/3410/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "توان ۲",
+            "url": "https://quera.org/problemset/616/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "چاپ لوزی",
+            "url": "https://quera.org/problemset/618/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "عدد خود مغلوب",
+            "url": "https://quera.org/problemset/617/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "لوزی های ستاره ای",
+            "url": "https://quera.org/problemset/9773/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "تک رقمی",
+            "url": "https://quera.org/problemset/3539/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "مبنا",
+            "url": "https://quera.org/problemset/594/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "مسابقه پیاده سازی کوئرا(همه سوالات)",
+            "url": "https://quera.org/contest/assignments/42708/problems/",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "quera",
+            "name": "مسابقه پیاده سازی کوئرا(همه سوالات)",
+            "url": "https://quera.org/contest/assignments/35049/problems",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "sgu",
+            "name": "Spam Filter",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/274",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "projecteuler",
+            "name": "Lexicographic permutations",
+            "url": "https://projecteuler.net/problem=24",
+            "tags": [
+                "implementation"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "sgu",
+            "name": "The Towers of Hanoi Revisited",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/202",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "sgu",
+            "name": "Little Queens",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/224",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "Xor",
+            "url": "https://codeforces.com/problemset/problem/194/D",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "leetcode",
+            "name": "Next Permutation",
+            "url": "https://leetcode.com/problems/next-permutation/",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "quera",
+            "name": "کاشی‌کاری ",
+            "url": "https://quera.org/problemset/605/",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "projecteuler",
+            "name": "1000-digit Fibonacci number",
+            "url": "https://projecteuler.net/problem=25",
+            "tags": [
+                "recursive",
+                "implementation"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "cf",
+            "name": "Keep Xor Low",
+            "url": "https://codeforces.com/problemset/problem/1616/H",
+            "tags": [
+                "bitmask",
+                "recursive",
+                "divide"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "leetcode",
+            "name": "Combinations",
+            "url": "https://leetcode.com/problems/combinations/",
+            "tags": [
+                "recursive",
+                "combinatorics"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "leetcode",
+            "name": "Permutations",
+            "url": "https://leetcode.com/problems/permutations/",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "900"
+        },
+        {
+            "judge": "leetcode",
+            "name": "Generate Parentheses",
+            "url": "https://leetcode.com/problems/generate-parentheses/",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "900"
+        },
+        {
+            "judge": "spoj",
+            "name": "Easy modified sudoku",
+            "url": "https://www.spoj.com/problems/EZSUDOKU/",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Mafia",
+            "url": "https://codeforces.com/problemset/problem/348/A",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Renting bikes",
+            "url": "https://codeforces.com/problemset/problem/363/D",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "sgu",
+            "name": "Elevator",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/379",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Multiplication Table",
+            "url": "https://codeforces.com/problemset/problem/448/D/",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Hamburgers",
+            "url": "https://codeforces.com/problemset/problem/371/C",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "GukiZ hates boxes",
+            "url": "https://codeforces.com/problemset/problem/551/C",
+            "tags": [
+                "binary_search",
+                "greedy"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Characteristics of Rectangles",
+            "url": "https://codeforces.com/problemset/problem/333/D",
+            "tags": [
+                "binary_search",
+                "bitset"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Read Time",
+            "url": "https://codeforces.com/problemset/problem/343/C",
+            "tags": [
+                "binary_search",
+                "two_pointers"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "String game",
+            "url": "https://codeforces.com/problemset/problem/778/A",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "Number Game",
+            "url": "https://codeforces.com/problemset/problem/1749/C",
+            "tags": [
+                "binary_search",
+                "greedy"
+            ],
+            "difficulty": "1400"
+        },
+        {
+            "judge": "oj",
+            "name": "Guess The Number",
+            "url": "https://oj.uz/problem/view/BOI20_guess",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "cf",
+            "name": "Professor GukiZ and Two Arrays",
+            "url": "https://codeforces.com/problemset/problem/620/D",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Median pyramid hard",
+            "url": "https://atcoder.jp/contests/agc006/tasks/agc006_d",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cf",
+            "name": "Castle Defense",
+            "url": "https://codeforces.com/problemset/problem/954/G",
+            "tags": [
+                "binary_search"
             ],
             "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Multiplication Table",
+            "url": "https://codeforces.com/problemset/problem/448/D",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Minimizing Difference",
+            "url": "https://codeforces.com/problemset/problem/1244/E",
+            "tags": [
+                "binary_search",
+                "two_pointers"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Degenerate Matrix",
+            "url": "https://codeforces.com/problemset/problem/549/H",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Memory for Arrays",
+            "url": "https://codeforces.com/problemset/problem/309/C",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Guess The String",
+            "url": "https://codeforces.com/problemset/problem/1697/D",
+            "tags": [
+                "binary search"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Fixed Point Guessing",
+            "url": "https://codeforces.com/problemset/problem/1698/D",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "cf",
+            "name": "Searching Local Minimum",
+            "url": "https://codeforces.com/problemset/problem/1479/A",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "Magic Powder 2",
+            "url": "https://codeforces.com/problemset/problem/670/D2",
+            "tags": [
+                "binary_search",
+                "greedy"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "cf",
+            "name": "Tree Infectoin",
+            "url": "https://codeforces.com/contest/1665/problem/C",
+            "tags": [
+                "binary_search",
+                "greedy"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Vasya and String",
+            "url": "https://codeforces.com/contest/676/problem/C",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "cf",
+            "name": "Guess The Maximums",
+            "url": "https://codeforces.com/problemset/problem/1363/D",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "Interacdive Problem",
+            "url": "https://codeforces.com/problemset/problem/1624/F",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "oj",
+            "name": "Worm Worries - sub 1 - 2",
+            "url": "https://oj.uz/problem/view/BOI18_worm",
+            "tags": [
+                "binary_search",
+                "golden_ratio"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "oj",
+            "name": "Worm Worries - sub 3 - 4",
+            "url": "https://oj.uz/problem/view/BOI18_worm",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "oj",
+            "name": "Worm Worries - sub 5 - 6",
+            "url": "https://oj.uz/problem/view/BOI18_worm",
+            "tags": [
+                ""
+            ],
+            "difficulty": "1700"
         }
     ]
 }

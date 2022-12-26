@@ -116,4 +116,69 @@ cses,Longest Flight Route,https://cses.fi/problemset/task/1680,Topol_Sort,1700
 المپیادی,غازززلند,https://quera.org/problemset/107493/,Random_Algorithm | adhoc,3300
 cses,Course Schedule II,https://cses.fi/problemset/task/1757,Topol_Sort,2200
 shaazzz,Course Schedule,https://quera.org/course/add_to_course/course/12879/,Topol_Sort,2000
-cf,test,https://codeforces.com/contest/274/problem/D,chert,2000
+cf,Petr and a Combination Lock,https://codeforces.com/contest/1097/problem/B,bitmask,1200
+cf,Preparing Olympiad,https://codeforces.com/contest/550/problem/B,bitmask,1400
+cf,Xor Guessing,https://codeforces.com/problemset/problem/1207/E,bitmask,1700
+cf,Bitwise Queries (Hard Version),https://codeforces.com/problemset/problem/1451/E2,bitmask,2300
+cf,Fedor and new game,https://codeforces.com/problemset/problem/467/B,bitmask,1100
+cf,New Year's Eve,https://codeforces.com/problemset/problem/912/B,bitmask,1300
+cf,Anton and School,https://codeforces.com/contest/734/problem/f,bitmask,2500
+cf,"AND, OR and square sum",https://codeforces.com/contest/1368/problem/D,bitmask,1700
+cf,Apollo versus Pan,https://codeforces.com/contest/1466/problem/E,bitmask,1800
+sgu,a + b,https://codeforces.com/problemsets/acmsguru/problem/99999/100,implementation,800
+sgu,a^b - b^a,https://codeforces.com/problemsets/acmsguru/problem/99999/112,implementation,1000
+projecteuler,Factorial digit sum,https://projecteuler.net/problem=20,implementation,1300
+quera,فاکتوریل,https://quera.org/problemset/589/,implementation | recursive,800
+quera,اعداد فیثاغورثی,https://quera.org/problemset/9774/,implementation,800
+cf,Distinc Digits,https://codeforces.com/contest/1228/problem/A,implementation,800
+quera,مثلث خیام پاسکال,https://quera.org/problemset/3410/,implementation,800
+quera,توان ۲,https://quera.org/problemset/616/,implementation,800
+quera,چاپ لوزی,https://quera.org/problemset/618/,implementation,800
+quera,عدد خود مغلوب,https://quera.org/problemset/617/,implementation,800
+quera,لوزی های ستاره ای,https://quera.org/problemset/9773/,implementation,800
+quera,تک رقمی,https://quera.org/problemset/3539/,implementation,800
+quera,مبنا,https://quera.org/problemset/594/,implementation,800
+quera,مسابقه پیاده سازی کوئرا(همه سوالات),https://quera.org/contest/assignments/42708/problems/,implementation,800
+quera,مسابقه پیاده سازی کوئرا(همه سوالات),https://quera.org/contest/assignments/35049/problems,implementation,800
+sgu,Spam Filter,https://codeforces.com/problemsets/acmsguru/problem/99999/274,implementation,1000
+projecteuler,Lexicographic permutations,https://projecteuler.net/problem=24,implementation,1000
+sgu,The Towers of Hanoi Revisited,https://codeforces.com/problemsets/acmsguru/problem/99999/202,recursive,1500
+sgu,Little Queens,https://codeforces.com/problemsets/acmsguru/problem/99999/224,recursive,1300
+cf,Xor,https://codeforces.com/problemset/problem/194/D,recursive,1800
+leetcode,Next Permutation,https://leetcode.com/problems/next-permutation/,recursive,1200
+quera,کاشی‌کاری ,https://quera.org/problemset/605/,recursive,1000
+projecteuler,1000-digit Fibonacci number,https://projecteuler.net/problem=25,recursive | implementation,1000
+cf,Keep Xor Low,https://codeforces.com/problemset/problem/1616/H,bitmask | recursive | divide,2900
+leetcode,Combinations,https://leetcode.com/problems/combinations/,recursive | combinatorics,1000
+leetcode,Permutations,https://leetcode.com/problems/permutations/,recursive,900
+leetcode,Generate Parentheses,https://leetcode.com/problems/generate-parentheses/,recursive,900
+spoj,Easy modified sudoku,https://www.spoj.com/problems/EZSUDOKU/,recursive,1200
+cf,Mafia,https://codeforces.com/problemset/problem/348/A,Binary_Search,1600
+cf,Renting bikes,https://codeforces.com/problemset/problem/363/D,Binary_Search,1800
+sgu,Elevator,https://codeforces.com/problemsets/acmsguru/problem/99999/379,Binary_Search,1800
+cf,Multiplication Table,https://codeforces.com/problemset/problem/448/D/,Binary_Search,1800
+cf,Hamburgers,https://codeforces.com/problemset/problem/371/C,Binary_Search,1600
+cf,GukiZ hates boxes,https://codeforces.com/problemset/problem/551/C,Binary_Search | Greedy,2200
+cf,Characteristics of Rectangles,https://codeforces.com/problemset/problem/333/D,Binary_Search | Bitset,2100
+cf,Read Time,https://codeforces.com/problemset/problem/343/C,Binary_Search | two_pointers,1900
+cf,String game,https://codeforces.com/problemset/problem/778/A,Binary_Search,1700
+cf,Number Game,https://codeforces.com/problemset/problem/1749/C,Binary_Search | Greedy,1400
+oj,Guess The Number,https://oj.uz/problem/view/BOI20_guess,Binary_Search,800
+cf,Professor GukiZ and Two Arrays,https://codeforces.com/problemset/problem/620/D,Binary_Search,2200
+atcoder,Median pyramid hard,https://atcoder.jp/contests/agc006/tasks/agc006_d,Binary_Search,2500
+cf,Castle Defense,https://codeforces.com/problemset/problem/954/G,Binary_Search,2000
+cf,Multiplication Table,https://codeforces.com/problemset/problem/448/D,Binary_Search,1800
+cf,Minimizing Difference,https://codeforces.com/problemset/problem/1244/E,Binary_Search | two_pointers,2000
+cf,Degenerate Matrix,https://codeforces.com/problemset/problem/549/H,Binary_Search,2100
+cf,Memory for Arrays,https://codeforces.com/problemset/problem/309/C,Binary_Search,1900
+cf,Guess The String,https://codeforces.com/problemset/problem/1697/D,Binary Search,1900
+cf,Fixed Point Guessing,https://codeforces.com/problemset/problem/1698/D,Binary_Search,1500
+cf,Searching Local Minimum,https://codeforces.com/problemset/problem/1479/A,Binary_Search,1700
+cf,Magic Powder 2,https://codeforces.com/problemset/problem/670/D2,Binary_Search | Greedy,1500
+cf,Tree Infectoin,https://codeforces.com/contest/1665/problem/C,Binary_Search | Greedy,1600
+cf,Vasya and String,https://codeforces.com/contest/676/problem/C,Binary_Search,1500
+cf,Guess The Maximums,https://codeforces.com/problemset/problem/1363/D,Binary_Search,2100
+cf,Interacdive Problem,https://codeforces.com/problemset/problem/1624/F,Binary_Search,2000
+oj,Worm Worries - sub 1 - 2,https://oj.uz/problem/view/BOI18_worm,Binary_Search | Golden_ratio,1700
+oj,Worm Worries - sub 3 - 4,https://oj.uz/problem/view/BOI18_worm,Binary_Search,2500
+oj,Worm Worries - sub 5 - 6,https://oj.uz/problem/view/BOI18_worm,,1700

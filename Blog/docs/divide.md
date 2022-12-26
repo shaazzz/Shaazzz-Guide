@@ -14,3 +14,4 @@ hide:
 |[Meta Universe](https://codeforces.com/contest/475/problem/F)|2900|<details> <summary>Spoiler</summary> <ul><li>divide</li> <li>dsu</li></ul> </details>|cf|
 |[Yet Another Array Counting Problem](https://codeforces.com/contest/1748/problem/E)|2300|<details> <summary>Spoiler</summary> <ul><li>divide</li></ul> </details>|cf|
 |[Superset](https://codeforces.com/problemset/problem/97/B)|2300|<details> <summary>Spoiler</summary> <ul><li>divide</li></ul> </details>|cf|
+|[Keep Xor Low](https://codeforces.com/problemset/problem/1616/H)|2900|<details> <summary>Spoiler</summary> <ul><li>bitmask</li> <li>recursive</li> <li>divide</li></ul> </details>|cf|
