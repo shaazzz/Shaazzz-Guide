@@ -63,7 +63,7 @@ atcoder,Edge Deletion,https://atcoder.jp/contests/abc243/tasks/abc243_e,Floyd,20
 کوئرا,نوشابه خنک,https://quera.org/problemset/62460/,PBS,2700
 atcoder,Stamp Rally,https://atcoder.jp/contests/agc002/tasks/agc002_d,PBS | dsu_tree | dsu_history,2400
 szkopul,Meteors,https://szkopul.edu.pl/problemset/problem/7JrCYZ7LhEK4nBR5zbAXpcmM/site/?key=statement,PBS,1700
-cf,Odd Mineral Resource,https://codeforces.com/contest/1479/problem/D,PBS | swipe_line | Mo,2700
+cf,Odd Mineral Resource,https://codeforces.com/contest/1479/problem/D,PBS | sweep_line | Mo,2700
 cf,Ice Skating,https://codeforces.com/problemset/problem/217/A,DFS,1200
 atcoder,Construct Highway,https://atcoder.jp/contests/abc239/tasks/abc239_f,DFS,2100
 cf,Graph Without Long Directed Paths,https://codeforces.com/contest/1144/problem/F,DFS,1800

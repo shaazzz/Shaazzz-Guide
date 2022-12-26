@@ -588,7 +588,7 @@
             "url": "https://codeforces.com/contest/1479/problem/D",
             "tags": [
                 "pbs",
-                "swipe_line",
+                "sweep_line",
                 "mo"
             ],
             "difficulty": "2700"
