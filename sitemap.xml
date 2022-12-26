@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sohsoh84.github.io/Shaazzz-Guide/binary%20search/</loc>
-         <lastmod>2022-12-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://sohsoh84.github.io/Shaazzz-Guide/binary_search/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>
@@ -42,11 +37,6 @@
     </url>
     <url>
          <loc>https://sohsoh84.github.io/Shaazzz-Guide/block_tree/</loc>
-         <lastmod>2022-12-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sohsoh84.github.io/Shaazzz-Guide/chert/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -141,11 +131,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sohsoh84.github.io/Shaazzz-Guide/matix/</loc>
-         <lastmod>2022-12-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://sohsoh84.github.io/Shaazzz-Guide/matrix/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>
@@ -181,12 +166,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sohsoh84.github.io/Shaazzz-Guide/swipe_line/</loc>
-         <lastmod>2022-12-26</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sohsoh84.github.io/Shaazzz-Guide/test/</loc>
+         <loc>https://sohsoh84.github.io/Shaazzz-Guide/sweep_line/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
