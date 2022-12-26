@@ -161,12 +161,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sohsoh84.github.io/Shaazzz-Guide/prefix_sum/</loc>
+         <lastmod>2022-12-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sohsoh84.github.io/Shaazzz-Guide/random_algorithm/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sohsoh84.github.io/Shaazzz-Guide/recursive/</loc>
+         <lastmod>2022-12-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sohsoh84.github.io/Shaazzz-Guide/sort/</loc>
          <lastmod>2022-12-26</lastmod>
          <changefreq>daily</changefreq>
     </url>
