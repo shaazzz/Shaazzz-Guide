@@ -9,3 +9,7 @@ python3 ./scripts/blog_generator.py
 
 git add -A && git commit -m "problems update"
 git push
+
+cd Blog
+mkdocs gh-deploy
+cd ..
