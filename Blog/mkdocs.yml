@@ -20,7 +20,6 @@ theme:
   features:
     - content.code.annotate
     - content.tooltips
-    - navigation.sections
     - search.highlight
     - search.share
     - search.suggest
