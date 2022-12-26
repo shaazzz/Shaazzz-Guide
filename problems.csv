@@ -171,7 +171,7 @@ cf,Multiplication Table,https://codeforces.com/problemset/problem/448/D,Binary_S
 cf,Minimizing Difference,https://codeforces.com/problemset/problem/1244/E,Binary_Search | two_pointers,2000
 cf,Degenerate Matrix,https://codeforces.com/problemset/problem/549/H,Binary_Search,2100
 cf,Memory for Arrays,https://codeforces.com/problemset/problem/309/C,Binary_Search,1900
-cf,Guess The String,https://codeforces.com/problemset/problem/1697/D,Binary Search,1900
+cf,Guess The String,https://codeforces.com/problemset/problem/1697/D,Binary_Search,1900
 cf,Fixed Point Guessing,https://codeforces.com/problemset/problem/1698/D,Binary_Search,1500
 cf,Searching Local Minimum,https://codeforces.com/problemset/problem/1479/A,Binary_Search,1700
 cf,Magic Powder 2,https://codeforces.com/problemset/problem/670/D2,Binary_Search | Greedy,1500
@@ -180,5 +180,18 @@ cf,Vasya and String,https://codeforces.com/contest/676/problem/C,Binary_Search,1
 cf,Guess The Maximums,https://codeforces.com/problemset/problem/1363/D,Binary_Search,2100
 cf,Interacdive Problem,https://codeforces.com/problemset/problem/1624/F,Binary_Search,2000
 oj,Worm Worries - sub 1 - 2,https://oj.uz/problem/view/BOI18_worm,Binary_Search | Golden_ratio,1700
-oj,Worm Worries - sub 3 - 4,https://oj.uz/problem/view/BOI18_worm,Binary_Search,2500
-oj,Worm Worries - sub 5 - 6,https://oj.uz/problem/view/BOI18_worm,,1700
+oj,Worm Worries - sub 3 - 4,https://oj.uz/problem/view/BOI18_worm,Binary_Search,2700
+oj,Worm Worries - sub 5 - 6,https://oj.uz/problem/view/BOI18_worm,Random_Algorithm,2500
+cf,Keshi Is Throwing a Party,https://codeforces.com/problemset/problem/1610/C,Binary_Search | Greedy,1600
+cf,Joking (Easy Version),https://codeforces.com/contest/1746/problem/E1,Binary_Search,2500
+cf,Weakness and Poorness,https://codeforces.com/problemset/problem/578/C,Binary_Search,2200
+cf,Gluttony,https://codeforces.com/problemset/problem/892/D,sort,2000
+cf,Subsequence Permutation,https://codeforces.com/problemset/problem/1552/A,sort,800
+usaco,out of sorts,http://www.usaco.org/index.php?page=viewproblem2&cpid=834,sort,1400
+cf,Restorer Distance,https://codeforces.com/problemset/problem/1355/E,Binary_search,2200
+spoj,Merge Sort,https://www.spoj.com/problems/MERGSORT/,sort,800
+usaco,Cow Photography,http://www.usaco.org/index.php?page=viewproblem2&cpid=100,sort,2500
+cses,Distinct Numbers,https://cses.fi/problemset/task/1621,sort,900
+cses,Subarray Sums II,https://cses.fi/problemset/task/1661,prefix_sum | sort,1100
+cses,Prefix Sum Queries,https://cses.fi/problemset/task/2166,prefix_sum,800
+cf,Ilya and Queries,https://codeforces.com/problemset/problem/313/B,prefix_sum,1100

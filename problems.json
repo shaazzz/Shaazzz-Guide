@@ -1575,7 +1575,7 @@
             "name": "Guess The String",
             "url": "https://codeforces.com/problemset/problem/1697/D",
             "tags": [
-                "binary search"
+                "binary_search"
             ],
             "difficulty": "1900"
         },
@@ -1661,16 +1661,135 @@
             "tags": [
                 "binary_search"
             ],
-            "difficulty": "2500"
+            "difficulty": "2700"
         },
         {
             "judge": "oj",
             "name": "Worm Worries - sub 5 - 6",
             "url": "https://oj.uz/problem/view/BOI18_worm",
             "tags": [
-                ""
+                "random_algorithm"
             ],
-            "difficulty": "1700"
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cf",
+            "name": "Keshi Is Throwing a Party",
+            "url": "https://codeforces.com/problemset/problem/1610/C",
+            "tags": [
+                "binary_search",
+                "greedy"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Joking (Easy Version)",
+            "url": "https://codeforces.com/contest/1746/problem/E1",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cf",
+            "name": "Weakness and Poorness",
+            "url": "https://codeforces.com/problemset/problem/578/C",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Gluttony",
+            "url": "https://codeforces.com/problemset/problem/892/D",
+            "tags": [
+                "sort"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "Subsequence Permutation",
+            "url": "https://codeforces.com/problemset/problem/1552/A",
+            "tags": [
+                "sort"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "usaco",
+            "name": "out of sorts",
+            "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=834",
+            "tags": [
+                "sort"
+            ],
+            "difficulty": "1400"
+        },
+        {
+            "judge": "cf",
+            "name": "Restorer Distance",
+            "url": "https://codeforces.com/problemset/problem/1355/E",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "spoj",
+            "name": "Merge Sort",
+            "url": "https://www.spoj.com/problems/MERGSORT/",
+            "tags": [
+                "sort"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "usaco",
+            "name": "Cow Photography",
+            "url": "http://www.usaco.org/index.php?page=viewproblem2&cpid=100",
+            "tags": [
+                "sort"
+            ],
+            "difficulty": "2500"
+        },
+        {
+            "judge": "cses",
+            "name": "Distinct Numbers",
+            "url": "https://cses.fi/problemset/task/1621",
+            "tags": [
+                "sort"
+            ],
+            "difficulty": "900"
+        },
+        {
+            "judge": "cses",
+            "name": "Subarray Sums II",
+            "url": "https://cses.fi/problemset/task/1661",
+            "tags": [
+                "prefix_sum",
+                "sort"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "cses",
+            "name": "Prefix Sum Queries",
+            "url": "https://cses.fi/problemset/task/2166",
+            "tags": [
+                "prefix_sum"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "cf",
+            "name": "Ilya and Queries",
+            "url": "https://codeforces.com/problemset/problem/313/B",
+            "tags": [
+                "prefix_sum"
+            ],
+            "difficulty": "1100"
         }
     ]
 }
