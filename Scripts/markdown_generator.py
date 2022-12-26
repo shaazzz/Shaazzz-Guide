@@ -25,10 +25,3 @@ def generate_markdown(blog_name, problems):
         markdown_file.write("| :-----: | :----: | :----: | :----: | \n")
         for problem in problems:
             markdown_file.write(create_problem_row(problem) + "\n")
-
-
-import json 
-with open("problems.json", "r") as json_file:
-    problems = json.load(json_file)
-
-generate_markdown("test", problems["problems"])
