@@ -1,7 +1,7 @@
 import json
 import markdown_generator
 
-with open("../problems.json", "r") as file:
+with open("./problems.json", "r") as file:
     problems = json.load(file)["problems"]
 
 tag_map = {}

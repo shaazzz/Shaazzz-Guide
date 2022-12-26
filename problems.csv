@@ -27,7 +27,7 @@ atcoder,Walk,https://atcoder.jp/contests/dp/tasks/dp_r,Matrix,1600
 baekjoon,Reading,https://www.acmicpc.net/problem/7081,Matrix,2600
 cf,Little Pony and Elements of Harmony,https://codeforces.com/problemset/problem/453/D,Matrix | FWHT,3000
 cf,Magic Gems,https://codeforces.com/contest/1117/problem/D,Matrix,1800
-المپیادی,قورباغه ها,https://quera.org/problemset/2741/,Matix,2700
+المپیادی,قورباغه ها,https://quera.org/problemset/2741/,Matrix,2700
 cf,Stairs and Lines,https://codeforces.com/contest/498/problem/E,Matrix,2700
 cf,Subsequences Return,https://codeforces.com/problemset/problem/497/E,Matrix,2900
 cf,Once Again,https://codeforces.com/contest/582/problem/B,Matrix,1900
@@ -108,7 +108,7 @@ cf,Fox And Names,https://codeforces.com/problemset/problem/510/C,Topol_Sort,2100
 المپیادی,توپولو‌های به هم چسبیده,https://quera.org/problemset/9857/,Topol_Sort,2400
 cf,Plan of lectures,https://codeforces.com/contest/1463/problem/E,Topol_Sort,2400
 cf,Unordered Swaps,https://codeforces.com/contest/1682/problem/E,Topol_Sort,2600
-cf,Upgrading Cities,https://codeforces.com/problemset/problem/1062/F,Topol_Sort,
+cf,Upgrading Cities,https://codeforces.com/problemset/problem/1062/F,Topol_Sort,2900
 cf,Count Seconds,https://codeforces.com/contest/1704/problem/E,Topol_Sort,2200
 cf,Mr. Kitayuta's Technology,https://codeforces.com/contest/505/problem/D,Digraph,2200
 cses,Flight Routes Check ,https://cses.fi/problemset/task/1682,Digraph,2000
@@ -116,3 +116,4 @@ cses,Longest Flight Route,https://cses.fi/problemset/task/1680,Topol_Sort,1700
 المپیادی,غازززلند,https://quera.org/problemset/107493/,Random_Algorithm | adhoc,3300
 cses,Course Schedule II,https://cses.fi/problemset/task/1757,Topol_Sort,2200
 shaazzz,Course Schedule,https://quera.org/course/add_to_course/course/12879/,Topol_Sort,2000
+cf,test,https://codeforces.com/contest/274/problem/D,chert,2000

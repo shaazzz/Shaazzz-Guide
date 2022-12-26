@@ -259,7 +259,7 @@
             "name": "قورباغه ها",
             "url": "https://quera.org/problemset/2741/",
             "tags": [
-                "matix"
+                "matrix"
             ],
             "difficulty": "2700"
         },
@@ -999,7 +999,7 @@
             "tags": [
                 "topol_sort"
             ],
-            "difficulty": ""
+            "difficulty": "2900"
         },
         {
             "judge": "cf",
@@ -1062,6 +1062,15 @@
             "url": "https://quera.org/course/add_to_course/course/12879/",
             "tags": [
                 "topol_sort"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "cf",
+            "name": "test",
+            "url": "https://codeforces.com/contest/274/problem/D",
+            "tags": [
+                "chert"
             ],
             "difficulty": "2000"
         }

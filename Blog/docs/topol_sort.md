@@ -13,7 +13,7 @@ hide:
 |[توپولو‌های به هم چسبیده](https://quera.org/problemset/9857/)|2400|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|المپیادی|
 |[Plan of lectures](https://codeforces.com/contest/1463/problem/E)|2400|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cf|
 |[Unordered Swaps](https://codeforces.com/contest/1682/problem/E)|2600|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cf|
-|[Upgrading Cities](https://codeforces.com/problemset/problem/1062/F)||<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cf|
+|[Upgrading Cities](https://codeforces.com/problemset/problem/1062/F)|2900|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cf|
 |[Count Seconds](https://codeforces.com/contest/1704/problem/E)|2200|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cf|
 |[Longest Flight Route](https://cses.fi/problemset/task/1680)|1700|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cses|
 |[Course Schedule II](https://cses.fi/problemset/task/1757)|2200|<details> <summary>Spoiler</summary> <ul><li>topol_sort</li></ul> </details>|cses|

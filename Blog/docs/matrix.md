@@ -14,6 +14,7 @@ hide:
 |[Reading](https://www.acmicpc.net/problem/7081)|2600|<details> <summary>Spoiler</summary> <ul><li>matrix</li></ul> </details>|baekjoon|
 |[Little Pony and Elements of Harmony](https://codeforces.com/problemset/problem/453/D)|3000|<details> <summary>Spoiler</summary> <ul><li>matrix</li> <li>fwht</li></ul> </details>|cf|
 |[Magic Gems](https://codeforces.com/contest/1117/problem/D)|1800|<details> <summary>Spoiler</summary> <ul><li>matrix</li></ul> </details>|cf|
+|[قورباغه ها](https://quera.org/problemset/2741/)|2700|<details> <summary>Spoiler</summary> <ul><li>matrix</li></ul> </details>|المپیادی|
 |[Stairs and Lines](https://codeforces.com/contest/498/problem/E)|2700|<details> <summary>Spoiler</summary> <ul><li>matrix</li></ul> </details>|cf|
 |[Subsequences Return](https://codeforces.com/problemset/problem/497/E)|2900|<details> <summary>Spoiler</summary> <ul><li>matrix</li></ul> </details>|cf|
 |[Once Again](https://codeforces.com/contest/582/problem/B)|1900|<details> <summary>Spoiler</summary> <ul><li>matrix</li></ul> </details>|cf|
