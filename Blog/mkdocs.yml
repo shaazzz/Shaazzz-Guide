@@ -26,8 +26,8 @@ site_description: >-
   Create a branded static site from a set of Markdown files to host the
   documentation of your Open Source or commercial project
 # Repository
-# repo_name: squidfunk/mkdocs-material
-# repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: sohsoh84/Shaazzz-Guide
+repo_url: https://sohsoh84.github.io/Shaazzz_Guide/
 
 # Copyright
 # copyright: Copyright &copy; 2016 - 2022 Martin Donath
