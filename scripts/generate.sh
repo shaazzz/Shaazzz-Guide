@@ -2,8 +2,8 @@
 
 git pull
 
-# sudo rm -rf Blog/docs/
-# sudo rm -rf Blog/site/
+sudo rm -rf Blog/docs/
+sudo rm -rf Blog/site/
 
 URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vT4u9dg9TRV_VjxMhv4TuXOTRcKUGQz2_vt2eh2-PUn6sC6wEi9_djsKzVLMpK2R63XvIKO94TVjmmZ/pub?gid=1911820389&single=true&output=csv"
 curl -Ls $URL -o "problems.csv"
