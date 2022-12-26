@@ -4,7 +4,7 @@ import json
 def problems_json():
     problems_dict = { "problems": [] }
 
-    with open("./problems.csv", 'r') as csvfile:
+    with open("../problems.csv", 'r') as csvfile:
         csvreader = csv.reader(csvfile)
         next(csvreader)
         for row in csvreader:
@@ -17,6 +17,6 @@ def problems_json():
 
             problems_dict["problems"].append(problem)
 
-    with open("problems.json", 'w', encoding="utf8") as jsonfile:
+    with open("../problems.json", 'w', encoding="utf8") as jsonfile:
         json.dump(problems_dict, jsonfile, indent=4, ensure_ascii=False)
 problems_json()
