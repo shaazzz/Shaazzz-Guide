@@ -10,7 +10,7 @@ def create_problem_row(problem):
     return "|" + markdown_href(problem["name"], problem["url"]) + "|" + problem["difficulty"] + \
         "|" + tag_spoiler(problem["tags"]) + "|" + problem["judge"] + "|"
 
-def generate_markdown(blog_name, problems):
+def generate_markdown(blog_path, blog_name, problems):
     file_name = blog_name + ".md"
     file_path = "./Blog/docs/" + file_name
     with open(file_path, "w") as markdown_file:

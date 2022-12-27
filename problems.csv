@@ -36,14 +36,16 @@ cf,Flight for Regular Customers,https://codeforces.com/contest/576/problem/D,Mat
 gym,Long Grid Covering,https://codeforces.com/gym/103098/problem/L,Matrix,2100
 cf,Axel and Marston in Bitland,https://codeforces.com/contest/780/problem/F,Matrix,2400
 shaazzz,لبوی خسته,https://quera.org/course/add_to_course/course/12879/,Matrix,2400
-sgu,Inversions,https://codeforces.com/problemsets/acmsguru/problem/99999/180,Divide,1600
-cf,Enemy Is Weak,https://codeforces.com/problemset/problem/61/E,Divide,1900
+sgu,Inversions,https://codeforces.com/problemsets/acmsguru/problem/99999/180,Divide | fenwick,1600
+cf,Enemy Is Weak,https://codeforces.com/problemset/problem/61/E,Divide | fenwick,1900
 cf,Subsequence,https://codeforces.com/contest/1580/problem/D,Divide,2900
 cf,Closest Point Pair,https://www.spoj.com/problems/CLOPPAIR/,Divide,3000
 cf,Swap and Maximum Block,https://codeforces.com/contest/1716/problem/E,Divide,2300
 cf,Meta Universe,https://codeforces.com/contest/475/problem/F,Divide | DSU,2900
 cf,Yet Another Array Counting Problem,https://codeforces.com/contest/1748/problem/E,Divide,2300
 cf,Superset,https://codeforces.com/problemset/problem/97/B,Divide,2300
+cf,Pashmak and Parmida's problem,https://codeforces.com/problemset/problem/459/D,Divide | fenwick,1800
+cf,Subsequence,https://codeforces.com/contest/597/problem/C,Divide | fenwick,2000
 codechef,Best Path,https://www.codechef.com/problems/BESTPATH?tab=statement,Bellman,2200
 cf,Bracket Query,https://codeforces.com/gym/103931/problem/B,Bellman,2800
 oj,Merchant,https://oj.uz/problem/view/APIO17_merchant,Bellman,2700

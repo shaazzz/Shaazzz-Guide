@@ -1,0 +1,44 @@
+{
+    "tags": [
+        {
+            "tag": "binary_search",
+            "path": "Level1/binary_search.md",
+            "blog_title": "Binary Search"
+        },
+        {
+            "tag": "recursive",
+            "path": "Level1/recursive.md",
+            "blog_title": "Recursive Functions"
+        },
+        {
+            "tag": "implementation",
+            "path": "Level1/implementation.md",
+            "blog_title": "Implementation"
+        },
+        {
+            "tag": "greedy",
+            "path": "level1/greedy.md",
+            "blog_title": "Greedy"
+        },
+        {
+            "tag": "prefix_sum",
+            "path": "level1/prefix_sum.md",
+            "blog_title":"Prefix Sum"
+        },
+        {
+            "tag": "sort",
+            "path": "level1/sort.md",
+            "blog_title": "Sort"
+        },
+        {
+            "tag": "two_pointers",
+            "path": "level1/two_pointers.md",
+            "blog_title": "Two Pointers"
+        },
+        {
+            "tag": "bitmask",
+            "path": "level1/bitmask.md",
+            "blog_title": "Bitwise Operations"
+        }
+    ]
+}

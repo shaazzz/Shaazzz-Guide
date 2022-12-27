@@ -340,7 +340,8 @@
             "name": "Inversions",
             "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/180",
             "tags": [
-                "divide"
+                "divide",
+                "fenwick"
             ],
             "difficulty": "1600"
         },
@@ -349,7 +350,8 @@
             "name": "Enemy Is Weak",
             "url": "https://codeforces.com/problemset/problem/61/E",
             "tags": [
-                "divide"
+                "divide",
+                "fenwick"
             ],
             "difficulty": "1900"
         },
@@ -407,6 +409,26 @@
                 "divide"
             ],
             "difficulty": "2300"
+        },
+        {
+            "judge": "cf",
+            "name": "Pashmak and Parmida's problem",
+            "url": "https://codeforces.com/problemset/problem/459/D",
+            "tags": [
+                "divide",
+                "fenwick"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "cf",
+            "name": "Subsequence",
+            "url": "https://codeforces.com/contest/597/problem/C",
+            "tags": [
+                "divide",
+                "fenwick"
+            ],
+            "difficulty": "2000"
         },
         {
             "judge": "codechef",
