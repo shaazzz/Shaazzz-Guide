@@ -25,7 +25,7 @@ for tag in tags:
 
     problems = []
     if tag["tag"] in problems_map.keys():
-        problems = problems_map[tag]
+        problems = problems_map[tag["tag"]]
 
     print("Generating " + blog_path + "...")
-    markdown_generator.generate_markdown(blog_path, tag["blog_title"], problems["tag"])
+    markdown_generator.generate_markdown(blog_path, tag["blog_title"], problems)
