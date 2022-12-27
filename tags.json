@@ -17,27 +17,27 @@
         },
         {
             "tag": "greedy",
-            "path": "level1/greedy.md",
+            "path": "Level1/greedy.md",
             "blog_title": "Greedy"
         },
         {
             "tag": "prefix_sum",
-            "path": "level1/prefix_sum.md",
+            "path": "Level1/prefix_sum.md",
             "blog_title":"Prefix Sum"
         },
         {
             "tag": "sort",
-            "path": "level1/sort.md",
+            "path": "Level1/sort.md",
             "blog_title": "Sort"
         },
         {
             "tag": "two_pointers",
-            "path": "level1/two_pointers.md",
+            "path": "Level1/two_pointers.md",
             "blog_title": "Two Pointers"
         },
         {
             "tag": "bitmask",
-            "path": "level1/bitmask.md",
+            "path": "Level1/bitmask.md",
             "blog_title": "Bitwise Operations"
         }
     ]

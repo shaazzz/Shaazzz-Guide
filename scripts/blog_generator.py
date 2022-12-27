@@ -21,7 +21,7 @@ with open("./tags.json") as file:
 
 for tag in tags:
     blog_path = "./Blog/docs/" + tag["path"]
-    Path(blog_path).mkdir(parents=True, exist_ok=True)
+    Path(blog_path).parent.mkdir(parents=True, exist_ok=True)
 
     problems = []
     if tag["tag"] in problems_map.keys():

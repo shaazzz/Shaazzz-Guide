@@ -12,8 +12,7 @@ def create_problem_row(problem):
 
 def generate_markdown(blog_path, blog_name, problems):
     file_name = blog_name + ".md"
-    file_path = "./Blog/docs/" + file_name
-    with open(file_path, "w") as markdown_file:
+    with open(blog_path, "w") as markdown_file:
         markdown_file.write("--- \n")
         markdown_file.write("hide:\n")
         markdown_file.write("  - footer\n")
