@@ -23,11 +23,15 @@ with open("./tags.json") as file:
 
 for tag in tags:
     blog_path = "./Blog/docs/" + tag["path"]
+    description_path = "./Posts/" + tag["tag"] + ".md"
     Path(blog_path).parent.mkdir(parents=True, exist_ok=True)
 
-    problems = []
-    if tag["tag"] in problems_map.keys():
-        problems = problems_map[tag["tag"]]
+    description = None
+    if Path.exists(Path(description_path)):
+        with open(description_path, "r") as file:
+            description = file.read()
+ 
+    problems = problems_map[tag["tag"]]
 
     print("Generating " + blog_path + "...")
-    markdown_generator.generate_markdown(blog_path, tag["blog_title"], problems)
+    markdown_generator.generate_markdown(blog_path, tag["blog_title"], description, problems)
