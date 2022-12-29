@@ -19,8 +19,12 @@ def markdown_href(title, url, open_in_new_tab = True):
 def judge_div(judge):
     if not judge in judges:
         return judge
+
+    icon_ref = ""
+    if "icon" in judges[judge].keys():
+        icon_ref = ":" + judges[judge]["icon"] + ": "
     
-    return ":" + judges[judge]["icon"] + ": " + markdown_href(judges[judge]["name"], judges[judge]["url"]) 
+    return icon_ref+ markdown_href(judges[judge]["name"], judges[judge]["url"]) 
 
 def tag_link(tag):
     if not tag in tags_list.keys():

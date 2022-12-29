@@ -25,7 +25,7 @@
 
         "usaco": {
             "name": "Usaco",
-            "icon": "question",
+            "icon": "usaco",
             "url": "https://usaco.org"
         },
 
@@ -63,5 +63,38 @@
             "name": "Oj.uz",
             "icon": "ojuz",
             "url": "https://oj.uz"
+        },
+
+        "cses": {
+            "name": "CSES",
+            "icon": "cses",
+            "url": "https://cses.fi"
+        },
+
+        "leetcode": {
+            "name": "LeetCode",
+            "icon": "leetcode",
+            "url": "https://leetcode.com/"
+        },
+
+        "spoj": {
+            "name": "Spoj",
+            "icon": "spoj",
+            "url": "https://spoj.com/"
+        },
+
+        "projecteuler": {
+            "name": "Project Euler",
+            "url": "https://projecteuler.net/"
+        },
+
+        "sharecode": {
+            "name": "ShareCode",
+            "url": "https://sharecode.io/"
+        },
+
+        "szkopul": {
+            "name": "SZKopul",
+            "url": "https://szkopul.edu.pl"
         }
 }
