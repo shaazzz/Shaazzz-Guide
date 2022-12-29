@@ -1,44 +1,41 @@
 {
-    "tags": [
-        {
-            "tag": "binary_search",
-            "path": "Level1/binary_search.md",
-            "blog_title": "باینری سرچ"
-        },
-        {
-            "tag": "recursive",
-            "path": "Level1/recursive.md",
-            "blog_title": "توابع بازگشتی"
-        },
-        {
-            "tag": "implementation",
-            "path": "Level1/implementation.md",
-            "blog_title": "پیاده سازی"
-        },
-        {
-            "tag": "greedy",
-            "path": "Level1/greedy.md",
-            "blog_title": "الگوریتم های حریصانه"
-        },
-        {
-            "tag": "prefix_sum",
-            "path": "Level1/prefix_sum.md",
-            "blog_title":"پریفیکس سام"
-        },
-        {
-            "tag": "sort",
-            "path": "Level1/sort.md",
-            "blog_title": "مرتب سازی"
-        },
-        {
-            "tag": "two_pointers",
-            "path": "Level1/two_pointers.md",
-            "blog_title": "Two Pointers"
-        },
-        {
-            "tag": "bitmask",
-            "path": "Level1/bitmask.md",
-            "blog_title": "عملیات های بیتی"
-        }
-    ]
+    "binary_search": {
+        "path": "Level1/binary_search.md",
+        "blog_title": "باینری سرچ"
+    },
+
+    "recursive": {
+        "path": "Level1/recursive.md",
+        "blog_title": "توابع بازگشتی"
+    },
+
+    "implementation": {
+        "path": "Level1/implementation.md",
+        "blog_title": "پیاده سازی"
+    },
+
+    "greedy": {
+        "path": "Level1/greedy.md",
+        "blog_title": "الگوریتم های حریصانه"
+    },
+
+    "prefix_sum": {
+        "path": "Level1/prefix_sum.md",
+        "blog_title":"پریفیکس سام"
+    },
+
+    "sort": {
+        "path": "Level1/sort.md",
+        "blog_title": "مرتب سازی"
+    },
+
+    "two_pointers": {
+        "path": "Level1/two_pointers.md",
+        "blog_title": "Two Pointers"
+    },
+
+    "bitmask": {
+        "path": "Level1/bitmask.md",
+        "blog_title": "عملیات های بیتی"
+    }
 }

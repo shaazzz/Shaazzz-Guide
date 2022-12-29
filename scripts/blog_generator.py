@@ -19,11 +19,11 @@ for tag in problems_map.keys():
     problems_map[tag] = sorted(problems_map[tag], key=lambda x : int(x["difficulty"]))
 
 with open("./tags.json") as file:
-    tags = json.load(file)["tags"]
+    tags = json.load(file)
 
-for tag in tags:
-    blog_path = "./Blog/docs/" + tag["path"]
-    description_path = "./Posts/" + tag["tag"] + ".md"
+for tag in tags.keys():
+    blog_path = "./Blog/docs/" + tags[tag]["path"]
+    description_path = "./Posts/" + tag + ".md"
     Path(blog_path).parent.mkdir(parents=True, exist_ok=True)
 
     description = None
@@ -31,7 +31,7 @@ for tag in tags:
         with open(description_path, "r") as file:
             description = file.read()
  
-    problems = problems_map[tag["tag"]]
+    problems = problems_map[tag]
 
     print("Generating " + blog_path + "...")
-    markdown_generator.generate_markdown(blog_path, tag["blog_title"], description, problems, tags)
+    markdown_generator.generate_markdown(blog_path, tags[tag]["blog_title"], description, problems)

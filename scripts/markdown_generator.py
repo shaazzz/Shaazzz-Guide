@@ -4,6 +4,9 @@ import json
 with open("./judges.json", "r") as json_file:
     judges = json.load(json_file)
 
+with open("./tags.json", "r") as json_file:
+    tags_list = json.load(json_file)
+
 
 def markdown_href(title, url, open_in_new_tab = True):
     url = str(url)
@@ -19,23 +22,21 @@ def judge_div(judge):
     
     return ":" + judges[judge]["icon"] + ": " + markdown_href(judges[judge]["name"], judges[judge]["url"]) 
 
-def tag_link(tag, tags_list):
-    tag_object = [x for x in tags_list if x["tag"] == tag]
-    if not tag_object:
+def tag_link(tag):
+    if not tag in tags_list.keys():
         return tag
-    
-    return markdown_href(tag_object[0]["blog_title"], Path("/Shaazzz-Guide/" + tag_object[0]["path"]).with_suffix(""))
+    return markdown_href(tags_list[tag]["blog_title"], Path("/Shaazzz-Guide/" + tags_list[tag]["path"]).with_suffix(""))
 
-def tag_spoiler(tags, tags_list):
+def tag_spoiler(tags):
     return "<details> <summary>Spoiler</summary> <ul>" + \
-        ' '.join(list(map(lambda tag : "<li>" + tag_link(tag, tags_list) + "</li>", tags))) + \
+        ' '.join(list(map(lambda tag : "<li>" + tag_link(tag) + "</li>", tags))) + \
              "</ul> </details>"
 
-def create_problem_row(problem, tags_list):
+def create_problem_row(problem):
     return "|" + markdown_href(problem["name"], problem["url"]) + "|" + problem["difficulty"] + \
-        "|" + tag_spoiler(problem["tags"], tags_list) + "|" + judge_div(problem["judge"]) + "|"
+        "|" + tag_spoiler(problem["tags"]) + "|" + judge_div(problem["judge"]) + "|"
 
-def generate_markdown(blog_path, blog_name, description, problems, tags_list):
+def generate_markdown(blog_path, blog_name, description, problems):
     file_name = blog_name + ".md"
     with open(blog_path, "w") as markdown_file:
         markdown_file.write("--- \n")
@@ -55,4 +56,4 @@ def generate_markdown(blog_path, blog_name, description, problems, tags_list):
             markdown_file.write("| سوال | سختی | تگ ها | جاج | \n")
             markdown_file.write("| :-----: | :----: | :----: | :----: | \n")
             for problem in problems:
-                markdown_file.write(create_problem_row(problem, tags_list) + "\n")
+                markdown_file.write(create_problem_row(problem) + "\n")
