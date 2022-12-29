@@ -1,0 +1,67 @@
+{
+        "cf": {
+            "name": "Codeforces",
+            "icon": "codeforces",
+            "url": "https://codeforces.com/"
+        },
+        
+        "gym": {
+            "name": "Gym",
+            "icon": "codeforces",
+            "url": "https://codeforces.com/gyms"
+        },
+
+        "quera": {
+            "name": "Quera",
+            "icon": "quera",
+            "url": "https://quera.org"
+        },
+        
+        "المپیادی": {
+            "name": "inoi",
+            "icon": "quera",
+            "url": "https://codeforces.org"
+        },
+
+        "usaco": {
+            "name": "Usaco",
+            "icon": "question",
+            "url": "https://usaco.org"
+        },
+
+        "baekjoon": {
+            "name": "Baekjoon",
+            "icon": "question",
+            "url": "https://www.acmicpc.net"
+        },
+
+        "shaazzz": {
+            "name": "Shaazzz",
+            "icon": "quera",
+            "url": "https://quera.org/course/add_to_course/course/12879/"
+        },
+
+        "sgu": {
+            "name": "SGU",
+            "icon": "codeforces",
+            "url": "https://codeforces.com/problemsets/acmsguru"
+        },
+
+        "codechef": {
+            "name": "CodeChef",
+            "icon": "question",
+            "url": "https://www.codechef.com"
+        },
+
+        "atcoder": {
+            "name": "Atcoder",
+            "icon": "atcoder",
+            "url": "https://atcoder.jp"
+        },
+        
+        "oj": {
+            "name": "Oj.uz",
+            "icon": "ojuz",
+            "url": "https://oj.uz"
+        }
+}

@@ -1,4 +1,9 @@
 from pathlib import Path
+import json
+
+with open("./judges.json", "r") as json_file:
+    judges = json.load(json_file)
+
 
 def markdown_href(title, url, open_in_new_tab = True):
     url = str(url)
@@ -7,6 +12,12 @@ def markdown_href(title, url, open_in_new_tab = True):
         result = result + "{:target=\"_blank\"}"
 
         return result
+
+def judge_div(judge):
+    if not judge in judges:
+        return judge
+    
+    return ":" + judges[judge]["icon"] + ": " + markdown_href(judges[judge]["name"], judges[judge]["url"]) 
 
 def tag_link(tag, tags_list):
     tag_object = [x for x in tags_list if x["tag"] == tag]
@@ -22,7 +33,7 @@ def tag_spoiler(tags, tags_list):
 
 def create_problem_row(problem, tags_list):
     return "|" + markdown_href(problem["name"], problem["url"]) + "|" + problem["difficulty"] + \
-        "|" + tag_spoiler(problem["tags"], tags_list) + "|" + problem["judge"] + "|"
+        "|" + tag_spoiler(problem["tags"], tags_list) + "|" + judge_div(problem["judge"]) + "|"
 
 def generate_markdown(blog_path, blog_name, description, problems, tags_list):
     file_name = blog_name + ".md"
