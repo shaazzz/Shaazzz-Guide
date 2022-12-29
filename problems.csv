@@ -35,7 +35,7 @@ cf,Wet Shark and Blocks,https://codeforces.com/contest/621/problem/E,Matrix,2000
 cf,Flight for Regular Customers,https://codeforces.com/contest/576/problem/D,Matrix,2700
 gym,Long Grid Covering,https://codeforces.com/gym/103098/problem/L,Matrix,2100
 cf,Axel and Marston in Bitland,https://codeforces.com/contest/780/problem/F,Matrix,2400
-shaazzz,لبوی خسته,https://quera.org/course/add_to_course/course/12879/,Matrix,2400
+shaazzz,لبوی خسته,https://quera.org/course/assignments/48772/problems,Matrix,2400
 sgu,Inversions,https://codeforces.com/problemsets/acmsguru/problem/99999/180,Divide | fenwick,1600
 cf,Enemy Is Weak,https://codeforces.com/problemset/problem/61/E,Divide | fenwick,1900
 cf,Subsequence,https://codeforces.com/contest/1580/problem/D,Divide,2900
@@ -74,7 +74,7 @@ cf,Book of Evil,https://codeforces.com/contest/337/problem/d,DFS,2000
 cf,Guard Towers,https://codeforces.com/problemset/problem/85/E,DFS,2600
 cf,Little Pony and Summer Sun Celebration,https://codeforces.com/problemset/problem/453/C,DFS,2200
 cf,Super M,https://codeforces.com/contest/592/problem/d,DFS,2200
-cf,Mahmoud and a xor trip,https://codeforces.com/problemset/problem/766/E,DFS,2100
+cf,Mahmoud and a xor trip,Mahmoud and a xor trip,DFS,2100
 cf,Ant on the Tree,https://codeforces.com/problemset/problem/29/D?locale=en,DFS,2000
 atcoder,Subtree K-th Max,https://atcoder.jp/contests/abc239/tasks/abc239_e,DFS,1900
 cf,Johnny Solving,https://codeforces.com/problemset/problem/1103/C,DFS,2700
@@ -117,7 +117,7 @@ cses,Flight Routes Check ,https://cses.fi/problemset/task/1682,Digraph,2000
 cses,Longest Flight Route,https://cses.fi/problemset/task/1680,Topol_Sort,1700
 المپیادی,غازززلند,https://quera.org/problemset/107493/,Random_Algorithm | adhoc,3300
 cses,Course Schedule II,https://cses.fi/problemset/task/1757,Topol_Sort,2200
-shaazzz,Course Schedule,https://quera.org/course/add_to_course/course/12879/,Topol_Sort,2000
+shaazzz,Course Schedule,https://quera.org/course/assignments/48772/problems/164976,Topol_Sort,2000
 cf,Petr and a Combination Lock,https://codeforces.com/contest/1097/problem/B,bitmask,1200
 cf,Preparing Olympiad,https://codeforces.com/contest/550/problem/B,bitmask,1400
 cf,Xor Guessing,https://codeforces.com/problemset/problem/1207/E,bitmask,1700
@@ -149,6 +149,12 @@ sgu,Little Queens,https://codeforces.com/problemsets/acmsguru/problem/99999/224,
 cf,Xor,https://codeforces.com/problemset/problem/194/D,recursive,1800
 leetcode,Next Permutation,https://leetcode.com/problems/next-permutation/,recursive,1200
 quera,کاشی‌کاری ,https://quera.org/problemset/605/,recursive,1000
+shaazzz,بی‌ فاصله,https://quera.org/course/assignments/48772/problems/166206,recursive,1000
+shaazzz,پریش,https://quera.org/course/assignments/48772/problems/166207,recursive,900
+shaazzz,جم‌زی,https://quera.org/course/assignments/48772/problems/166208,recursive,1000
+shaazzz,الگویابی,https://quera.org/course/assignments/48772/problems/166209,recursive,800
+shaazzz,اول‌دایره,https://quera.org/course/assignments/48772/problems/166211,recursive,1000
+shaazzz,شتر,https://quera.org/course/assignments/48772/problems/166212,recursive,1000
 projecteuler,1000-digit Fibonacci number,https://projecteuler.net/problem=25,recursive | implementation,1000
 cf,Keep Xor Low,https://codeforces.com/problemset/problem/1616/H,bitmask | recursive | divide,2900
 leetcode,Combinations,https://leetcode.com/problems/combinations/,recursive | combinatorics,1000

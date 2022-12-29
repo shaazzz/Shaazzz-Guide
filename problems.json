@@ -329,7 +329,7 @@
         {
             "judge": "shaazzz",
             "name": "لبوی خسته",
-            "url": "https://quera.org/course/add_to_course/course/12879/",
+            "url": "https://quera.org/course/assignments/48772/problems",
             "tags": [
                 "matrix"
             ],
@@ -690,7 +690,7 @@
         {
             "judge": "cf",
             "name": "Mahmoud and a xor trip",
-            "url": "https://codeforces.com/problemset/problem/766/E",
+            "url": "Mahmoud and a xor trip",
             "tags": [
                 "dfs"
             ],
@@ -1081,7 +1081,7 @@
         {
             "judge": "shaazzz",
             "name": "Course Schedule",
-            "url": "https://quera.org/course/add_to_course/course/12879/",
+            "url": "https://quera.org/course/assignments/48772/problems/164976",
             "tags": [
                 "topol_sort"
             ],
@@ -1362,6 +1362,60 @@
             "judge": "quera",
             "name": "کاشی‌کاری ",
             "url": "https://quera.org/problemset/605/",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "بی‌ فاصله",
+            "url": "https://quera.org/course/assignments/48772/problems/166206",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "پریش",
+            "url": "https://quera.org/course/assignments/48772/problems/166207",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "900"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "جم‌زی",
+            "url": "https://quera.org/course/assignments/48772/problems/166208",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "الگویابی",
+            "url": "https://quera.org/course/assignments/48772/problems/166209",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "اول‌دایره",
+            "url": "https://quera.org/course/assignments/48772/problems/166211",
+            "tags": [
+                "recursive"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "شتر",
+            "url": "https://quera.org/course/assignments/48772/problems/166212",
             "tags": [
                 "recursive"
             ],
