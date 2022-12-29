@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
-# Binary Search
+# باینری سرچ
 
-| Problem | Difficulty | Tags | Judge | 
+## سوال ها 
+| سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[Guess The Number](https://oj.uz/problem/view/BOI20_guess)|800|<details> <summary>Spoiler</summary> <ul><li>binary_search</li></ul> </details>|oj|
 |[Number Game](https://codeforces.com/problemset/problem/1749/C)|1400|<details> <summary>Spoiler</summary> <ul><li>binary_search</li> <li>greedy</li></ul> </details>|cf|

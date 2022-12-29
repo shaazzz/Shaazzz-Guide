@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
-# Recursive Functions
+# توابع بازگشتی
 
-| Problem | Difficulty | Tags | Judge | 
+## سوال ها 
+| سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[فاکتوریل](https://quera.org/problemset/589/)|800|<details> <summary>Spoiler</summary> <ul><li>implementation</li> <li>recursive</li></ul> </details>|quera|
 |[Permutations](https://leetcode.com/problems/permutations/)|900|<details> <summary>Spoiler</summary> <ul><li>recursive</li></ul> </details>|leetcode|

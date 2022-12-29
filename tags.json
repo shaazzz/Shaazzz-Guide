@@ -3,32 +3,32 @@
         {
             "tag": "binary_search",
             "path": "Level1/binary_search.md",
-            "blog_title": "Binary Search"
+            "blog_title": "باینری سرچ"
         },
         {
             "tag": "recursive",
             "path": "Level1/recursive.md",
-            "blog_title": "Recursive Functions"
+            "blog_title": "توابع بازگشتی"
         },
         {
             "tag": "implementation",
             "path": "Level1/implementation.md",
-            "blog_title": "Implementation"
+            "blog_title": "پیاده سازی"
         },
         {
             "tag": "greedy",
             "path": "Level1/greedy.md",
-            "blog_title": "Greedy"
+            "blog_title": "الگوریتم های حریصانه"
         },
         {
             "tag": "prefix_sum",
             "path": "Level1/prefix_sum.md",
-            "blog_title":"Prefix Sum"
+            "blog_title":"پریفیکس سام"
         },
         {
             "tag": "sort",
             "path": "Level1/sort.md",
-            "blog_title": "Sort"
+            "blog_title": "مرتب سازی"
         },
         {
             "tag": "two_pointers",
@@ -38,7 +38,7 @@
         {
             "tag": "bitmask",
             "path": "Level1/bitmask.md",
-            "blog_title": "Bitwise Operations"
+            "blog_title": "عملیات های بیتی"
         }
     ]
 }

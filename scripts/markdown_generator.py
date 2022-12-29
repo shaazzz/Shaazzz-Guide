@@ -20,7 +20,9 @@ def generate_markdown(blog_path, blog_name, problems):
 
         markdown_file.write("# " + blog_name + "\n\n")
         
-        markdown_file.write("| Problem | Difficulty | Tags | Judge | \n")
+
+        markdown_file.write("## سوال ها \n")
+        markdown_file.write("| سوال | سختی | تگ ها | جاج | \n")
         markdown_file.write("| :-----: | :----: | :----: | :----: | \n")
         for problem in problems:
             markdown_file.write(create_problem_row(problem) + "\n")

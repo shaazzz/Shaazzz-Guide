@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
-# Sort
+# مرتب سازی
 
-| Problem | Difficulty | Tags | Judge | 
+## سوال ها 
+| سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[Subsequence Permutation](https://codeforces.com/problemset/problem/1552/A)|800|<details> <summary>Spoiler</summary> <ul><li>sort</li></ul> </details>|cf|
 |[Merge Sort](https://www.spoj.com/problems/MERGSORT/)|800|<details> <summary>Spoiler</summary> <ul><li>sort</li></ul> </details>|spoj|

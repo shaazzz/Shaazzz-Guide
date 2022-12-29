@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
-# Bitwise Operations
+# عملیات های بیتی
 
-| Problem | Difficulty | Tags | Judge | 
+## سوال ها 
+| سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[Fedor and new game](https://codeforces.com/problemset/problem/467/B)|1100|<details> <summary>Spoiler</summary> <ul><li>bitmask</li></ul> </details>|cf|
 |[Petr and a Combination Lock](https://codeforces.com/contest/1097/problem/B)|1200|<details> <summary>Spoiler</summary> <ul><li>bitmask</li></ul> </details>|cf|

@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
-# Greedy
+# الگوریتم های حریصانه
 
-| Problem | Difficulty | Tags | Judge | 
+## سوال ها 
+| سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[Number Game](https://codeforces.com/problemset/problem/1749/C)|1400|<details> <summary>Spoiler</summary> <ul><li>binary_search</li> <li>greedy</li></ul> </details>|cf|
 |[Magic Powder 2](https://codeforces.com/problemset/problem/670/D2)|1500|<details> <summary>Spoiler</summary> <ul><li>binary_search</li> <li>greedy</li></ul> </details>|cf|

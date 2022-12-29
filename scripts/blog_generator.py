@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import json
 import markdown_generator
 from pathlib import Path

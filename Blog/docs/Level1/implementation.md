@@ -2,9 +2,10 @@
 hide:
   - footer
 ---
-# Implementation
+# پیاده سازی
 
-| Problem | Difficulty | Tags | Judge | 
+## سوال ها 
+| سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[a + b](https://codeforces.com/problemsets/acmsguru/problem/99999/100)|800|<details> <summary>Spoiler</summary> <ul><li>implementation</li></ul> </details>|sgu|
 |[فاکتوریل](https://quera.org/problemset/589/)|800|<details> <summary>Spoiler</summary> <ul><li>implementation</li> <li>recursive</li></ul> </details>|quera|

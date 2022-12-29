@@ -1,8 +1,8 @@
 # Project information
-site_name: Shaazzz Guide
+site_name: شاززز گاید
 site_url: https://sohsoh84.github.io/Shaazzz-Guide/
 site_author: Shaazzz
-site_description: Shaazzz Guide
+site_description: شاززز گاید
 # Repository
 repo_name: sohsoh84/Shaazzz-Guide
 repo_url: https://github.com/sohsoh84/Shaazzz-Guide
@@ -17,6 +17,8 @@ copyright: |
 theme:
   name: material
   custom_dir: material/.overrides
+  language: fa
+  direction: rtl
   features:
     - content.code.annotate
     - content.tooltips
