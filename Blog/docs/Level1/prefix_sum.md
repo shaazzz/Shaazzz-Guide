@@ -7,6 +7,6 @@ hide:
 ## سوال ها 
 | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
-|[Prefix Sum Queries](https://cses.fi/problemset/task/2166)|800|<details> <summary>Spoiler</summary> <ul><li>prefix_sum</li></ul> </details>|cses|
-|[Subarray Sums II](https://cses.fi/problemset/task/1661)|1100|<details> <summary>Spoiler</summary> <ul><li>prefix_sum</li> <li>sort</li></ul> </details>|cses|
-|[Ilya and Queries](https://codeforces.com/problemset/problem/313/B)|1100|<details> <summary>Spoiler</summary> <ul><li>prefix_sum</li></ul> </details>|cf|
+|[Prefix Sum Queries](https://cses.fi/problemset/task/2166){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Shaazzz-Guide/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|cses|
+|[Subarray Sums II](https://cses.fi/problemset/task/1661){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Shaazzz-Guide/Level1/prefix_sum){:target="_blank"}</li> <li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|cses|
+|[Ilya and Queries](https://codeforces.com/problemset/problem/313/B){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Shaazzz-Guide/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|cf|

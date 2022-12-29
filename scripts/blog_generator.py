@@ -34,4 +34,4 @@ for tag in tags:
     problems = problems_map[tag["tag"]]
 
     print("Generating " + blog_path + "...")
-    markdown_generator.generate_markdown(blog_path, tag["blog_title"], description, problems)
+    markdown_generator.generate_markdown(blog_path, tag["blog_title"], description, problems, tags)
