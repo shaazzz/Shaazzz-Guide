@@ -20,11 +20,12 @@ def judge_div(judge):
     if not judge in judges:
         return judge
 
-    icon_ref = ""
+    result = ""
     if "icon" in judges[judge].keys():
-        icon_ref = ":" + judges[judge]["icon"] + ": "
+        result = ":" + judges[judge]["icon"] + ": "
     
-    return icon_ref+ markdown_href(judges[judge]["name"], judges[judge]["url"]) 
+    result = result + markdown_href(judges[judge]["name"], judges[judge]["url"]) 
+    return result
 
 def tag_link(tag):
     if not tag in tags_list.keys():
@@ -39,6 +40,20 @@ def tag_spoiler(tags):
 def create_problem_row(problem):
     return "|" + markdown_href(problem["name"], problem["url"]) + "|" + problem["difficulty"] + \
         "|" + tag_spoiler(problem["tags"]) + "|" + judge_div(problem["judge"]) + "|"
+
+def admonition_markdown(admonition):
+    return "??? " + admonition["type"] + " \"" + admonition["title"] + "\"\n" + \
+        ('    '.join(('\n' + admonition["content"].lstrip()).splitlines(True)))  + "\n"
+
+
+def create_admonitions(problems):
+    admonitions = set()
+    for problem in problems:
+        if problem["judge"] in judges.keys():
+            if "admonition" in judges[problem["judge"]].keys():
+                admonitions.add(admonition_markdown(judges[problem["judge"]]["admonition"]))
+
+    return ".".join(admonitions)
 
 def generate_markdown(blog_path, blog_name, description, problems):
     file_name = blog_name + ".md"
@@ -57,6 +72,7 @@ def generate_markdown(blog_path, blog_name, description, problems):
 
         if problems:
             markdown_file.write("## سوال ها \n")
+            markdown_file.write(create_admonitions(problems))
             markdown_file.write("| سوال | سختی | تگ ها | جاج | \n")
             markdown_file.write("| :-----: | :----: | :----: | :----: | \n")
             for problem in problems:

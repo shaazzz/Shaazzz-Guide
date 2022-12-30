@@ -5,6 +5,9 @@ hide:
 # توابع بازگشتی
 
 ## سوال ها 
+??? warning "نیاز به عضویت در گروه شاززز!"
+
+    برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید
 | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[فاکتوریل](https://quera.org/problemset/589/){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Shaazzz-Guide/Level1/implementation){:target="_blank"}</li> <li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:quera: [Quera](https://quera.org){:target="_blank"}|
