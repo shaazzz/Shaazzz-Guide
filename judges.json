@@ -1,90 +1,93 @@
 {
         "cf": {
             "name": "Codeforces",
-            "icon": "codeforces",
+            "icon": "judge-codeforces",
             "url": "https://codeforces.com/"
         },
         
         "gym": {
             "name": "Gym",
-            "icon": "codeforces",
+            "icon": "judge-codeforces",
             "url": "https://codeforces.com/gyms"
         },
 
         "quera": {
             "name": "Quera",
-            "icon": "quera",
+            "icon": "judge-quera",
             "url": "https://quera.org"
         },
         
         "المپیادی": {
             "name": "inoi",
-            "icon": "quera",
-            "url": "https://codeforces.org"
+            "icon": "judge-quera",
+            "url": "https://codeforces.org",
+            "admonition": {
+                "type": "warning",
+                "title": "حاوی سوالات المپیاد کامپیوتر ایران!",
+                "content": "سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!"
+            }
         },
 
         "usaco": {
             "name": "Usaco",
-            "icon": "usaco",
+            "icon": "judge-usaco",
             "url": "https://usaco.org"
         },
 
         "baekjoon": {
             "name": "Baekjoon",
-            "icon": "question",
             "url": "https://www.acmicpc.net"
         },
 
         "shaazzz": {
             "name": "Shaazzz",
-            "icon": "quera",
+            "icon": "judge-quera",
             "url": "https://quera.org/course/add_to_course/course/12879/",
             "admonition": {
-                "type": "warning",
+                "type": "info",
                 "title": "نیاز به عضویت در گروه شاززز!",
-                "content": "برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target=\"_blank\"} عضو شوید"
+                "content": "برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target=\"_blank\"} عضو شوید."
             }
         },
 
         "sgu": {
             "name": "SGU",
-            "icon": "codeforces",
+            "icon": "judge-codeforces",
             "url": "https://codeforces.com/problemsets/acmsguru"
         },
 
         "codechef": {
             "name": "CodeChef",
-            "icon": "question",
             "url": "https://www.codechef.com"
         },
 
         "atcoder": {
             "name": "Atcoder",
-            "icon": "atcoder",
+            "icon": "judge-atcoder",
             "url": "https://atcoder.jp"
         },
         
         "oj": {
             "name": "Oj.uz",
-            "icon": "ojuz",
+            "icon": "judge-ojuz",
             "url": "https://oj.uz"
         },
 
         "cses": {
             "name": "CSES",
-            "icon": "cses",
+            "icon": "judge-cses",
             "url": "https://cses.fi"
         },
 
         "leetcode": {
             "name": "LeetCode",
-            "icon": "leetcode",
+            "icon": "judge-leetcode",
             "url": "https://leetcode.com/"
         },
 
         "spoj": {
             "name": "Spoj",
-            "icon": "spoj",
+            "icon": "judge-spoj",
             "url": "https://spoj.com/"
         },
 
