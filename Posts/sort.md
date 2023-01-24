@@ -1,10 +1,3 @@
---- 
-hide:
-  - footer
----
-# مرتب سازی
-
-## توضیحات: 
 ### مرج سرت
 
 مرج سرت یا مرتب سازی ادغامی، یک روش برای سرت کردن است که به نسبت روش‌های قبلی زمان اجرای بهتری دارد و از اردر $O(n log_n)$ تایم و $O(n)$ مموری قابل پیاده‌سازی است. این سرت به صورت بازگشتی هست و از تریک Divide & Conquer استفاده می‌کند. 
@@ -98,14 +91,3 @@ void merge_sort(int *A, int l, int r){
 ??? success "راه حل"
 
 	برای حل این مسئله از تکنیک تقسیم و حل و الگوریتم مرج سرت استفاده می‌کنیم. فرض کنید در طی الگوریتم مرج سرت به صورت بازگشتی، تعداد نابه‌جایی‌های درون بخش اول و درون بخش دوم را بدست آورده‌ایم، تعداد نابه‌جایی‌های بین بخش اول و دوم را می‌خواهیم. الگوریتم مرج را در نظر بگیرید، فرض کنید اگر عضوی از بخش اول که به آن اشاره شده‌است مساوی با عضو از بخش دوم بود، عضو بخش اول را در $B$ قرار خواهیم داد. زمانی که یک عضو را از بخش اول در آرایه‌ی $B$ قرار می‌دهیم، این عضو از تمام اعضایی که در $B$ هستند و از بخش دوم بودند اکیدا بزرگ‌تر بوده و با آن‌ها نابه‌جایی می‌سازد. تعداد این اعضا برابر است با $pt2 - mid$ که $pt2$ پوینتر مربوط به بخش دوم است و $mid = \lfloor \frac{r - l}{2} \rfloor$ است. (بخش دوم از $mid$ شروع شده‌است) الگوریتم ما دقیقا مشابه تحلیل اردر مرج سرت، از $O(n log_n)$ هزینه می‌برد که مطلوب است.
-
-## سوال ها 
-| سوال | سختی | تگ ها | جاج | 
-| :-----: | :----: | :----: | :----: | 
-|[Subsequence Permutation](https://codeforces.com/problemset/problem/1552/A){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Merge Sort](https://www.spoj.com/problems/MERGSORT/){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-spoj: [Spoj](https://spoj.com/){:target="_blank"}|
-|[Distinct Numbers](https://cses.fi/problemset/task/1621){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
-|[Subarray Sums II](https://cses.fi/problemset/task/1661){:target="_blank"}|1100|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Shaazzz-Guide/Level1/prefix_sum){:target="_blank"}</li> <li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
-|[out of sorts](http://www.usaco.org/index.php?page=viewproblem2&cpid=834){:target="_blank"}|1400|<details> <summary>Spoiler</summary> <ul><li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
-|[Gluttony](https://codeforces.com/problemset/problem/892/D){:target="_blank"}|2000|<details> <summary>Spoiler</summary> <ul><li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Cow Photography](http://www.usaco.org/index.php?page=viewproblem2&cpid=100){:target="_blank"}|2500|<details> <summary>Spoiler</summary> <ul><li>[مرتب سازی](/Shaazzz-Guide/Level1/sort){:target="_blank"}</li></ul> </details>|:judge-usaco: [Usaco](https://usaco.org){:target="_blank"}|
