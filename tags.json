@@ -37,5 +37,10 @@
     "bitmask": {
         "path": "Level1/bitmask.md",
         "blog_title": "عملیات های بیتی"
+    },
+
+    "divide": {
+        "path": "Level1/divide.md",
+        "blog_title": "تقسیم و حل"
     }
 }

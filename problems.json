@@ -576,7 +576,7 @@
             "difficulty": "2000"
         },
         {
-            "judge": "کوئرا",
+            "judge": "quera",
             "name": "نوشابه خنک",
             "url": "https://quera.org/problemset/62460/",
             "tags": [
@@ -690,7 +690,7 @@
         {
             "judge": "cf",
             "name": "Mahmoud and a xor trip",
-            "url": "Mahmoud and a xor trip",
+            "url": "https://codeforces.com/problemset/problem/766/E",
             "tags": [
                 "dfs"
             ],
@@ -899,7 +899,8 @@
             "name": "Prison",
             "url": "https://oj.uz/problem/view/BOI21_prison",
             "tags": [
-                "dfs"
+                "dfs",
+                "dsu"
             ],
             "difficulty": "2700"
         },
@@ -1624,7 +1625,8 @@
             "url": "https://codeforces.com/problemset/problem/1244/E",
             "tags": [
                 "binary_search",
-                "two_pointers"
+                "two_pointers",
+                "greedy"
             ],
             "difficulty": "2000"
         },
@@ -1738,6 +1740,15 @@
                 "binary_search"
             ],
             "difficulty": "2700"
+        },
+        {
+            "judge": "cf",
+            "name": "Increasing by Modulo",
+            "url": "https://codeforces.com/problemset/problem/1169/C",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1700"
         },
         {
             "judge": "oj",
@@ -1866,6 +1877,380 @@
                 "prefix_sum"
             ],
             "difficulty": "1100"
+        },
+        {
+            "judge": "cf",
+            "name": "Star sky",
+            "url": "https://codeforces.com/contest/835/problem/C",
+            "tags": [
+                "prefix_sum"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Boboniu Chats with Du",
+            "url": "https://codeforces.com/contest/1394/problem/A",
+            "tags": [
+                "prefix_sum",
+                "tow_pointers"
+            ],
+            "difficulty": "1800"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "ایکسور خفن",
+            "url": "https://quera.org/course/assignments/48772/problems/168588",
+            "tags": [
+                "prefix_sum"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "cses",
+            "name": "Forest Queries",
+            "url": "https://cses.fi/problemset/task/1652",
+            "tags": [
+                "prefix_sum"
+            ],
+            "difficulty": "1100"
+        },
+        {
+            "judge": "cses",
+            "name": "Max Subarray Sum",
+            "url": "https://cses.fi/problemset/task/1643",
+            "tags": [
+                "prefix_sum"
+            ],
+            "difficulty": "900"
+        },
+        {
+            "judge": "cf",
+            "name": "Born this way",
+            "url": "https://codeforces.com/problemset/problem/1148/B",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cses",
+            "name": "Sum of Three Values",
+            "url": "https://cses.fi/problemset/task/1641",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "800"
+        },
+        {
+            "judge": "cf",
+            "name": "A Tale of Two Lands",
+            "url": "https://codeforces.com/problemset/problem/1166/C",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Mysterious Crime",
+            "url": "https://codeforces.com/problemset/problem/1043/D",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "cf",
+            "name": "Same Count One",
+            "url": "https://codeforces.com/problemset/problem/1774/D",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Remove the Substring (hard version)",
+            "url": "https://codeforces.com/problemset/problem/1203/D2",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "cf",
+            "name": "Binary String",
+            "url": "https://codeforces.com/problemset/problem/1680/C",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Xenia and Colorful Gems",
+            "url": "https://codeforces.com/problemset/problem/1336/B",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1700"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "رژیم جسی",
+            "url": "https://quera.org/course/assignments/48772/problems/168589",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "cf",
+            "name": "Double Knapsack",
+            "url": "https://codeforces.com/problemset/problem/618/F",
+            "tags": [
+                "two_pointers",
+                "prefix_sum"
+            ],
+            "difficulty": "3000"
+        },
+        {
+            "judge": "cf",
+            "name": "Knapsack",
+            "url": "https://codeforces.com/contest/1447/problem/C",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "shaazzz",
+            "name": "فاصله گذاری اجتماعی",
+            "url": "https://quera.org/course/assignments/48772/problems/168592",
+            "tags": [
+                "binary_search"
+            ],
+            "difficulty": "1300"
+        },
+        {
+            "judge": "cf",
+            "name": "Spanning Tree Queries",
+            "url": "https://codeforces.com/contest/1633/problem/E",
+            "tags": [
+                "mst"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Longest k-Good Segment",
+            "url": "https://codeforces.com/problemset/problem/616/D",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "I Might Be Wrong",
+            "url": "https://codeforces.com/problemset/problem/1693/F",
+            "tags": [
+                "two_pointers"
+            ],
+            "difficulty": "3400"
+        },
+        {
+            "judge": "cf",
+            "name": "Equal Frequencies",
+            "url": "https://codeforces.com/contest/1782/problem/C",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "MinOr Tree",
+            "url": "https://codeforces.com/contest/1624/problem/G",
+            "tags": [
+                "dfs"
+            ],
+            "difficulty": "1900"
+        },
+        {
+            "judge": "cf",
+            "name": "Shop",
+            "url": "https://codeforces.com/problemset/problem/521/D",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2800"
+        },
+        {
+            "judge": "cf",
+            "name": "Matching vs Independent Set",
+            "url": "https://codeforces.com/problemset/problem/1198/C",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Project Planning",
+            "url": "https://atcoder.jp/contests/abc227/tasks/abc227_d",
+            "tags": [
+                "binary_search",
+                "greedy"
+            ],
+            "difficulty": "2000"
+        },
+        {
+            "judge": "sgu",
+            "name": "Printed PR",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/259",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1000"
+        },
+        {
+            "judge": "sgu",
+            "name": "Basketball",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/165",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "Zero Array",
+            "url": "https://codeforces.com/problemset/problem/1201/B",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1500"
+        },
+        {
+            "judge": "atcoder",
+            "name": "Taking The Middle",
+            "url": "https://atcoder.jp/contests/agc053/tasks/agc053_b",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2700"
+        },
+        {
+            "judge": "sgu",
+            "name": "Telecasting station",
+            "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/114",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Two Arrays and Sum of Functions",
+            "url": "https://codeforces.com/problemset/problem/1165/E",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1600"
+        },
+        {
+            "judge": "cf",
+            "name": "New Game Plus!",
+            "url": "https://codeforces.com/contest/1456/problem/C",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2200"
+        },
+        {
+            "judge": "cf",
+            "name": "Great Sequence",
+            "url": "https://codeforces.com/contest/1641/problem/A",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1200"
+        },
+        {
+            "judge": "cf",
+            "name": "Candy Shop",
+            "url": "https://codeforces.com/problemset/problem/183/E",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2900"
+        },
+        {
+            "judge": "cf",
+            "name": "Outermost Maximums",
+            "url": "https://codeforces.com/problemset/problem/1693/E",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "3400"
+        },
+        {
+            "judge": "cf",
+            "name": "Coins",
+            "url": "https://atcoder.jp/contests/agc018/tasks/agc018_c",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "minimix",
+            "url": "https://codeforces.com/contest/1530/problem/E",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "The Human Equation",
+            "url": "https://codeforces.com/problemset/problem/1775/E",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "DeadLee",
+            "url": "https://codeforces.com/contest/1369/problem/E",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "2400"
+        },
+        {
+            "judge": "cf",
+            "name": "Pokémon Army (hard version)",
+            "url": "https://codeforces.com/contest/1420/problem/C2",
+            "tags": [
+                "greedy",
+                "dp",
+                "segment"
+            ],
+            "difficulty": "2100"
+        },
+        {
+            "judge": "cf",
+            "name": "secrets",
+            "url": "https://codeforces.com/problemset/problem/333/A",
+            "tags": [
+                "greedy"
+            ],
+            "difficulty": "1600"
         }
     ]
 }
