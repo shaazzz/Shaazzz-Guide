@@ -66,7 +66,7 @@ def generate_markdown(blog_path, blog_name, description, problems):
         markdown_file.write("# " + blog_name + "\n\n")
         
         if description:
-            markdown_file.write("## توضیحات: \n")
+            markdown_file.write("## توضیحات \n")
             markdown_file.write(description)
             markdown_file.write("\n")
 
