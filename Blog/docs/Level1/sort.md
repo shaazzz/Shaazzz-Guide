@@ -306,8 +306,8 @@ void Quick_Sort(int *a, int l, int r){ // (1)!
 + [std::sort](https://en.cppreference.com/w/cpp/algorithm/sort)
 + [Insertion sort](https://www.geeksforgeeks.org/insertion-sort/)
 + [Merge sort](https://www.geeksforgeeks.org/merge-sort/)
-+ [کوئیک سورت رندوم](https://towardsdatascience.com/basic-algorithms-quicksort-b549ea9ef27)
-+ [کوئیک سورت با میانه](https://sungwookyoo.github.io/algorithms/QuickSortMedian/)
++ [Randomized Quick sort](https://towardsdatascience.com/basic-algorithms-quicksort-b549ea9ef27)
++ [Quick sort using median](https://sungwookyoo.github.io/algorithms/QuickSortMedian/)
 ## سوال ها 
 | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
