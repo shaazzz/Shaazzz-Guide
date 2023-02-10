@@ -41,7 +41,7 @@ $len^{\prime}$
 در نظر بگیریم 
 $len^{\prime} \leq \lceil \frac{len}{2} \rceil$
 است.
-??? اثبات
+??? success "اثبات"
 
     $mid = \lfloor \frac{L + R}{2} \rfloor = \lfloor \frac{2 * L + len}{2} \rfloor = L + \lfloor \frac{len}{2} \rfloor$
     
@@ -82,12 +82,7 @@ $O(log(R - L))$
 #### کد
 در این جا کدی مربوط به سوالی که حل کردیم را مشاهده میکنیم.
 
-``` cpp
-
-#include<bits/stdc++.h>
-
-using namespace std;
-
+``` cpp linenums="1" 
 int ask(int x){ // (1)!
 
 	cout << "Ask: " << x << endl;
@@ -99,7 +94,6 @@ int ask(int x){ // (1)!
 }
 
 int main(){
-	ios_base::sync_with_stdio(false); cin.tie(0);
 
 	int L = 0, R = 1'000'000'000; // (2)!
 
@@ -110,8 +104,6 @@ int main(){
 	}
 
 	cout << "Hads nahaei: " << R << endl;
-
-	return 0;
 }
 ```
 
@@ -141,11 +133,7 @@ $\lceil log(R - L * 10^{6}) \rceil$
 
 - روش اول:
 
-``` cpp
-
-#include<bits/stdc++.h>
-
-using namespace std;
+``` cpp linenums="1" 
 
 int ask(double x){
 
@@ -158,7 +146,6 @@ int ask(double x){
 }
 
 int main(){
-	ios_base::sync_with_stdio(false); cin.tie(0);
 
 	double L = 0, R = 1e9;
 	double eps = 0.000001; // (2)!
@@ -170,8 +157,6 @@ int main(){
 	}
 
 	cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl; 
-
-	return 0;
 }
 ```
 
@@ -185,11 +170,7 @@ int main(){
 
 روش دوم:
 
-``` cpp
-
-#include<bits/stdc++.h>
-
-using namespace std;
+``` cpp linenums="1" 
 
 int ask(double x){
 
@@ -202,7 +183,6 @@ int ask(double x){
 }
 
 int main(){
-	ios_base::sync_with_stdio(false); cin.tie(0);
 
 	double L = 0, R = 1e9;
 
@@ -213,8 +193,6 @@ int main(){
 	}
 
 	cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl;
-
-	return 0;
 }
 
 ```
@@ -254,7 +232,7 @@ $y \leq k \leq z$
 
 باز میتوان به جای استفاده از اعداد صحیح مسئله را به اعداد حقیقی گسترش داد.
 
-!!! مهم
+!!! danger "مهم"
 
 	تعاریف در حالت حقیقی دستخوش تغییرات مهمی میشود ولی با نگاه کلی میتوان دید مشابه حالت قبل است.
     
@@ -290,11 +268,7 @@ $midl = \frac{2 * L + R}{3}$ و $midr = \frac{L + 2 * R}{3}$ باشد.
 
 #### کد
 
-``` cpp
-
-#include<bits/stdc++.h>
-
-using namespace std;
+``` cpp linenums="1" 
 
 int ask(double x){ // (1)!
 
@@ -307,7 +281,6 @@ int ask(double x){ // (1)!
 }
 
 int main(){
-	ios_base::sync_with_stdio(false); cin.tie(0);
 
 	double L = 0, R = 1e9; // (2)!
 
@@ -320,8 +293,6 @@ int main(){
 	}
 
 	cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl; // (3)!
-
-	return 0;
 }
 
 
@@ -343,7 +314,7 @@ int main(){
  `#!cpp lower_bound(a + l, a + r, x)` 
  را داریم که در یک آرایه سورت $a$ شده به ما پوینتر اولین خانه در یک بازه که بزرگتر مساوی یک عدد دلخواه است را به ما میدهد که قابل تبدیل به اندیس آن خانه و مقدار آن خانه است.
 
-``` cpp
+``` cpp linenums="1" 
 int a[7] = {2, 3, 7, 7, 9, 10, 13};
 int *x = lower_bound(a, a + 7, 5); // (1)!
 int idx = lower_bound(a + 2, a + 7, 7) - a; // (2)!
@@ -362,7 +333,7 @@ int val = *lower_bound(a + 4, a + 6, 10); // (3)!
 `#!cpp lower_bound`
 عمل میکند ولی به جای مقدار بزرگتر مساوی دنبال مقدار بزرگتر اکید میگردد و پیاده سازی آن نیز مشابه است.
 
-``` cpp
+``` cpp linenums="1" 
 int a[7] = {2, 3, 7, 7, 9, 10, 13};
 int *x = upper_bound(a, a + 7, 5); // (1)!
 int idx = upper_bound(a + 2, a + 7, 7) - a; // (2)!
@@ -382,7 +353,7 @@ int val = *upper_bound(a + 2, a + 6, 9); // (3)!
 `#!cpp lower_bound`
   را روی وکتور استفاده کرد
 
-``` cpp
+``` cpp linenums="1" 
 vector<int> a = {2, 3, 7, 7, 9, 10, 13};
 vector<int> *x = upper_bound(a.begin(), a.end(), 5); // (1)!
 int idx = lower_bound(a.begin() + 2, a.end(), 7) - a.begin(); // (2)!
@@ -399,7 +370,7 @@ int val = *upper_bound(a.begin() + 2, a.begin() + 6, 9); // (3)!
 `#!cpp cmp`
 داد تا برای مقایسه به شیوه دیگری استفاده شود.
 
-!!! نکته
+!!! info "نکته"
 
 	قبل از اینکه به توابع 
 	`#!cpp upper_bound`
@@ -412,7 +383,7 @@ int val = *upper_bound(a.begin() + 2, a.begin() + 6, 9); // (3)!
 	سورت شده باشد.
 
 
-``` cpp
+``` cpp linenums="1" 
 
 bool cmp(int x, int y){
 	return x > y; // (1)!
