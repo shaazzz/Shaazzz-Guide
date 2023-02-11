@@ -428,7 +428,7 @@ int main(){
 - [Tutorial On Tof (Ternary Search)](https://codeforces.com/blog/entry/60702) (ایده ای برای اینکه توابعی که کاملا ترنری سرچ پذیر نیستند را ترنری سرچ پذیر کنیم)
 
 ## سوال ها 
-??? info "نیاز به عضویت در گروه شاززز!"
+??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
 | سوال | سختی | تگ ها | جاج | 

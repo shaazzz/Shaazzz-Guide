@@ -160,7 +160,7 @@ void perm(int ind){
 + [بک‌ترک و تفاوت‌های آن با بازگشتی](https://www.geeksforgeeks.org/backtracking-algorithms/?ref=lbp)
 + [ممویز کردن](https://www.interviewcake.com/concept/java/memoization#:~:text=Memoization%20ensures%20that%20a%20method,usually%20in%20a%20hash%20map)
 ## سوال ها 
-??? info "نیاز به عضویت در گروه شاززز!"
+??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
 | سوال | سختی | تگ ها | جاج | 

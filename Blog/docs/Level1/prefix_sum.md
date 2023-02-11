@@ -94,7 +94,7 @@ int main() {
 
 [وکتور در سی پلاس پلاس](https://en.cppreference.com/w/cpp/container/vector)
 ## سوال ها 
-??? info "نیاز به عضویت در گروه شاززز!"
+??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
 | سوال | سختی | تگ ها | جاج | 

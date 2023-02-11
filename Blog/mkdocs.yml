@@ -26,6 +26,8 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
+    - navigation.instant
+    
   palette:
     - scheme: default
       primary: deep purple
