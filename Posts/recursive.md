@@ -1,10 +1,3 @@
---- 
-hide:
-  - footer
----
-# توابع بازگشتی
-
-## توضیحات 
 توابع بازگشتی درواقع توابعی هستند که در طول اجرا، خودشان را دوباره صدا می‌زنند. این توابع به نحوی پیاده‌سازی می‌شوند که پایانی وجود داشته باشد و تابع تا ابد ادامه پیدا نکند. عملکرد توابع بازگشتی تاحدودی استقرا طور است. این توابع حتما قسمت‌های پایه‌ای دارند که در این حالت‌ها، تابع دوباره فراخوانده نخواهد شد. بقیه حالات هم با استفاده از تابع برای حالت‌های دیگری حل خواهند شد. برای مثال تابع زیر برای عدد نامنفی $n$، مقدار $n$ را می‌دهد. اما اگر عدد منفی باشد، تا جایی که بتواند بازگشتی پیش می‌برد و از آنجایی که هیچ گاه به پایه `#!cpp lev == 0` نخواهد رسید، به خاطر استفاده بیش از حد از توابع بازگشتی احتمالا با رانتایم ارور یا محدودیت مموری مواجه خواهد شد. از نظر منطقی هم تابع برای اعداد منفی پایان ناپذیر خواهد شد.
 
 ``` cpp linenums="1"
@@ -159,27 +152,3 @@ void perm(int ind){
 + [الگوریتم‌های بازگشتی](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
 + [بک‌ترک و تفاوت‌های آن با بازگشتی](https://www.geeksforgeeks.org/backtracking-algorithms/?ref=lbp)
 + [ممویز کردن](https://www.interviewcake.com/concept/java/memoization#:~:text=Memoization%20ensures%20that%20a%20method,usually%20in%20a%20hash%20map)
-## سوال ها 
-??? info "نیاز به عضویت در گروه شاززز!"
-
-    برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
-| سوال | سختی | تگ ها | جاج | 
-| :-----: | :----: | :----: | :----: | 
-|[فاکتوریل](https://quera.org/problemset/589/){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Shaazzz-Guide/Level1/implementation){:target="_blank"}</li> <li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Quera](https://quera.org){:target="_blank"}|
-|[الگویابی](https://quera.org/course/assignments/48772/problems/166209){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
-|[پریش](https://quera.org/course/assignments/48772/problems/166207){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
-|[Permutations](https://leetcode.com/problems/permutations/){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-leetcode: [LeetCode](https://leetcode.com/){:target="_blank"}|
-|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-leetcode: [LeetCode](https://leetcode.com/){:target="_blank"}|
-|[کاشی‌کاری ](https://quera.org/problemset/605/){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Quera](https://quera.org){:target="_blank"}|
-|[بی‌ فاصله](https://quera.org/course/assignments/48772/problems/166206){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
-|[جم‌زی](https://quera.org/course/assignments/48772/problems/166208){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
-|[اول‌دایره](https://quera.org/course/assignments/48772/problems/166211){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
-|[شتر](https://quera.org/course/assignments/48772/problems/166212){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
-|[1000-digit Fibonacci number](https://projecteuler.net/problem=25){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li> <li>[پیاده سازی](/Shaazzz-Guide/Level1/implementation){:target="_blank"}</li></ul> </details>|[Project Euler](https://projecteuler.net/){:target="_blank"}|
-|[Combinations](https://leetcode.com/problems/combinations/){:target="_blank"}|1000|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li> <li>combinatorics</li></ul> </details>|:judge-leetcode: [LeetCode](https://leetcode.com/){:target="_blank"}|
-|[Next Permutation](https://leetcode.com/problems/next-permutation/){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-leetcode: [LeetCode](https://leetcode.com/){:target="_blank"}|
-|[Easy modified sudoku](https://www.spoj.com/problems/EZSUDOKU/){:target="_blank"}|1200|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-spoj: [Spoj](https://spoj.com/){:target="_blank"}|
-|[Little Queens](https://codeforces.com/problemsets/acmsguru/problem/99999/224){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
-|[The Towers of Hanoi Revisited](https://codeforces.com/problemsets/acmsguru/problem/99999/202){:target="_blank"}|1500|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
-|[Xor](https://codeforces.com/problemset/problem/194/D){:target="_blank"}|1800|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
-|[Keep Xor Low](https://codeforces.com/problemset/problem/1616/H){:target="_blank"}|2900|<details> <summary>Spoiler</summary> <ul><li>[عملیات های بیتی](/Shaazzz-Guide/Level1/bitmask){:target="_blank"}</li> <li>[توابع بازگشتی](/Shaazzz-Guide/Level1/recursive){:target="_blank"}</li> <li>[تقسیم و حل](/Shaazzz-Guide/Level1/divide){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|
