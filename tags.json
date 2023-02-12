@@ -1,4 +1,9 @@
 {
+    "intro": {
+        "path": "Level1/intro.md",
+        "blog_title": "مقدمه"
+    },
+
     "binary_search": {
         "path": "Level1/binary_search.md",
         "blog_title": "باینری سرچ"

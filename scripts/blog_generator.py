@@ -31,7 +31,9 @@ for tag in tags.keys():
         with open(description_path, "r") as file:
             description = file.read()
  
-    problems = problems_map[tag]
+    problems = []
+    if tag in problems_map.keys():
+        problems = problems_map[tag]
 
     print("Generating " + blog_path + "...")
     markdown_generator.generate_markdown(blog_path, tags[tag]["blog_title"], description, problems)
