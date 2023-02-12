@@ -43,8 +43,9 @@ theme:
   font:
     text: Vazirmatn
     code: Source Code Pro
-  logo: "https://raw.githubusercontent.com/shaazzz/site/main/docs/assets/images/sid.png"
-  favicon: "https://raw.githubusercontent.com/shaazzz/site/main/docs/assets/images/sid.png"
+
+  logo: assets/images/sid.png
+  favicon: "assets/images/sid.png"
 
 # Plugins
 plugins:
