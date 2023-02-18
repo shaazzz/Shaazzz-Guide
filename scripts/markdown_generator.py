@@ -52,9 +52,11 @@ def create_admonitions(problems):
             if "admonition" in judges[problem["judge"]].keys():
                 admonitions.add(admonition_markdown(judges[problem["judge"]]["admonition"]))
 
-    return ".".join(admonitions)
+    return "\n".join(admonitions)
 
 def generate_markdown(blog_path, blog_name, description, problems):
+    if problems:
+        problems = sorted(problems, key=lambda x : int(x["difficulty"]))
     file_name = blog_name + ".md"
     with open(blog_path, "w") as markdown_file:
         markdown_file.write("--- \n")

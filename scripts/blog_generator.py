@@ -16,9 +16,6 @@ for problem in problems:
 
         problems_map[tag].append(problem)
 
-for tag in problems_map.keys():
-    problems_map[tag] = sorted(problems_map[tag], key=lambda x : int(x["difficulty"]))
-
 tags = tags.tags_dict()
 
 for tag in tags.keys():
@@ -31,9 +28,13 @@ for tag in tags.keys():
         with open(description_path, "r") as file:
             description = file.read()
  
-    problems = []
+    tag_problems = []
     if tag in problems_map.keys():
-        problems = problems_map[tag]
+        tag_problems = problems_map[tag]
 
     print("Generating " + blog_path + "...")
-    markdown_generator.generate_markdown(blog_path, tags[tag]["blog_title"], description, problems)
+    markdown_generator.generate_markdown(blog_path, tags[tag]["blog_title"], description, tag_problems)
+
+blog_path = "./Blog/docs/" + "problemset.md"
+Path(blog_path).parent.mkdir(parents=True, exist_ok=True)
+markdown_generator.generate_markdown(blog_path, "سوالات", None, problems)

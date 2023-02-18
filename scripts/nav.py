@@ -22,6 +22,7 @@ def create_nav():
 
         ind = ind + 1
 
+    nav_yml += indent(1, "- همه سوالات: problemset.md")
     return nav_yml
 
 def generate_mkdocs_nav():
