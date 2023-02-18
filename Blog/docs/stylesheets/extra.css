@@ -1,3 +1,8 @@
 .md-typeset table:not([class]) td {
   vertical-align: middle !important;
 }
+
+.blog-title {
+  text-align: center;
+  color: var(--md-typeset-color) !important;
+}
