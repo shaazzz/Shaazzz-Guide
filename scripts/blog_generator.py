@@ -2,6 +2,7 @@
 
 import json
 import markdown_generator
+import tags
 from pathlib import Path
 
 with open("./problems.json", "r") as file:
@@ -18,11 +19,10 @@ for problem in problems:
 for tag in problems_map.keys():
     problems_map[tag] = sorted(problems_map[tag], key=lambda x : int(x["difficulty"]))
 
-with open("./tags.json") as file:
-    tags = json.load(file)
+tags = tags.tags_dict()
 
 for tag in tags.keys():
-    blog_path = "./Blog/docs/" + tags[tag]["path"]
+    blog_path = "./Blog/docs/" + tags[tag]["site_path"]
     description_path = "./Posts/" + tag + ".md"
     Path(blog_path).parent.mkdir(parents=True, exist_ok=True)
 

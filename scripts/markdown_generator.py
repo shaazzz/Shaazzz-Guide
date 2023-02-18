@@ -1,12 +1,11 @@
 from pathlib import Path
 import json
+import tags
 
 with open("./judges.json", "r") as json_file:
     judges = json.load(json_file)
 
-with open("./tags.json", "r") as json_file:
-    tags_list = json.load(json_file)
-
+tags_list = tags.tags_dict()
 
 def markdown_href(title, url, open_in_new_tab = True):
     url = str(url)
@@ -30,7 +29,7 @@ def judge_div(judge):
 def tag_link(tag):
     if not tag in tags_list.keys():
         return tag
-    return markdown_href(tags_list[tag]["blog_title"], Path("/Shaazzz-Guide/" + tags_list[tag]["path"]).with_suffix(""))
+    return markdown_href(tags_list[tag]["blog_title"], Path("/Shaazzz-Guide/" + tags_list[tag]["site_path"]).with_suffix(""))
 
 def tag_spoiler(tags):
     return "<details> <summary>Spoiler</summary> <ul>" + \

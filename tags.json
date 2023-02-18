@@ -1,51 +1,53 @@
 {
-    "intro": {
-        "path": "Level1/intro.md",
-        "blog_title": "مقدمه"
-    },
+    "Level1": {
+        "intro": {
+            "path": "intro.md",
+            "blog_title": "مقدمه"
+        },
 
-    "binary_search": {
-        "path": "Level1/binary_search.md",
-        "blog_title": "باینری سرچ"
-    },
+        "binary_search": {
+            "path": "binary_search.md",
+            "blog_title": "باینری سرچ"
+        },
 
-    "recursive": {
-        "path": "Level1/recursive.md",
-        "blog_title": "توابع بازگشتی"
-    },
+        "recursive": {
+            "path": "recursive.md",
+            "blog_title": "توابع بازگشتی"
+        },
 
-    "implementation": {
-        "path": "Level1/implementation.md",
-        "blog_title": "پیاده سازی"
-    },
+        "implementation": {
+            "path": "implementation.md",
+            "blog_title": "پیاده سازی"
+        },
 
-    "greedy": {
-        "path": "Level1/greedy.md",
-        "blog_title": "الگوریتم های حریصانه"
-    },
+        "greedy": {
+            "path": "greedy.md",
+            "blog_title": "الگوریتم های حریصانه"
+        },
 
-    "prefix_sum": {
-        "path": "Level1/prefix_sum.md",
-        "blog_title":"پریفیکس سام"
-    },
+        "prefix_sum": {
+            "path": "prefix_sum.md",
+            "blog_title":"پریفیکس سام"
+        },
 
-    "sort": {
-        "path": "Level1/sort.md",
-        "blog_title": "مرتب سازی"
-    },
+        "sort": {
+            "path": "sort.md",
+            "blog_title": "مرتب سازی"
+        },
 
-    "two_pointers": {
-        "path": "Level1/two_pointers.md",
-        "blog_title": "Two Pointers"
-    },
+        "two_pointers": {
+            "path": "two_pointers.md",
+            "blog_title": "Two Pointers"
+        },
 
-    "bitmask": {
-        "path": "Level1/bitmask.md",
-        "blog_title": "عملیات های بیتی"
-    },
+        "bitmask": {
+            "path": "bitmask.md",
+            "blog_title": "عملیات های بیتی"
+        },
 
-    "divide": {
-        "path": "Level1/divide.md",
-        "blog_title": "تقسیم و حل"
+        "divide": {
+            "path": "divide.md",
+            "blog_title": "تقسیم و حل"
+        }
     }
 }
