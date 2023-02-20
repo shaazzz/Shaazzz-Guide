@@ -36,8 +36,15 @@ def tag_spoiler(tags):
         ' '.join(list(map(lambda tag : "<li>" + tag_link(tag) + "</li>", tags))) + \
              "</ul> </details>"
 
+def create_blur_spoiler(obj):
+    return "<div class=\"blur-spoiler\">" + obj + "</div>"
+
 def create_problem_row(problem):
-    return "|" + markdown_href(problem["name"], problem["url"]) + "|" + problem["difficulty"] + \
+    problem_name = markdown_href(problem["name"], problem["url"])
+    if problem["judge"] == "المپیادی":
+        problem_name = create_blur_spoiler(problem_name)
+    
+    return "|" + problem_name + "|" + problem["difficulty"] + \
         "|" + tag_spoiler(problem["tags"]) + "|" + judge_div(problem["judge"]) + "|"
 
 def admonition_markdown(admonition):
