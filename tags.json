@@ -5,9 +5,9 @@
             "blog_title": "مقدمه"
         },
 
-        "binary_search": {
-            "path": "binary_search.md",
-            "blog_title": "باینری سرچ"
+        "implementation": {
+            "path": "implementation.md",
+            "blog_title": "پیاده سازی"
         },
 
         "recursive": {
@@ -15,24 +15,14 @@
             "blog_title": "توابع بازگشتی"
         },
 
-        "implementation": {
-            "path": "implementation.md",
-            "blog_title": "پیاده سازی"
+        "bitmask": {
+            "path": "bitmask.md",
+            "blog_title": "عملیات های بیتی"
         },
 
-        "greedy": {
-            "path": "greedy.md",
-            "blog_title": "الگوریتم های حریصانه"
-        },
-
-        "prefix_sum": {
-            "path": "prefix_sum.md",
-            "blog_title":"پریفیکس سام"
-        },
-
-        "sort": {
-            "path": "sort.md",
-            "blog_title": "مرتب سازی"
+        "binary_search": {
+            "path": "binary_search.md",
+            "blog_title": "باینری سرچ"
         },
 
         "two_pointers": {
@@ -40,21 +30,31 @@
             "blog_title": "Two Pointers"
         },
 
-        "bitmask": {
-            "path": "bitmask.md",
-            "blog_title": "عملیات های بیتی"
+        "prefix_sum": {
+            "path": "prefix_sum.md",
+            "blog_title":"پریفیکس سام"
+        },
+
+        "greedy": {
+            "path": "greedy.md",
+            "blog_title": "الگوریتم های حریصانه"
         },
 
         "divide": {
             "path": "divide.md",
             "blog_title": "تقسیم و حل"
+        },
+
+        "sort": {
+            "path": "sort.md",
+            "blog_title": "مرتب سازی"
         }
     },
 
+    "Level2": {},
     "Level3": {},
     "Level4": {},
     "Level5": {},
     "Level6": {},
-    "Level7": {},
-    "Level8": {}
+    "Level7": {}
 }

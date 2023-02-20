@@ -5,13 +5,13 @@ hide:
 # سوالات
 
 ## سوال ها 
-??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
-
-    سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!
-
 ??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
+
+??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
+
+    سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!
 | سوال | سختی | تگ ها | جاج | 
 | :-----: | :----: | :----: | :----: | 
 |[a + b](https://codeforces.com/problemsets/acmsguru/problem/99999/100){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Shaazzz-Guide/Level1/implementation){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|

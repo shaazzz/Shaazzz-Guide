@@ -124,15 +124,15 @@ nav:
   - شازززگاید: index.md
   - سطح ۱:
     - مقدمه: Level1/intro.md
-    - باینری سرچ: Level1/binary_search.md
-    - توابع بازگشتی: Level1/recursive.md
     - پیاده سازی: Level1/implementation.md
-    - الگوریتم های حریصانه: Level1/greedy.md
-    - پریفیکس سام: Level1/prefix_sum.md
-    - مرتب سازی: Level1/sort.md
-    - Two Pointers: Level1/two_pointers.md
+    - توابع بازگشتی: Level1/recursive.md
     - عملیات های بیتی: Level1/bitmask.md
+    - باینری سرچ: Level1/binary_search.md
+    - Two Pointers: Level1/two_pointers.md
+    - پریفیکس سام: Level1/prefix_sum.md
+    - الگوریتم های حریصانه: Level1/greedy.md
     - تقسیم و حل: Level1/divide.md
+    - مرتب سازی: Level1/sort.md
   - سطح ۲:
     - Coming soon...: coming_soon.md
   - سطح ۳:
