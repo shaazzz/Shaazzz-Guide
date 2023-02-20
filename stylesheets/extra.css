@@ -6,3 +6,25 @@
   text-align: center;
   color: var(--md-typeset-color) !important;
 }
+
+@keyframes blur-effect-fadein {
+  from {filter: blur(0px);}
+  to {filter: blur(5px);}
+}
+
+@keyframes blur-effect-fadeout {
+  from {filter: blur(5px);}
+  to {filter: blur(0px);}
+}
+
+.blur-spoiler {
+  animation-name: blur-effect-fadein;
+  animation-duration: 300ms;
+  filter: blur(5px);
+}
+
+.blur-spoiler:hover {
+  animation-name: blur-effect-fadeout;
+  animation-duration: 300ms;
+  filter: blur(0px);
+}
