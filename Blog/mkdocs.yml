@@ -50,10 +50,7 @@ theme:
 # Plugins
 plugins:
   - search
-
-  - minify:
-      minify_html: true
-
+  
 # Customization
 extra:
   social:
