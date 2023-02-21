@@ -18,12 +18,14 @@ theme:
   name: material
   language: fa
   direction: rtl
+  custom_dir: overrides
   features:
     - content.code.annotate
     - content.tooltips
     - search.highlight
     - search.share
     - search.suggest
+    - search.highlight
     - toc.follow
     - navigation.instant
 

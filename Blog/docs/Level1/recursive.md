@@ -1,6 +1,7 @@
 --- 
 hide:
   - footer
+comments: true
 ---
 # توابع بازگشتی
 

@@ -69,17 +69,20 @@ def generate_markdown(blog_path, blog_name, description, problems):
         markdown_file.write("--- \n")
         markdown_file.write("hide:\n")
         markdown_file.write("  - footer\n")
+        markdown_file.write("comments: true\n")
         markdown_file.write("---\n")
 
         markdown_file.write("# " + blog_name + "\n\n")
         
         if description:
-            markdown_file.write("## توضیحات \n")
+            if problems:
+                markdown_file.write("## توضیحات \n")
             markdown_file.write(description)
             markdown_file.write("\n")
 
         if problems:
-            markdown_file.write("## سوال ها \n")
+            if description:
+                markdown_file.write("## سوال ها \n")
             markdown_file.write(create_admonitions(problems))
             markdown_file.write("| سوال | سختی | تگ ها | جاج | \n")
             markdown_file.write("| :-----: | :----: | :----: | :----: | \n")

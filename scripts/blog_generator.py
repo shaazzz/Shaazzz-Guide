@@ -37,4 +37,4 @@ for tag in tags.keys():
 
 blog_path = "./Blog/docs/" + "problemset.md"
 Path(blog_path).parent.mkdir(parents=True, exist_ok=True)
-markdown_generator.generate_markdown(blog_path, "سوالات", None, problems)
+markdown_generator.generate_markdown(blog_path, "همه سوالات", None, problems)
