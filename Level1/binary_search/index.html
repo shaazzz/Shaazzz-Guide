@@ -501,34 +501,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../divide/" class="md-nav__link">
-        تقسیم و حل
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sort/" class="md-nav__link">
-        مرتب سازی
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../prefix_sum/" class="md-nav__link">
         پریفیکس سام
       </a>
@@ -545,6 +517,34 @@
     <li class="md-nav__item">
       <a href="../greedy/" class="md-nav__link">
         الگوریتم های حریصانه
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../divide/" class="md-nav__link">
+        تقسیم و حل
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sort/" class="md-nav__link">
+        مرتب سازی
       </a>
     </li>
   
@@ -1141,55 +1141,34 @@
 عملیات مسئله را حل کرد.</p>
 <h3 id="_7">کد<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <p>در این جا کدی مربوط به سوالی که حل کردیم را مشاهده میکنیم.</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span>
-<span class="normal"><a href="#__codelineno-0-12">12</a></span>
-<span class="normal"><a href="#__codelineno-0-13">13</a></span>
-<span class="normal"><a href="#__codelineno-0-14">14</a></span>
-<span class="normal"><a href="#__codelineno-0-15">15</a></span>
-<span class="normal"><a href="#__codelineno-0-16">16</a></span>
-<span class="normal"><a href="#__codelineno-0-17">17</a></span>
-<span class="normal"><a href="#__codelineno-0-18">18</a></span>
-<span class="normal"><a href="#__codelineno-0-19">19</a></span>
-<span class="normal"><a href="#__codelineno-0-20">20</a></span>
-<span class="normal"><a href="#__codelineno-0-21">21</a></span>
-<span class="normal"><a href="#__codelineno-0-22">22</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
-<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4"></a>
-<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7"></a>
-<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="p">}</span>
-<a id="__codelineno-0-10" name="__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12"></a>
-<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1&#39;000&#39;000&#39;000</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14"></a>
-<a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">R</span><span class="p">){</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!     </span>
-<a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-20" name="__codelineno-0-20"></a>
-<a id="__codelineno-0-21" name="__codelineno-0-21"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
-<a id="__codelineno-0-22" name="__codelineno-0-22"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="p">}</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1&#39;000&#39;000&#39;000</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">R</span><span class="p">){</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!        </span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a><span class="p">}</span>
+</code></pre></div>
 <ol>
 <li>
 <p>تابع 
-<code class="highlight"><span class="n">ask</span></code>
- معادل تابع <span class="arithmatex">\(f(x)\)</span> در حالت کلی مسئله است که به ازای مقادیر کوچکتر از عدد مورد نظر <span class="arithmatex">\(0\)</span> و در غیر اینصورت <span class="arithmatex">\(1\)</span> میدهد.</p>
+   <code class="highlight"><span class="n">ask</span></code>
+   معادل تابع <span class="arithmatex">\(f(x)\)</span> در حالت کلی مسئله است که به ازای مقادیر کوچکتر از عدد مورد نظر <span class="arithmatex">\(0\)</span> و در غیر اینصورت <span class="arithmatex">\(1\)</span> میدهد.</p>
 </li>
 <li>
 <p>مقدار <span class="arithmatex">\(L\)</span> و <span class="arithmatex">\(R\)</span> که میدانیم  قطعا عدد مورد نظر بزرگتر اکید از <span class="arithmatex">\(0\)</span> و کوچکتر مساوی <span class="arithmatex">\(10^{9}\)</span> است.</p>
@@ -1205,58 +1184,36 @@
 (<span class="arithmatex">\(R - L &gt; 0.000001\)</span>)
 . اما به خاطر خطا های محاسباتی در اعشار در ++C این روش زیاد مناسب نیست.</p>
 <p>میتوان تا جایی باینری سرچ را ادامه داد تا مطمعن باشیم مقدار <span class="arithmatex">\(L\)</span> و <span class="arithmatex">\(R\)</span> تا <span class="arithmatex">\(6\)</span> رقم اعشار دقیق شده باشد. میتوان با استدلالی مشابه حالت گسسته باینری سرچ گفت تعداد این عملیات ها برابر با
-<span class="arithmatex">\(\lceil log(R - L * 10^{6}) \rceil\)</span>
+<span class="arithmatex">\(\lceil log((R - L) * 10^{6}) \rceil\)</span>
 میباشد</p>
 <p>کد این دو روش به شکل زیر میباشد:</p>
 <ul>
 <li>روش اول:</li>
 </ul>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-1-10">10</a></span>
-<span class="normal"><a href="#__codelineno-1-11">11</a></span>
-<span class="normal"><a href="#__codelineno-1-12">12</a></span>
-<span class="normal"><a href="#__codelineno-1-13">13</a></span>
-<span class="normal"><a href="#__codelineno-1-14">14</a></span>
-<span class="normal"><a href="#__codelineno-1-15">15</a></span>
-<span class="normal"><a href="#__codelineno-1-16">16</a></span>
-<span class="normal"><a href="#__codelineno-1-17">17</a></span>
-<span class="normal"><a href="#__codelineno-1-18">18</a></span>
-<span class="normal"><a href="#__codelineno-1-19">19</a></span>
-<span class="normal"><a href="#__codelineno-1-20">20</a></span>
-<span class="normal"><a href="#__codelineno-1-21">21</a></span>
-<span class="normal"><a href="#__codelineno-1-22">22</a></span>
-<span class="normal"><a href="#__codelineno-1-23">23</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">){</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2"></a>
-<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4"></a>
-<a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7"></a>
-<a id="__codelineno-1-8" name="__codelineno-1-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-1-9" name="__codelineno-1-9"></a><span class="p">}</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10"></a>
-<a id="__codelineno-1-11" name="__codelineno-1-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
-<a id="__codelineno-1-12" name="__codelineno-1-12"></a>
-<a id="__codelineno-1-13" name="__codelineno-1-13"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span>
-<a id="__codelineno-1-14" name="__codelineno-1-14"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">eps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.000001</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-1-15" name="__codelineno-1-15"></a>
-<a id="__codelineno-1-16" name="__codelineno-1-16"></a><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">R</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">eps</span><span class="p">){</span>
-<a id="__codelineno-1-17" name="__codelineno-1-17"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!</span>
-<a id="__codelineno-1-18" name="__codelineno-1-18"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
-<a id="__codelineno-1-19" name="__codelineno-1-19"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
-<a id="__codelineno-1-20" name="__codelineno-1-20"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-1-21" name="__codelineno-1-21"></a>
-<a id="__codelineno-1-22" name="__codelineno-1-22"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span>
-<a id="__codelineno-1-23" name="__codelineno-1-23"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">){</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="p">}</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">eps</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.000001</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">R</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">eps</span><span class="p">){</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a>
+<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span>
+<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="p">}</span>
+</code></pre></div>
 <ol>
 <li>
 <p>به این شیوه عدد <span class="arithmatex">\(x\)</span> را با <span class="arithmatex">\(6\)</span> رقم اعشار خروجی میدهیم.</p>
@@ -1270,54 +1227,33 @@
 </ol>
 <p>حال کد روش دوم را میبینیم.</p>
 <p>روش دوم:</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-2-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-2-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-2-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-2-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-2-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-2-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-2-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-2-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-2-10">10</a></span>
-<span class="normal"><a href="#__codelineno-2-11">11</a></span>
-<span class="normal"><a href="#__codelineno-2-12">12</a></span>
-<span class="normal"><a href="#__codelineno-2-13">13</a></span>
-<span class="normal"><a href="#__codelineno-2-14">14</a></span>
-<span class="normal"><a href="#__codelineno-2-15">15</a></span>
-<span class="normal"><a href="#__codelineno-2-16">16</a></span>
-<span class="normal"><a href="#__codelineno-2-17">17</a></span>
-<span class="normal"><a href="#__codelineno-2-18">18</a></span>
-<span class="normal"><a href="#__codelineno-2-19">19</a></span>
-<span class="normal"><a href="#__codelineno-2-20">20</a></span>
-<span class="normal"><a href="#__codelineno-2-21">21</a></span>
-<span class="normal"><a href="#__codelineno-2-22">22</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">){</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a>
-<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4"></a>
-<a id="__codelineno-2-5" name="__codelineno-2-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-2-6" name="__codelineno-2-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7"></a>
-<a id="__codelineno-2-8" name="__codelineno-2-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-2-9" name="__codelineno-2-9"></a><span class="p">}</span>
-<a id="__codelineno-2-10" name="__codelineno-2-10"></a>
-<a id="__codelineno-2-11" name="__codelineno-2-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
-<a id="__codelineno-2-12" name="__codelineno-2-12"></a>
-<a id="__codelineno-2-13" name="__codelineno-2-13"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span>
-<a id="__codelineno-2-14" name="__codelineno-2-14"></a>
-<a id="__codelineno-2-15" name="__codelineno-2-15"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">60</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-2-16" name="__codelineno-2-16"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
-<a id="__codelineno-2-17" name="__codelineno-2-17"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
-<a id="__codelineno-2-18" name="__codelineno-2-18"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
-<a id="__codelineno-2-19" name="__codelineno-2-19"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-2-20" name="__codelineno-2-20"></a>
-<a id="__codelineno-2-21" name="__codelineno-2-21"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
-<a id="__codelineno-2-22" name="__codelineno-2-22"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">){</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="p">}</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">60</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">mid</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">2</span><span class="p">;</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">mid</span><span class="p">;</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a><span class="p">}</span>
+</code></pre></div>
 <ol>
 <li>میدانیم
-<span class="arithmatex">\(\lceil log(10^{9} * 10^{6}) \rceil \leq 50\)</span>
-میباشد پس با تعداد بار پرسیدن بیشتر مساوی <span class="arithmatex">\(50\)</span> بار از دقت جواب اطمینان خواهیم داشت.</li>
+   <span class="arithmatex">\(\lceil log(10^{9} * 10^{6}) \rceil \leq 50\)</span>
+   میباشد پس با تعداد بار پرسیدن بیشتر مساوی <span class="arithmatex">\(50\)</span> بار از دقت جواب اطمینان خواهیم داشت.</li>
 </ol>
 <h2 id="_9">ترنری سرچ<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
 <h3 id="_10">تعریف کلی<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
@@ -1358,7 +1294,6 @@
 <li>اگر <span class="arithmatex">\(y \leq a\)</span> و <span class="arithmatex">\(b \leq z\)</span> باشد، آنگاه <span class="arithmatex">\(f(a) = f(b)\)</span> است.</li>
 <li>اگر <span class="arithmatex">\(z \leq a\)</span> باشد، آنگاه <span class="arithmatex">\(f(a) &lt; f(b)\)</span> است.</li>
 </ul>
-<p>به عبارتی میتوان گفت تابع f محدب است. (<a href="https://en.wikipedia.org/wiki/Convex_function">تابع محدب چیست؟</a>)</p>
 </div>
 <p>باز فرض میکنیم با <span class="arithmatex">\(6\)</span> رقم اعشار جواب را میخواهیم محاسبه کنیم. یک روش این است که همان روش حالت گسسته مسئله را اجرا کنیم و مقدار <span class="arithmatex">\(g(x)\)</span> به جای اینکه به <span class="arithmatex">\(f(x)\)</span> و <span class="arithmatex">\(f(x+1)\)</span> وابسته باشد به <span class="arithmatex">\(f(x)\)</span> و <span class="arithmatex">\(f(x+0.000001)\)</span> باشد‌ (زیرا میخواهیم با این دقت جواب را محاسبه کنیم). پس باز با باینری سرچ مسئله را حل کنیم. در این وضعیت دوباره ممکن است به همان مشکل خطای محاسبه اعداد اعشاری در ++C برخورده میکنیم.</p>
 <p>در این روش ابتدا دو متغیر <span class="arithmatex">\(midl\)</span> و <span class="arithmatex">\(midr\)</span> تعریف میکنیم به طوری که
@@ -1383,61 +1318,38 @@
 </li>
 </ul>
 <p>اگر حالت دوم رخ داده باشد نیز میتوان با استدلال مشابه گفت که هنوز مقدار <span class="arithmatex">\(k\)</span> مناسب در بازه وجود خواهد داشت.</p>
-<p>در این الگوریتیم اگر <span class="arithmatex">\(len = R - L\)</span> تعریف کنیم و <span class="arithmatex">\(len^{\prime}\)</span> را مقدار بعدی <span class="arithmatex">\(len\)</span> قرار دهیم، میتوان گفت که <span class="arithmatex">\(len^{\prime} = \frac{2 * len}{3}\)</span> است. و میتوان ثابت کرد که در حالت گسسته این الگوریتم از <span class="arithmatex">\(O(log(R-L))\)</span> است. در حالت پیوسته نیز ماننده حالت پیوسته باینری سرچ به تعدادی این کار را انجام میدهیم تا مطمعن باشیم تا <span class="arithmatex">\(6\)</span> رقم اعشار درست حساب شده است که تعداد این بار ها از <span class="arithmatex">\(O(log((R-L)*10^{6}))\)</span> است.</p>
+<p>در این الگوریتیم اگر <span class="arithmatex">\(len = R - L\)</span> تعریف کنیم و <span class="arithmatex">\(len^{\prime}\)</span> را مقدار بعدی <span class="arithmatex">\(len\)</span> قرار دهیم، میتوان گفت که <span class="arithmatex">\(len^{\prime} = \frac{2 * len}{3}\)</span> است. و میتوان ثابت کرد که در حالت گسسته این الگوریتم از <span class="arithmatex">\(O(log(R-L))\)</span> است. در حالت پیوسته نیز مانند حالت پیوسته باینری سرچ به تعدادی این کار را انجام میدهیم تا مطمعن باشیم تا <span class="arithmatex">\(6\)</span> رقم اعشار درست حساب شده است که تعداد این بار ها از <span class="arithmatex">\(O(log((R-L)*10^{6}))\)</span> است.</p>
 <h3 id="_13">کد<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-3-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-3-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-3-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-3-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-3-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-3-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-3-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-3-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-3-10">10</a></span>
-<span class="normal"><a href="#__codelineno-3-11">11</a></span>
-<span class="normal"><a href="#__codelineno-3-12">12</a></span>
-<span class="normal"><a href="#__codelineno-3-13">13</a></span>
-<span class="normal"><a href="#__codelineno-3-14">14</a></span>
-<span class="normal"><a href="#__codelineno-3-15">15</a></span>
-<span class="normal"><a href="#__codelineno-3-16">16</a></span>
-<span class="normal"><a href="#__codelineno-3-17">17</a></span>
-<span class="normal"><a href="#__codelineno-3-18">18</a></span>
-<span class="normal"><a href="#__codelineno-3-19">19</a></span>
-<span class="normal"><a href="#__codelineno-3-20">20</a></span>
-<span class="normal"><a href="#__codelineno-3-21">21</a></span>
-<span class="normal"><a href="#__codelineno-3-22">22</a></span>
-<span class="normal"><a href="#__codelineno-3-23">23</a></span>
-<span class="normal"><a href="#__codelineno-3-24">24</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2"></a>
-<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
-<a id="__codelineno-3-4" name="__codelineno-3-4"></a>
-<a id="__codelineno-3-5" name="__codelineno-3-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-3-6" name="__codelineno-3-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-3-7" name="__codelineno-3-7"></a>
-<a id="__codelineno-3-8" name="__codelineno-3-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
-<a id="__codelineno-3-9" name="__codelineno-3-9"></a><span class="p">}</span>
-<a id="__codelineno-3-10" name="__codelineno-3-10"></a>
-<a id="__codelineno-3-11" name="__codelineno-3-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
-<a id="__codelineno-3-12" name="__codelineno-3-12"></a>
-<a id="__codelineno-3-13" name="__codelineno-3-13"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-3-14" name="__codelineno-3-14"></a>
-<a id="__codelineno-3-15" name="__codelineno-3-15"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w"> </span><span class="c1">// (4)!</span>
-<a id="__codelineno-3-16" name="__codelineno-3-16"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">midl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
-<a id="__codelineno-3-17" name="__codelineno-3-17"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">midr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
-<a id="__codelineno-3-18" name="__codelineno-3-18"></a>
-<a id="__codelineno-3-19" name="__codelineno-3-19"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">midl</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">ask</span><span class="p">(</span><span class="n">midr</span><span class="p">))</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">midl</span><span class="p">;</span>
-<a id="__codelineno-3-20" name="__codelineno-3-20"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">midr</span><span class="p">;</span>
-<a id="__codelineno-3-21" name="__codelineno-3-21"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-3-22" name="__codelineno-3-22"></a>
-<a id="__codelineno-3-23" name="__codelineno-3-23"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!</span>
-<a id="__codelineno-3-24" name="__codelineno-3-24"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">ask</span><span class="p">(</span><span class="kt">double</span><span class="w"> </span><span class="n">x</span><span class="p">){</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Ask: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">res</span><span class="p">;</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="p">}</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="kt">double</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1e9</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">100</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">){</span><span class="w"> </span><span class="c1">// (4)!</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">midl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">midr</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">L</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">R</span><span class="p">)</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">3</span><span class="p">;</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">ask</span><span class="p">(</span><span class="n">midl</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">ask</span><span class="p">(</span><span class="n">midr</span><span class="p">))</span><span class="w"> </span><span class="n">L</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">midl</span><span class="p">;</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">        </span><span class="k">else</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">midr</span><span class="p">;</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">    </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">fixed</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">setprecision</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hads nahaei: &quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">R</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">endl</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="p">}</span>
+</code></pre></div>
 <ol>
 <li>
 <p>تابع 
-<code class="highlight"><span class="n">ask</span></code>
-در این جا نقش تابع <span class="arithmatex">\(f(x)\)</span> را برای ما ایفا میکند و میتواند به جای آن هر تابعی ای با خواص <span class="arithmatex">\(f(x)\)</span> باشد. همچنین میتواند خروجی <span class="arithmatex">\(f(x)\)</span> به جای عدد صحیح عدد اعشاری باشد که در الگوریتم ما اهمیتی ندارد.</p>
+   <code class="highlight"><span class="n">ask</span></code>
+   در این جا نقش تابع <span class="arithmatex">\(f(x)\)</span> را برای ما ایفا میکند و میتواند به جای آن هر تابعی ای با خواص <span class="arithmatex">\(f(x)\)</span> باشد. همچنین میتواند خروجی <span class="arithmatex">\(f(x)\)</span> به جای عدد صحیح عدد اعشاری باشد که در الگوریتم ما اهمیتی ندارد.</p>
 </li>
 <li>
 <p>مقادیر <span class="arithmatex">\(L\)</span> و <span class="arithmatex">\(R\)</span> را چیزی قرار میدهیم که میدانیم شرایط گفته شده برقرار اند</p>
@@ -1452,15 +1364,12 @@
 <h3 id="c">توابع ++C<a class="headerlink" href="#c" title="Permanent link">&para;</a></h3>
 <p>در ++C ما تابع
  <code class="highlight"><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">l</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">r</span><span class="p">,</span><span class="w"> </span><span class="n">x</span><span class="p">)</span></code> 
- را داریم که در یک آرایه سورت <span class="arithmatex">\(a\)</span> شده به ما پوینتر اولین خانه در یک بازه که بزرگتر مساوی یک عدد دلخواه است را به ما میدهد که قابل تبدیل به اندیس آن خانه و مقدار آن خانه است.</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
-<span class="normal"><a href="#__codelineno-4-2">2</a></span>
-<span class="normal"><a href="#__codelineno-4-3">3</a></span>
-<span class="normal"><a href="#__codelineno-4-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span>
-<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
-</code></pre></div></td></tr></table></div>
+ را داریم که در یک آرایه سورت شده <span class="arithmatex">\(a\)</span> به ما پوینتر اولین خانه در یک بازه که بزرگتر مساوی یک عدد دلخواه است را به ما میدهد که قابل تبدیل به اندیس آن خانه و مقدار آن خانه است.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
+</code></pre></div>
 <ol>
 <li>
 <p>پوینتر اولین خانه بزرگتر مساوی <span class="arithmatex">\(5\)</span> را در کل آرایه به ما میدهد (‌یعنی پوینتر خانه <span class="arithmatex">\(2\)</span> آرایه).</p>
@@ -1477,14 +1386,11 @@
  را داریم که مشابه 
 <code class="highlight"><span class="n">lower_bound</span></code>
 عمل میکند ولی به جای مقدار بزرگتر مساوی دنبال مقدار بزرگتر اکید میگردد و پیاده سازی آن نیز مشابه است.</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span>
-<span class="normal"><a href="#__codelineno-5-2">2</a></span>
-<span class="normal"><a href="#__codelineno-5-3">3</a></span>
-<span class="normal"><a href="#__codelineno-5-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span>
-<a id="__codelineno-5-2" name="__codelineno-5-2"></a><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-5-3" name="__codelineno-5-3"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">;</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
+</code></pre></div>
 <ol>
 <li>
 <p>پوینتر اولین خانه بزرگتر <span class="arithmatex">\(5\)</span> را در کل آرایه به ما میدهد (‌یعنی پوینتر خانه <span class="arithmatex">\(2\)</span> آرایه).</p>
@@ -1501,14 +1407,11 @@
  و 
 <code class="highlight"><span class="n">lower_bound</span></code>
   را روی وکتور استفاده کرد</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-6-1">1</a></span>
-<span class="normal"><a href="#__codelineno-6-2">2</a></span>
-<span class="normal"><a href="#__codelineno-6-3">3</a></span>
-<span class="normal"><a href="#__codelineno-6-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span>
-<a id="__codelineno-6-2" name="__codelineno-6-2"></a><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-6-3" name="__codelineno-6-3"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-6-4" name="__codelineno-6-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">7</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="kt">int</span><span class="w"> </span><span class="n">val</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">upper_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
+</code></pre></div>
 <ol>
 <li>
 <p>پوینتر اولین خانه بزرگتر <span class="arithmatex">\(5\)</span> را در کل آرایه به ما میدهد (‌یعنی پوینتر خانه <span class="arithmatex">\(2\)</span> آرایه).</p>
@@ -1533,43 +1436,37 @@
 <code class="highlight"><span class="n">cmp</span></code>
 را بدهیم بایستی آرایه را بر اساس تابع
 <code class="highlight"><span class="n">cmp</span></code>
-سورت شده باشد.</p>
+سورت شده باشد. </p>
 </div>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-7-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-7-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-7-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-7-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-7-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-7-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-7-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-7-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-7-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-7-10">10</a></span>
-<span class="normal"><a href="#__codelineno-7-11">11</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">cmp</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">){</span>
-<a id="__codelineno-7-2" name="__codelineno-7-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">y</span><span class="p">;</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-7-3" name="__codelineno-7-3"></a><span class="p">}</span>
-<a id="__codelineno-7-4" name="__codelineno-7-4"></a>
-<a id="__codelineno-7-5" name="__codelineno-7-5"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
-<a id="__codelineno-7-6" name="__codelineno-7-6"></a><span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-7-7" name="__codelineno-7-7"></a>
-<a id="__codelineno-7-8" name="__codelineno-7-8"></a><span class="w">    </span><span class="n">sort</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="n">cmp</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
-<a id="__codelineno-7-9" name="__codelineno-7-9"></a>
-<a id="__codelineno-7-10" name="__codelineno-7-10"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">cmp</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="c1">// (4)!</span>
-<a id="__codelineno-7-11" name="__codelineno-7-11"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+<div class="admonition warning">
+<p>می‌توانید به توابع <code class="highlight"><span class="n">upper_bound</span></code> و <code class="highlight"><span class="n">lower_bound</span></code> ورودی ای از جنسی به غیر از جنس آرایه هم بدهید! برای اینکار یا باید مقایسه‌ی این دو نوع تعریف شده باشد و یا تابع <code class="highlight"><span class="n">cmp</span></code> بین این دو نوع تعریف شود.<br />
+</p>
+</div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kt">bool</span><span class="w"> </span><span class="nf">cmp</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">y</span><span class="p">){</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">y</span><span class="p">;</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="p">}</span>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">13</span><span class="p">};</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a><span class="w">    </span><span class="n">sort</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="n">cmp</span><span class="p">);</span><span class="w"> </span><span class="c1">// (3)!</span>
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">idx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">lower_bound</span><span class="p">(</span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">(),</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">end</span><span class="p">(),</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w"> </span><span class="n">cmp</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">begin</span><span class="p">()</span><span class="w"> </span><span class="c1">// (4)!</span>
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a><span class="p">}</span>
+</code></pre></div>
 <ol>
 <li>
 <p>قرار است این تابع از بزرگ به کوچک اعداد وکتور را سورت کند.</p>
 </li>
 <li>
 <p>اعداد آرایه که در ابتدا طبق تابع 
-<code class="highlight"><span class="n">cmp</span></code>
-مرتب نشده اند.</p>
+   <code class="highlight"><span class="n">cmp</span></code>
+   مرتب نشده اند.</p>
 </li>
 <li>
 <p>اکنون اعداد آرایه به ترتیب مورد نظر سورت میشوند. بدین صورت که آرایه تبدیل به
-<code class="highlight"><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">}</span></code>
-میشود.</p>
+   <code class="highlight"><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="mi">13</span><span class="p">,</span><span class="w"> </span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">}</span></code>
+   میشود.</p>
 </li>
 <li>
 <p>حال اندیس اولین خانه کوچکتر مساوی <span class="arithmatex">\(5\)</span> را به دست می آوریم که برابر با <span class="arithmatex">\(5\)</span> میباشد.</p>

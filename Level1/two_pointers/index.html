@@ -452,34 +452,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../divide/" class="md-nav__link">
-        تقسیم و حل
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sort/" class="md-nav__link">
-        مرتب سازی
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../prefix_sum/" class="md-nav__link">
         پریفیکس سام
       </a>
@@ -496,6 +468,34 @@
     <li class="md-nav__item">
       <a href="../greedy/" class="md-nav__link">
         الگوریتم های حریصانه
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../divide/" class="md-nav__link">
+        تقسیم و حل
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sort/" class="md-nav__link">
+        مرتب سازی
       </a>
     </li>
   
@@ -973,25 +973,26 @@
 <h1 id="two-pointers">Two Pointers<a class="headerlink" href="#two-pointers" title="Permanent link">&para;</a></h1>
 <h2 id="_1">توضیحات<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <h3 id="two-pointers_1">Two Pointers<a class="headerlink" href="#two-pointers_1" title="Permanent link">&para;</a></h3>
-<p>در روش <strong>two pointers</strong> دو عدد نشانگر بر روی یک ارایه پیمایش داده میشوند.<br />
-هر دو نشانگر یکنواخت میباشند؛ یعنی هر نشانگر از یک جای ارایه شروع به حرکت میکند و یک جا به پایان میرسد و فقط در یک جهت حرکت میکند.</p>
+<p>در روش <strong>two pointers</strong> دو نشانگر بر روی یک آرایه پیمایش داده میشوند.<br />
+هر دو نشانگر یکنواخت میباشند؛ یعنی هر نشانگر از یک نقطه از آرایه شروع به حرکت میکند و یک نقطه به پایان میرسد و فقط در یک جهت حرکت میکند.</p>
 <h4 id="_2">مسئله<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h4>
 <p>یک ارایه <span class="arithmatex">\(a_{1}, a_{2}, \dots, a_{n}(1 \leq a_i \leq T)\)</span> به طول <span class="arithmatex">\(n(1 \leq n \leq 10^{6})\)</span> و یک عدد <span class="arithmatex">\(T\)</span> داریم، به ازای هر <span class="arithmatex">\(i\)</span> میخواهیم بیشینه <span class="arithmatex">\(j\)</span> ای را بیابیم به طوری که <span class="arithmatex">\(\sum_{k=i}^j a_k \leq T\)</span>.</p>
 <h4 id="_3">راه حل<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
 <p>فرض کنید <span class="arithmatex">\(f_i\)</span> بیشینه عددی باشد که <span class="arithmatex">\(\sum_{k=i}^{f_i} a_k \leq T\)</span> در این صورت ادعا میکنیم:</p>
 <div class="arithmatex">\[\forall \quad i &lt; j \Longrightarrow f_i \leq f_j \]</div>
 <details class="success">
-<summary>اثبات درستی</summary>
+<summary>اثبات</summary>
 <p>برهان خلف میزنیم:</p>
 <div class="arithmatex">\[ \exists \quad i &lt; j: f_i &gt; f_j \]</div>
 <div class="arithmatex">\[1) \sum_{k=j}^{f_j+1} a_k &gt; T \]</div>
 <div class="arithmatex">\[ 2) \sum_{k=i}^{j-1} a_k + \sum_{k=j}^{f_j+1} a_k + \sum_{k=f_j+2}^{f_i} a_k \leq T
-\xrightarrow{1 \leq a_m} \sum_{k=j}^{f_j+1} a_k \leq T \]</div>
-<p>که با توجه به نتایج بدست امده از نتیجه <span class="arithmatex">\(1\)</span> و نتیجه <span class="arithmatex">\(2\)</span> به تناقض رسیده.</p>
+\rightarrow \sum_{k=j}^{f_j+1} a_k \leq T \]</div>
+<p>که با توجه به نتایج بدست امده از نتیجه <span class="arithmatex">\(1\)</span> و نتیجه <span class="arithmatex">\(2\)</span> به تناقض رسیده.
+دقت کنید از آنجایی که اعداد آرایه مثبت بودند، هر کدام از سیگما‌ها هم نامنفی خواهند بود.</p>
 </details>
 <p>با توجه به ادعا گفته شده میتوان نتیجه گرفت:</p>
 <div class="arithmatex">\[ f_1 \leq f_2 \leq \dots \leq f_n \]</div>
-<p>حال کافیست یک نشانگر(pointer) داشته باشیم که روی ارایه پیمایش کند به نام <span class="arithmatex">\(ptri\)</span> و یک نشانگر دیگر به نام <span class="arithmatex">\(ptrj\)</span> به طوری که شرط 
+<p>حال کافیست یک نشانگر(pointer) داشته باشیم که روی آرایه پیمایش کند (<span class="arithmatex">\(ptri\)</span>) و یک نشانگر دیگر (<span class="arithmatex">\(ptrj\)</span>) به طوری که شرط 
 <span class="arithmatex">\(ptrj \leq f_{ptri}\)</span>
 همواره برقرار بماند.</p>
 <p>و به ازای هر مقدار 
@@ -1007,44 +1008,27 @@
 کاهش نمیابد.</p>
 </div>
 <h4 id="_4">کد<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
-<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
-<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
-<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
-<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
-<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
-<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
-<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
-<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
-<span class="normal"><a href="#__codelineno-0-10">10</a></span>
-<span class="normal"><a href="#__codelineno-0-11">11</a></span>
-<span class="normal"><a href="#__codelineno-0-12">12</a></span>
-<span class="normal"><a href="#__codelineno-0-13">13</a></span>
-<span class="normal"><a href="#__codelineno-0-14">14</a></span>
-<span class="normal"><a href="#__codelineno-0-15">15</a></span>
-<span class="normal"><a href="#__codelineno-0-16">16</a></span>
-<span class="normal"><a href="#__codelineno-0-17">17</a></span>
-<span class="normal"><a href="#__codelineno-0-18">18</a></span>
-<span class="normal"><a href="#__codelineno-0-19">19</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">T</span><span class="p">;</span><span class="w"> </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">T</span><span class="p">;</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">ptri</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">ptrj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">-1</span><span class="p">;</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// (1)!</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9"></a>
-<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">ptri</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">){</span>
-<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="w">        </span><span class="k">while</span><span class="p">(</span><span class="n">ptrj</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="mi">-1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">ptrj</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">T</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// (2)!</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="w">            </span><span class="n">ptrj</span><span class="o">++</span><span class="p">;</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="w">            </span><span class="n">sum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">ptrj</span><span class="p">];</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14"></a><span class="w">        </span><span class="p">}</span>
-<a id="__codelineno-0-15" name="__codelineno-0-15"></a><span class="w">        </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">ptrj</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">&#39; &#39;</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16"></a><span class="w">        </span><span class="k">if</span><span class="p">(</span><span class="n">ptri</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">ptrj</span><span class="p">)</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">ptri</span><span class="p">];</span><span class="w"> </span><span class="c1">// (4)!</span>
-<a id="__codelineno-0-17" name="__codelineno-0-17"></a><span class="w">        </span><span class="n">ptri</span><span class="o">++</span><span class="p">;</span>
-<a id="__codelineno-0-18" name="__codelineno-0-18"></a><span class="w">    </span><span class="p">}</span>
-<a id="__codelineno-0-19" name="__codelineno-0-19"></a><span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">(){</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">T</span><span class="p">;</span><span class="w"> </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">T</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">(</span><span class="n">n</span><span class="p">);</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="k">for</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">        </span><span class="n">cin</span><span class="w"> </span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">];</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">ptri</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">ptrj</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">-1</span><span class="p">;</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">    </span><span class="kt">long</span><span class="w"> </span><span class="kt">long</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="c1">// (1)!</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">    </span><span class="k">while</span><span class="p">(</span><span class="n">ptri</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">){</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">        </span><span class="k">while</span><span class="p">(</span><span class="n">ptrj</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="mi">-1</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">ptrj</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="n">T</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="c1">// (2)!</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">            </span><span class="n">ptrj</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">            </span><span class="n">sum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">ptrj</span><span class="p">];</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">        </span><span class="p">}</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">        </span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">ptrj</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="sc">&#39; &#39;</span><span class="p">;</span><span class="w"> </span><span class="c1">// (3)!</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">        </span><span class="n">sum</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="n">a</span><span class="p">[</span><span class="n">ptri</span><span class="p">];</span><span class="w"> </span><span class="c1">// (4)!</span>
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="n">ptri</span><span class="o">++</span><span class="p">;</span>
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="p">}</span>
+</code></pre></div>
 <ol>
 <li>
 <p><span class="arithmatex">\(sum = \sum_{k=ptri}^{ptrj} a_k\)</span></p>
@@ -1060,9 +1044,8 @@
 </li>
 </ol>
 <h4 id="_5">پیچیدگی زمانی<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
-<p>توجه کنید که با توجه به این که دو نشانگرمان همواره افزایش میابند و کمتر از 
-<span class="arithmatex">\(n\)</span> 
-هستند، و از انجایی که به ازای افزایش هر یک
+<p>با توجه به این که دو نشانگرمان همواره افزایش میابند و هیچگاه بیشتر از <span class="arithmatex">\(n\)</span> 
+نخواهند شد، و از انجایی که به ازای افزایش هر یک
 <span class="arithmatex">\(O(1)\)</span> 
 هزینه میکنیم، پس اردر کل‌مان برابر 
 <span class="arithmatex">\(O(n)\)</span>
@@ -1264,13 +1247,13 @@
       
       
         
-        <a href="../divide/" class="md-footer__link md-footer__link--next" aria-label="بعدی: تقسیم و حل" rel="next">
+        <a href="../prefix_sum/" class="md-footer__link md-footer__link--next" aria-label="بعدی: پریفیکس سام" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 بعدی
               </span>
-              تقسیم و حل
+              پریفیکس سام
             </div>
           </div>
           <div class="md-footer__button md-icon">

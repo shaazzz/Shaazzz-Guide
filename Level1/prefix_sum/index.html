@@ -348,34 +348,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../divide/" class="md-nav__link">
-        تقسیم و حل
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sort/" class="md-nav__link">
-        مرتب سازی
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -428,7 +400,7 @@
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    کد آنلاین
+    کد
   </a>
   
 </li>
@@ -483,6 +455,34 @@
     <li class="md-nav__item">
       <a href="../greedy/" class="md-nav__link">
         الگوریتم های حریصانه
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../divide/" class="md-nav__link">
+        تقسیم و حل
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sort/" class="md-nav__link">
+        مرتب سازی
       </a>
     </li>
   
@@ -891,7 +891,7 @@
         
           <li class="md-nav__item">
   <a href="#_4" class="md-nav__link">
-    کد آنلاین
+    کد
   </a>
   
 </li>
@@ -952,10 +952,10 @@
 فرض کنید یک آرایه <span class="arithmatex">\(A\)</span> به طول <span class="arithmatex">\(n\)</span> داریم.
 به شما <span class="arithmatex">\(q\)</span> کوئری از جنس یک بازه‌ی <span class="arithmatex">\([l, r]\)</span> می‌دهند و از شما جمع مقادیر <span class="arithmatex">\(a[l]\)</span>, <span class="arithmatex">\(a[l + 1]\)</span>, ..., <span class="arithmatex">\(a[r]\)</span> را می‌خواهند.</p>
 <p>میخواهیم راهی از <span class="arithmatex">\(O(n + q)\)</span> ارئه دهیم.</p>
-<p>در ابتدا آرایه‌ی <span class="arithmatex">\(ps[n + 1]\)</span> را می‌سازیم و تعریف <span class="arithmatex">\(ps[i]\)</span> را جمع <span class="arithmatex">\(i\)</span> عضو اول آرایه <span class="arithmatex">\(A\)</span> می‌کنیم. سپس با <span class="arithmatex">\(O(n)\)</span> 
-مقادیر آرایه <span class="arithmatex">\(ps\)</span> را حساب می‌کنیم.</p>
+<p>در ابتدا آرایه‌ی <span class="arithmatex">\(ps[n + 1]\)</span> را می‌سازیم و <span class="arithmatex">\(ps[i]\)</span> را برابر با جمع <span class="arithmatex">\(i\)</span> عضو اول آرایه <span class="arithmatex">\(A\)</span> قرار می‌دهیم. (مقادیر آرایه <span class="arithmatex">\(ps\)</span> از <span class="arithmatex">\(O(n)\)</span> 
+قابل محاسبه هستند)</p>
 <p>حال برای هر کوئری به شکل <span class="arithmatex">\([l, r]\)</span> جواب میشود <span class="arithmatex">\(ps[l - 1]\)</span> - <span class="arithmatex">\(ps[r]\)</span>.</p>
-<h3 id="_4">کد آنلاین<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<h3 id="_4">کد<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">A</span><span class="p">[</span><span class="n">N</span><span class="p">],</span><span class="w"> </span><span class="n">ps</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
 <a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
 <a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
@@ -977,6 +977,7 @@
 <a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="p">}</span>
 </code></pre></div>
 <h3 id="_5">کد آفلاین<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p>در روش قبلی می‌توانستیم بعد از دریافت هر کوئری، جواب آن را سریعا اعلام کنیم. در این روش جواب کوئری‌ها در لحظه محاسبه نمی‌شوند و در انتها جواب تمام کوئری ها داده خواهد شد. این روش در این مسئله‌ی خاص به نسبت روش آنلاین ضعیف تر است و حدودا مزیت خاصی ندارد اما ایده‌ی به کار رفته ممکن است در سوالات دیگری به کار آید.</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">A</span><span class="p">[</span><span class="n">N</span><span class="p">],</span><span class="w"> </span><span class="n">ans</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
 <a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">vc</span><span class="p">[</span><span class="n">N</span><span class="p">];</span>
 <a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
@@ -1005,18 +1006,21 @@
 <a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="p">}</span>
 </code></pre></div>
 <h3 id="_6">کاربرد ها<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<p>در بسیاری از مسائل کوئری دار شما نمی‌توانید به صورت آنلاین جواب های کوئری ها را حساب کنید.
-در این مسائل اگر کوئری ها روی بازه‌های یک دنباله باشند (میتواند دنباله‌ی اصلی خود سوال باشد یا دنباله کوئری ها باشد یا هر چیز دیگری) می‌توانید در ابتدا تمام کوئری ها را بررسی کنید و اطلاعات کوئری ها را روی بازه مورد نظر ثبت کنید و سپس با ترتیب مشخصی روی اعضای بازه فور بزنید و با شکستن هر بازه به دو بازه (در توضیحات اشاره شد) به راحتی جواب مساله خود را بدست آورید.</p>
+<p>در بسیاری از مسائل کوئری دار شما نمی‌توانید به صورت آنلاین جواب کوئری ها را حساب کنید.
+در این مسائل اگر کوئری ها روی بازه‌های یک دنباله باشند، می‌توانید در ابتدا تمام کوئری ها را بررسی کنید و اطلاعات کوئری ها را روی بازه مورد نظر ثبت کنید و سپس با ترتیب مشخصی روی اعضای بازه فور بزنید و با شکستن هر بازه به دو بازه (در توضیحات اشاره شد) به راحتی جواب مساله خود را بدست آورید.</p>
+<div class="admonition danger">
+<p class="admonition-title">سوال بسیار سخت!</p>
+<p>سوالی که در ادامه بررسی خواهد شد بسیار سخت است و اگر تازه با پریفیکس سام آشنا شده‌اید پیشنهاد می‌کنیم فعلا سوال را نخوانید. در غیر این صورت هم زمان زیادی بگذارید و سریعا قسمت راه حل را نخوانید!</p>
+</div>
 <p>به طور مثال سوال <a href="https://codeforces.com/problemset/problem/226/E">Noble Knight's Path</a> سایت CodeForces را در نظر بگیرید.</p>
 <details class="success">
 <summary>ایده کلی راه حل</summary>
-<p>برای حل این سوال می‌توان کوئری ها را به شکل یک بازه دید و به طور مثال برای کوئری <span class="arithmatex">\(i\)</span>ام باید تمام راس هایی را که بین بازه <span class="arithmatex">\([y[i], i]\)</span> هستند را ایگنور کرد از درخت و در بین بقیه راس ها راس <span class="arithmatex">\(k\)</span>ام در مسیر را پیدا کرد. بعد از دیدن این کوئری در وکتور دو اندیس <span class="arithmatex">\(i\)</span> و <span class="arithmatex">\(j\)</span> اطلاعات این کوئری را اد میکنیم. حالا بار دیگر روی تمام کوئری ها فور میزنیم (در واقع روی اعضای دنباله فور میزنیم) و به هر اندیس که رسیدیم میتوانیم مشاهده کنیم از ابتدا تا این اندیس چند راس بین مسیر جفت راس های در وکتور این اندیس را ایگنور کرده‌ایم. یعنی در واقع برای هر کوئری مانند <span class="arithmatex">\(i\)</span> توانستیم یک بار راس <span class="arithmatex">\(k\)</span>ام را با ایگنور کردن بازه <span class="arithmatex">\([0, y[i] - 1]\)</span> حساب کنیم و بار دیگر راس <span class="arithmatex">\(k\)</span>ام را با ایگنور کردن بازه <span class="arithmatex">\([0, i]\)</span> حساب کنیم.
-حالا با این دو دیتا میتوانیم جواب مساله را برای کوئری <span class="arithmatex">\(i\)</span>ام حساب کنیم(ایگنور کردن راس های بازه <span class="arithmatex">\([y[i], i]\)</span>). (چگونه؟) </p>
+<p>برای حل این سوال می‌توان کوئری ها را به شکل یک بازه دید و به طور مثال برای کوئری <span class="arithmatex">\(i\)</span>ام باید تمام راس هایی را که بین بازه <span class="arithmatex">\([y[i], i]\)</span> هستند را ایگنور کرد از درخت و در بین بقیه راس ها راس <span class="arithmatex">\(k\)</span>ام در مسیر را پیدا کرد. بعد از دیدن این کوئری در وکتور دو اندیس <span class="arithmatex">\(i\)</span> و <span class="arithmatex">\(j\)</span> اطلاعات این کوئری را اد میکنیم. حالا بار دیگر روی تمام کوئری ها فور میزنیم (در واقع روی اعضای دنباله فور میزنیم) و به هر اندیس که رسیدیم میتوانیم مشاهده کنیم از ابتدا تا این اندیس چند راس بین مسیر جفت راس های در وکتور این اندیس را ایگنور کرده‌ایم. یعنی در واقع برای هر کوئری مانند <span class="arithmatex">\(i\)</span> توانستیم یک بار راس <span class="arithmatex">\(k\)</span>ام را با ایگنور کردن بازه <span class="arithmatex">\([0, y[i] - 1]\)</span> حساب کنیم و بار دیگر راس <span class="arithmatex">\(k\)</span>ام را با ایگنور کردن بازه <span class="arithmatex">\([0, i]\)</span> حساب کنیم.</p>
+<p>حالا با این دو دیتا میتوانیم جواب مساله را برای کوئری <span class="arithmatex">\(i\)</span>ام حساب کنیم(ایگنور کردن راس های بازه <span class="arithmatex">\([y[i], i]\)</span>). (چگونه؟)</p>
 </details>
 <h3 id="_7">مطالعه بیشتر<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <p><a href="https://www.geeksforgeeks.org/what-are-online-and-offline-query-based-questions-in-competitive-programming/">آنلاین و آفلاین جواب دادن کوئری یعنی چی؟</a></p>
 <p><a href="https://en.cppreference.com/w/cpp/algorithm/partial_sum">تابع سی پلاس پلاس برای پریفیکس سام</a></p>
-<p><a href="https://en.cppreference.com/w/cpp/container/vector">وکتور در سی پلاس پلاس</a></p>
 <h2 id="_8">سوال ها<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <details class="warning">
 <summary>نیاز به عضویت در گروه شاززز!</summary>
@@ -1163,7 +1167,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" hidden>
       
         
-        <a href="../sort/" class="md-footer__link md-footer__link--prev" aria-label="قبلی: مرتب سازی" rel="prev">
+        <a href="../two_pointers/" class="md-footer__link md-footer__link--prev" aria-label="قبلی: Two Pointers" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1172,7 +1176,7 @@
               <span class="md-footer__direction">
                 قبلی
               </span>
-              مرتب سازی
+              Two Pointers
             </div>
           </div>
         </a>

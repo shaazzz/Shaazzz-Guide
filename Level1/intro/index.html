@@ -418,34 +418,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../divide/" class="md-nav__link">
-        تقسیم و حل
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sort/" class="md-nav__link">
-        مرتب سازی
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../prefix_sum/" class="md-nav__link">
         پریفیکس سام
       </a>
@@ -462,6 +434,34 @@
     <li class="md-nav__item">
       <a href="../greedy/" class="md-nav__link">
         الگوریتم های حریصانه
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../divide/" class="md-nav__link">
+        تقسیم و حل
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sort/" class="md-nav__link">
+        مرتب سازی
       </a>
     </li>
   
@@ -938,7 +938,7 @@
 و
 <span class="arithmatex">\(g(n) = 5n^3 + 10n^2 - 3n + 7\)</span></p>
 <p>داریم
-<span class="arithmatex">\(f \in O(g)\)</span>
+<span class="arithmatex">\(g \in O(f)\)</span>
 زیرا می توان
 <span class="arithmatex">\(n_0\)</span> را
 <span class="arithmatex">\(100\)</span>
@@ -949,7 +949,7 @@
 <p>این تابع نیز حکم کران پایین برای توابع ما را دارد، و به نوعی برعکس تابع اردر است، بنابراین به توضیح دقیق ریاضی آن اکتفا می کنیم و از توضیحات اضافه خودداری می کنیم.</p>
 <div class="arithmatex">\[f \in \Omega(g) \iff \exists n_0, c&gt;0[\forall n &gt; n_0[f(n) &gt; cg(n)]]\]</div>
 <h4 id="theta">تحلیل زمان با <span class="arithmatex">\(\theta\)</span><a class="headerlink" href="#theta" title="Permanent link">&para;</a></h4>
-<p>ما در این تابع قصد داریم توابعی که رشد یکسانی دارند را دسته بندی کنیم، و به نوعی تقریبی دقیق تر برای آن ارائه دهیم. عملاً اگر <span class="arithmatex">\(O\)</span> را <span class="arithmatex">\(\leq\)</span> و <span class="arithmatex">\(\Omega\)</span> را <span class="arithmatex">\(beq\)</span> بگیریم، <span class="arithmatex">\(\Theta\)</span> حکم <span class="arithmatex">\(=\)</span> را دارد. عملاً داریم</p>
+<p>ما در این تابع قصد داریم توابعی که رشد یکسانی دارند را دسته بندی کنیم، و به نوعی تقریبی دقیق تر برای آن ارائه دهیم. عملاً اگر <span class="arithmatex">\(O\)</span> را <span class="arithmatex">\(\leq\)</span> و <span class="arithmatex">\(\Omega\)</span> را <span class="arithmatex">\(\geq\)</span> بگیریم، <span class="arithmatex">\(\Theta\)</span> حکم <span class="arithmatex">\(=\)</span> را دارد. عملاً داریم</p>
 <div class="arithmatex">\[f \in \Theta(g) \iff f \in O(g) \&amp; f \in \Omega(g)\]</div>
 <p>دقت کنید به عنوان مثال
 <span class="arithmatex">\(3n \in O(n^2)\)</span>
@@ -960,7 +960,7 @@
 و
 <span class="arithmatex">\(7n^3 \notin \Theta(n^2)\)</span></p>
 <p>در حالی که
-<span class="arithmatex">\(5n^3 + 3n + lg(n) \in \Theta(n^2)\)</span>.</p>
+<span class="arithmatex">\(5n^2 + 3n + lg(n) \in \Theta(n^2)\)</span>.</p>
 <div class="admonition danger">
 <p class="admonition-title">قضایای مهم</p>
 <p>قضایای زیر از قضایای مهم تحلیل اردر هستند که اثبات آنها را به شما واگذار می کنیم.</p>
