@@ -1020,15 +1020,22 @@
 <p>یکی از تمرین های مفید برای بهبود مهارت پیاده سازی، حل سوالات ساده سایت <a href="https://codeforces.com/">Codeforces</a>  و <a href="https://quera.org/">کوئرا</a> است، با ورود به این سایت ها و مرتب کردن سوالات بر حسب تعداد حل آنها، می‌توانید ساده ترین سوالات این ۲ سایت را حل کنید.</p>
 <h3 id="_8">ورودی و خروجی سریع تر<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
 <p>خواندن ورودی و نوشتن خروجی، در حالت عادی زمان زیادی را به خود می‌گیرد و اگر ورودی یا خروجی سوالات بزرگ باشند، می‌تواند دردسر ساز باشد. با استفاده از کد زیر، می‌توانید ورودی و خروجی گرفتن را در برنامه خود سریع تر کنید(<a href="https://codeforces.com/blog/entry/90775">مطالعه بیشتر</a>)</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1">// ...</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="n">ios_base</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="w">    </span><span class="c1">// ...</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="p">}</span>
-</code></pre></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span>
+<span class="normal"><a href="#__codelineno-0-7">7</a></span>
+<span class="normal"><a href="#__codelineno-0-8">8</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="c1">// ...</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="w">    </span><span class="n">ios_base</span><span class="o">::</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span class="w">    </span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="w">    </span><span class="c1">// ...</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
 <h3 id="bignum">ذخیره اعداد بزرگ(‌BigNum)<a class="headerlink" href="#bignum" title="Permanent link">&para;</a></h3>
 <p>هیچ متغیری در سی پلاس پلاس، توانایی ذخیره اعداد بزرگتر از <span class="arithmatex">\(2^{64}\)</span> را ندارد. همچنین برخلاف زبان های برنامه نویسی همچون Java، هیچ کتابخانه ای در سی پلاس پلاس به این موضوع اختصاص داده نشده، اما در برخی از سوالات، به ذخیره و کار با چنین اعدادی نیاز می‌شود. توصیه می‌شود به عنوان تمرین پیاده سازی، داده ساختاری بسازید که بتواند اعداد به هر سایزی را در خود نگه دارد، بتواند روی آن‌ها عملیات های ساده ریاضی انجام دهد و همچنین بتواند ۲ عدد را مقایسه کند(می‌توانید کد خود را روی <a href="https://codeforces.com/problemsets/acmsguru/problem/99999/112">این سوال</a> امتحان کنید) همچنین در سایر سوالات(بجز سوالات این بخش) در صورت نیاز، میتوانید از <a href="https://gist.github.com/ar-pa/957297fb3f88996ead11">این کد</a> استفاده کنید.</p>
 <div class="admonition warning">

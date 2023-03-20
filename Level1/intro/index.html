@@ -906,11 +906,14 @@
 <p>در این بخش ما قصد داریم ابزار های مهمی رو برای تحلیل زمان اجرای برنامه مان ارائه بدهیم که در تمام مدت دوران برنامه نویسی نیاز خواهند شد. داشتن فهم عمیق از این مباحث ضروری است زیرا تمامی این مباحث در آینده از بخش های جدایی ناپذیر دروس خواهند بود.</p>
 <h3 id="_2">زمان اجرا<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
 <p>می توان برای هر برنامه تابعی به صورت<span class="arithmatex">\(T\)</span> ارائه داد که بیانگر تعداد عملیات های برنامه مان باشد بر حسب ورودی های داده شده باشد. به عنوان مثال، در مورد کد زیر</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="n">sum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="p">}</span>
-</code></pre></div>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="kt">int</span><span class="w"> </span><span class="n">sum</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="w">    </span><span class="n">sum</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
 <p>می توان گفت
 <span class="arithmatex">\(T(n)=3n+3\)</span>
 به این شکل به عنوان مثال یک تعریف <span class="arithmatex">\(sum\)</span>، یک تعریف <span class="arithmatex">\(i\)</span>، 
