@@ -415,7 +415,7 @@ void Quick_Sort(int *a, int l, int r){ // (1)!
 در قدم اول، آرایه ای به سایز $k$ تعریف می کنیم که انجام این عمل از $O(k)$ است. سپس در مراحل بعد یک پیمایش روی آرایه داریم که در هر گام عملی از $O(1)$ انجام می دهیم، و در آخر روی تمام $k$تا `vector` فور می زنیم و روی هر کدام پیمایشی از اردر اندازه اش انجام می دهیم، لذا چون مجموع تعداد اعضای اینها $n$ است (هر اندیس آرایه در دقیقاً یکی از وکتورها است) این هم از $O(n+k)$ است. لذا پیچیدگی زمانی در نهایت از $O(n+k)$ است.
  
 #### کد
-``` cpp
+``` cpp linenums="1"
 
 void bucket_sort(int arr[], int n, int k) { // (1)!
 	vector<int> buckets[k + 1];	
@@ -476,7 +476,7 @@ void bucket_sort(int arr[], int n, int k) { // (1)!
 
 #### کد
 
-``` cpp
+``` cpp linenums="1"
 
 void bucket_sort(vector<int> arr[], int n, int k, int x) { // (1)!
 	vector<int> buckets[k + 1];
