@@ -30,16 +30,6 @@
             "blog_title": "Two Pointers"
         },
 
-        "prefix_sum": {
-            "path": "prefix_sum.md",
-            "blog_title":"پریفیکس سام"
-        },
-
-        "greedy": {
-            "path": "greedy.md",
-            "blog_title": "الگوریتم های حریصانه"
-        },
-
         "divide": {
             "path": "divide.md",
             "blog_title": "تقسیم و حل"
@@ -48,6 +38,16 @@
         "sort": {
             "path": "sort.md",
             "blog_title": "مرتب سازی"
+        },
+
+        "prefix_sum": {
+            "path": "prefix_sum.md",
+            "blog_title":"پریفیکس سام"
+        },
+
+        "greedy": {
+            "path": "greedy.md",
+            "blog_title": "الگوریتم های حریصانه"
         }
     },
 
@@ -56,5 +56,6 @@
     "Level4": {},
     "Level5": {},
     "Level6": {},
-    "Level7": {}
+    "Level7": {},
+    "Level8": {}
 }

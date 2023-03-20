@@ -15,7 +15,7 @@ def create_nav():
     for level, level_tags in tags.items():
         nav_yml += indent(1, "- سطح " + persian_digits[ind] + ":")
         if len(level_tags.keys()) == 0:
-            nav_yml += indent(2, "- Coming soon...: coming_soon.md")
+            nav_yml += indent(2, "- به زودی...: coming_soon.md")
         else:
             for tag in level_tags.values():
                 nav_yml += indent(2, "- " + tag["blog_title"] + ": " + level + "/" + tag["path"])
