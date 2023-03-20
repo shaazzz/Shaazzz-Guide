@@ -89,7 +89,7 @@ $O(log(R - L))$
 
 در این جا کدی مربوط به سوالی که حل کردیم را مشاهده میکنیم.
 
-```cpp
+```cpp linenums="1"
 int ask(int x){ // (1)!
 
     cout << "Ask: " << x << endl;
@@ -140,7 +140,7 @@ $\lceil log((R - L) * 10^{6}) \rceil$
 
 - روش اول:
 
-```cpp
+```cpp linenums="1"
 int ask(double x){
 
     cout << fixed << setprecision(6) << "Ask: " << x << endl; // (1)!
@@ -176,7 +176,7 @@ int main(){
 
 روش دوم:
 
-```cpp
+```cpp linenums="1"
 int ask(double x){
 
     cout << fixed << setprecision(6) << "Ask: " << x << endl;
@@ -244,8 +244,6 @@ $y \leq k \leq z$
        - اگر $b < y$ باشد، آنگاه $f(a) > f(b)$ است.
        - اگر $y \leq a$ و $b \leq z$ باشد، آنگاه $f(a) = f(b)$ است.
        - اگر $z \leq a$ باشد، آنگاه $f(a) < f(b)$ است.
-    
-    
 
 باز فرض میکنیم با $6$ رقم اعشار جواب را میخواهیم محاسبه کنیم. یک روش این است که همان روش حالت گسسته مسئله را اجرا کنیم و مقدار $g(x)$ به جای اینکه به $f(x)$ و $f(x+1)$ وابسته باشد به $f(x)$ و $f(x+0.000001)$ باشد‌ (زیرا میخواهیم با این دقت جواب را محاسبه کنیم). پس باز با باینری سرچ مسئله را حل کنیم. در این وضعیت دوباره ممکن است به همان مشکل خطای محاسبه اعداد اعشاری در ++C برخورده میکنیم.
 
@@ -271,7 +269,8 @@ $midl = \frac{2 * L + R}{3}$ و $midr = \frac{L + 2 * R}{3}$ باشد.
 
 ### کد
 
-```cpp
+```cpp linenums="1"
+
 int ask(double x){ // (1)!
 
     cout << fixed << setprecision(6) << "Ask: " << x << endl;
@@ -314,7 +313,8 @@ int main(){
  `#!cpp lower_bound(a + l, a + r, x)` 
  را داریم که در یک آرایه سورت شده $a$ به ما پوینتر اولین خانه در یک بازه که بزرگتر مساوی یک عدد دلخواه است را به ما میدهد که قابل تبدیل به اندیس آن خانه و مقدار آن خانه است.
 
-```cpp
+```cpp linenums="1"
+
 int a[7] = {2, 3, 7, 7, 9, 10, 13};
 int *x = lower_bound(a, a + 7, 5); // (1)!
 int idx = lower_bound(a + 2, a + 7, 7) - a; // (2)!
@@ -333,7 +333,8 @@ int val = *lower_bound(a + 4, a + 6, 10); // (3)!
 `#!cpp lower_bound`
 عمل میکند ولی به جای مقدار بزرگتر مساوی دنبال مقدار بزرگتر اکید میگردد و پیاده سازی آن نیز مشابه است.
 
-```cpp
+```cpp linenums="1"
+
 int a[7] = {2, 3, 7, 7, 9, 10, 13};
 int *x = upper_bound(a, a + 7, 5); // (1)!
 int idx = upper_bound(a + 2, a + 7, 7) - a; // (2)!
@@ -352,7 +353,8 @@ int val = *upper_bound(a + 2, a + 6, 9); // (3)!
 `#!cpp lower_bound`
   را روی وکتور استفاده کرد
 
-```cpp
+```cpp linenums="1"
+
 vector<int> a = {2, 3, 7, 7, 9, 10, 13};
 vector<int> *x = upper_bound(a.begin(), a.end(), 5); // (1)!
 int idx = lower_bound(a.begin() + 2, a.end(), 7) - a.begin(); // (2)!
@@ -385,7 +387,8 @@ int val = *upper_bound(a.begin() + 2, a.begin() + 6, 9); // (3)!
     می‌توانید به توابع `#!cpp upper_bound` و `#!cpp lower_bound` ورودی ای از جنسی به غیر از جنس آرایه هم بدهید! برای اینکار یا باید مقایسه‌ی این دو نوع تعریف شده باشد و یا تابع `#!cpp cmp` بین این دو نوع تعریف شود.  
      
 
-```cpp
+```cpp linenums="1"
+
 bool cmp(int x, int y){
     return x > y; // (1)!
 }
@@ -416,6 +419,8 @@ int main(){
 ### منابع بیشتر
 
 - [Binary search](https://cp-algorithms.com/num_methods/binary_search.html)
+
+- [Lower bound](https://cplusplus.com/reference/algorithm/lower_bound/)
 
 - [Ternary Search](https://cp-algorithms.com/num_methods/ternary_search.html)
 

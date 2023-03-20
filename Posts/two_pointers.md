@@ -49,7 +49,8 @@ $ptrj$
 
 #### کد
 
-```cpp
+```cpp linenums="1"
+
 int main(){
     int n; cin >> n;
     long long T; cin >> T;
