@@ -38,7 +38,16 @@ function update_problemset_table(user_status) {
     }
 }
 
+function clear() {
+    problems_table = get_problems_table();
+    for (var row of problems_table.rows) {
+        row.classList.remove("solved-row");
+    }
+}
+
 function cf_status_checker() {
+    clear();
+    
     const cf_handel = document.forms["cf-handel-form"]["cf-handel"].value;
     const api_url = "https://codeforces.com/api/user.status?handle=" + cf_handel;
 
