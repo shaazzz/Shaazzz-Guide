@@ -29,7 +29,7 @@ def judge_div(judge):
 def tag_link(tag):
     if not tag in tags_list.keys():
         return tag
-    return markdown_href(tags_list[tag]["blog_title"], Path("/Shaazzz-Guide/" + tags_list[tag]["site_path"]).with_suffix(""))
+    return markdown_href(tags_list[tag]["blog_title"], Path("/" + tags_list[tag]["site_path"]).with_suffix(""))
 
 def tag_spoiler(tags):
     return "<details> <summary>Spoiler</summary> <ul>" + \
@@ -84,6 +84,10 @@ def generate_markdown(blog_path, blog_name, description, problems):
             if description:
                 markdown_file.write("## سوال ها \n")
             markdown_file.write(create_admonitions(problems))
+
+            with open("./Blog/docs/cf-handel.html", "r") as file:
+                markdown_file.write("".join(file.readlines()))
+
             markdown_file.write("| سوال | سختی | تگ ها | جاج | \n")
             markdown_file.write("| :-----: | :----: | :----: | :----: | \n")
             for problem in problems:

@@ -1,6 +1,6 @@
 # Project information
 site_name: شاززز گاید
-site_url: https://shaazzz.github.io/Shaazzz-Guide/
+site_url: https://guide.shaazzz.ir
 site_author: Shaazzz
 site_description: شاززز گاید
 
@@ -24,7 +24,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
-    - navigation.instant
+    # - navigation.instant
 
   palette:
     - scheme: default
@@ -68,6 +68,7 @@ extra_css:
 
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/cf-status.js
   - javascripts/mathjax/polyfill.min.js
   - javascripts/mathjax/tex-mml-chtml.js
 
