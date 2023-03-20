@@ -36,8 +36,8 @@ cf,Flight for Regular Customers,https://codeforces.com/contest/576/problem/D,Mat
 gym,Long Grid Covering,https://codeforces.com/gym/103098/problem/L,Matrix,2100
 cf,Axel and Marston in Bitland,https://codeforces.com/contest/780/problem/F,Matrix,2400
 shaazzz,لبوی خسته,https://quera.org/course/assignments/48772/problems,Matrix,2400
-sgu,Inversions,https://codeforces.com/problemsets/acmsguru/problem/99999/180,Divide | fenwick,1600
-cf,Enemy Is Weak,https://codeforces.com/problemset/problem/61/E,Divide | fenwick,1900
+sgu,Inversions,https://codeforces.com/problemsets/acmsguru/problem/99999/180,Divide | fenwick | sort,1600
+cf,Enemy Is Weak,https://codeforces.com/problemset/problem/61/E,Divide | fenwick | sort,1900
 cf,Subsequence,https://codeforces.com/contest/1580/problem/D,Divide,2900
 cf,Closest Point Pair,https://www.spoj.com/problems/CLOPPAIR/,Divide,3000
 cf,Swap and Maximum Block,https://codeforces.com/contest/1716/problem/E,Divide,2300
@@ -156,7 +156,7 @@ shaazzz,الگویابی,https://quera.org/course/assignments/48772/problems/166
 shaazzz,اول‌دایره,https://quera.org/course/assignments/48772/problems/166211,recursive,1000
 shaazzz,شتر,https://quera.org/course/assignments/48772/problems/166212,recursive,1000
 projecteuler,1000-digit Fibonacci number,https://projecteuler.net/problem=25,recursive | implementation,1000
-cf,Keep Xor Low,https://codeforces.com/problemset/problem/1616/H,bitmask | recursive | divide,2900
+cf,Keep Xor Low,https://codeforces.com/problemset/problem/1616/H,divide,2900
 leetcode,Combinations,https://leetcode.com/problems/combinations/,recursive | combinatorics,1000
 leetcode,Permutations,https://leetcode.com/problems/permutations/,recursive,900
 leetcode,Generate Parentheses,https://leetcode.com/problems/generate-parentheses/,recursive,900
@@ -240,7 +240,7 @@ cf,Great Sequence,https://codeforces.com/contest/1641/problem/A,greedy,1200
 cf,Candy Shop,https://codeforces.com/problemset/problem/183/E,greedy,2900
 cf,Outermost Maximums,https://codeforces.com/problemset/problem/1693/E,greedy,3400
 cf,Coins,https://atcoder.jp/contests/agc018/tasks/agc018_c,greedy,2400
-cf,minimix,https://codeforces.com/contest/1530/problem/E,greedy,2100
+cf,Minimax,https://codeforces.com/contest/1530/problem/E,greedy,2100
 cf,The Human Equation,https://codeforces.com/problemset/problem/1775/E,greedy,2100
 cf,DeadLee,https://codeforces.com/contest/1369/problem/E,greedy,2400
 cf,Pokémon Army (hard version),https://codeforces.com/contest/1420/problem/C2,greedy | dp | segment,2100

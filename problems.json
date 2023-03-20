@@ -341,7 +341,8 @@
             "url": "https://codeforces.com/problemsets/acmsguru/problem/99999/180",
             "tags": [
                 "divide",
-                "fenwick"
+                "fenwick",
+                "sort"
             ],
             "difficulty": "1600"
         },
@@ -351,7 +352,8 @@
             "url": "https://codeforces.com/problemset/problem/61/E",
             "tags": [
                 "divide",
-                "fenwick"
+                "fenwick",
+                "sort"
             ],
             "difficulty": "1900"
         },
@@ -1437,8 +1439,6 @@
             "name": "Keep Xor Low",
             "url": "https://codeforces.com/problemset/problem/1616/H",
             "tags": [
-                "bitmask",
-                "recursive",
                 "divide"
             ],
             "difficulty": "2900"
@@ -2207,7 +2207,7 @@
         },
         {
             "judge": "cf",
-            "name": "minimix",
+            "name": "Minimax",
             "url": "https://codeforces.com/contest/1530/problem/E",
             "tags": [
                 "greedy"
