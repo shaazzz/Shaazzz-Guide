@@ -126,10 +126,10 @@ nav:
     - عملیات های بیتی: Level1/bitmask.md
     - باینری سرچ: Level1/binary_search.md
     - Two Pointers: Level1/two_pointers.md
-    - پریفیکس سام: Level1/prefix_sum.md
-    - الگوریتم های حریصانه: Level1/greedy.md
     - تقسیم و حل: Level1/divide.md
     - مرتب سازی: Level1/sort.md
+    - پریفیکس سام: Level1/prefix_sum.md
+    - الگوریتم های حریصانه: Level1/greedy.md
   - سطح ۲:
     - به زودی...: coming_soon.md
   - سطح ۳:
