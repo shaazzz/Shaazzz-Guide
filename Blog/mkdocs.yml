@@ -24,7 +24,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
-    - navigation.instant
+    # - navigation.instant
 
   palette:
     - scheme: default
