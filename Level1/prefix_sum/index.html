@@ -1051,16 +1051,6 @@
 <h3 id="_6">کاربرد ها<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <p>در بسیاری از مسائل کوئری دار شما نمی‌توانید به صورت آنلاین جواب کوئری ها را حساب کنید.
 در این مسائل اگر کوئری ها روی بازه‌های یک دنباله باشند، می‌توانید در ابتدا تمام کوئری ها را بررسی کنید و اطلاعات کوئری ها را روی بازه مورد نظر ثبت کنید و سپس با ترتیب مشخصی روی اعضای بازه فور بزنید و با شکستن هر بازه به دو بازه (در توضیحات اشاره شد) به راحتی جواب مساله خود را بدست آورید.</p>
-<div class="admonition danger">
-<p class="admonition-title">سوال بسیار سخت!</p>
-<p>سوالی که در ادامه بررسی خواهد شد بسیار سخت است و اگر تازه با پریفیکس سام آشنا شده‌اید پیشنهاد می‌کنیم فعلا سوال را نخوانید. در غیر این صورت هم زمان زیادی بگذارید و سریعا قسمت راه حل را نخوانید!</p>
-</div>
-<p>به طور مثال سوال <a href="https://codeforces.com/problemset/problem/226/E">Noble Knight's Path</a> سایت CodeForces را در نظر بگیرید.</p>
-<details class="success">
-<summary>ایده کلی راه حل</summary>
-<p>برای حل این سوال می‌توان کوئری ها را به شکل یک بازه دید و به طور مثال برای کوئری <span class="arithmatex">\(i\)</span>ام باید تمام راس هایی را که بین بازه <span class="arithmatex">\([y[i], i]\)</span> هستند را ایگنور کرد از درخت و در بین بقیه راس ها راس <span class="arithmatex">\(k\)</span>ام در مسیر را پیدا کرد. بعد از دیدن این کوئری در وکتور دو اندیس <span class="arithmatex">\(i\)</span> و <span class="arithmatex">\(j\)</span> اطلاعات این کوئری را اد میکنیم. حالا بار دیگر روی تمام کوئری ها فور میزنیم (در واقع روی اعضای دنباله فور میزنیم) و به هر اندیس که رسیدیم میتوانیم مشاهده کنیم از ابتدا تا این اندیس چند راس بین مسیر جفت راس های در وکتور این اندیس را ایگنور کرده‌ایم. یعنی در واقع برای هر کوئری مانند <span class="arithmatex">\(i\)</span> توانستیم یک بار راس <span class="arithmatex">\(k\)</span>ام را با ایگنور کردن بازه <span class="arithmatex">\([0, y[i] - 1]\)</span> حساب کنیم و بار دیگر راس <span class="arithmatex">\(k\)</span>ام را با ایگنور کردن بازه <span class="arithmatex">\([0, i]\)</span> حساب کنیم.</p>
-<p>حالا با این دو دیتا میتوانیم جواب مساله را برای کوئری <span class="arithmatex">\(i\)</span>ام حساب کنیم(ایگنور کردن راس های بازه <span class="arithmatex">\([y[i], i]\)</span>). (چگونه؟)</p>
-</details>
 <h3 id="_7">مطالعه بیشتر<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <p><a href="https://www.geeksforgeeks.org/what-are-online-and-offline-query-based-questions-in-competitive-programming/">آنلاین و آفلاین جواب دادن کوئری یعنی چی؟</a></p>
 <p><a href="https://en.cppreference.com/w/cpp/algorithm/partial_sum">تابع سی پلاس پلاس برای پریفیکس سام</a></p>
