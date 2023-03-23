@@ -133,9 +133,9 @@ $\lceil log((R - L) * 10^{6}) \rceil$
 - روش اول:
 
 ```cpp linenums="1"
-int ask(double x){
+int ask(double x) {
 
-    cout << fixed << setprecision(6) << "Ask: " << x << endl; // (1)!
+    cout << "Ask: " << x << endl;
 
     int res;
     cin >> res;
@@ -143,7 +143,8 @@ int ask(double x){
     return res;
 }
 
-int main(){
+int main() {
+    cout << fixed << setprecision(6); // (1)!
 
     double L = 0, R = 1e9;
     double eps = 0.000001; // (2)!
@@ -154,11 +155,11 @@ int main(){
         else R = mid;
     }
 
-    cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl;
+    cout << "Hads nahaei: " << R << endl;
 }
 ```
 
-1. به این شیوه عدد $x$ را با $6$ رقم اعشار خروجی میدهیم.
+1. به این شیوه اعداد اعشاری را با $6$ رقم اعشار خروجی میدهیم.
 
 2. دقت اعشاری که قرار است خروجی بدهیم.
 
@@ -169,9 +170,9 @@ int main(){
 روش دوم:
 
 ```cpp linenums="1"
-int ask(double x){
+int ask(double x) {
 
-    cout << fixed << setprecision(6) << "Ask: " << x << endl;
+    cout << "Ask: " << x << endl;
 
     int res;
     cin >> res;
@@ -179,7 +180,8 @@ int ask(double x){
     return res;
 }
 
-int main(){
+int main() {
+    cout << fixed << setprecision(6);
 
     double L = 0, R = 1e9;
 
@@ -189,7 +191,7 @@ int main(){
         else R = mid;
     }
 
-    cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl;
+    cout << "Hads nahaei: " << R << endl;
 }
 ```
 
@@ -263,9 +265,9 @@ $midl = \frac{2 * L + R}{3}$ و $midr = \frac{L + 2 * R}{3}$ باشد.
 
 ```cpp linenums="1"
 
-int ask(double x){ // (1)!
+int ask(double x) { // (1)!
 
-    cout << fixed << setprecision(6) << "Ask: " << x << endl;
+    cout << "Ask: " << x << endl;
 
     int res;
     cin >> res;
@@ -273,7 +275,8 @@ int ask(double x){ // (1)!
     return res;
 }
 
-int main(){
+int main() {
+    cout << fixed << setprecision(6);
 
     double L = 0, R = 1e9; // (2)!
 
@@ -285,7 +288,7 @@ int main(){
         else R = midr;
     }
 
-    cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl; // (3)!
+    cout << "Hads nahaei: " << R << endl; // (3)!
 }
 ```
 
