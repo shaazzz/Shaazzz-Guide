@@ -356,7 +356,7 @@ int val = *upper_bound(a + 2, a + 6, 9); // (3)!
 ```cpp linenums="1"
 
 vector<int> a = {2, 3, 7, 7, 9, 10, 13};
-vector<int> *x = upper_bound(a.begin(), a.end(), 5); // (1)!
+vector<int>::iterator x = upper_bound(a.begin(), a.end(), 5); // (1)!
 int idx = lower_bound(a.begin() + 2, a.end(), 7) - a.begin(); // (2)!
 int val = *upper_bound(a.begin() + 2, a.begin() + 6, 9); // (3)!
 ```
