@@ -1,11 +1,11 @@
----
+--- 
 hide:
   - footer
 comments: true
 ---
 # باینری سرچ
 
-## توضیحات
+## توضیحات 
 ### مسئله
 
 بازی ای دو نفره داریم که دو فرد $A$ و $B$ در آن بازی میکنند. ابتدا $A$ یک عدد طبیعی از $1$ تا $10^{9}$ انتخاب میکند. سپس $B$ بایستی عدد انتخاب شده را حدس بزند. او حداکثر $40$ بار فرصت حدس زدن دارد. هربار که $B$ عددی را حدس بزند. $A$ به او میگوید که عدد حدس زده شده کوچکتر از عدد انتخاب شده هست یا نه؛ به عبارتی اگر $A$ عدد $k$ را انتخاب کرده باشد و $B$ عدد $x$ را حدس زده باشد. اگر $x < k$ باشد آنگاه نفر $A$ میگوید **بله** در غیر این صورت **خیر**.
@@ -141,9 +141,9 @@ $\lceil log((R - L) * 10^{6}) \rceil$
 - روش اول:
 
 ```cpp linenums="1"
-int ask(double x){
+int ask(double x) {
 
-    cout << fixed << setprecision(6) << "Ask: " << x << endl; // (1)!
+    cout << "Ask: " << x << endl;
 
     int res;
     cin >> res;
@@ -151,7 +151,8 @@ int ask(double x){
     return res;
 }
 
-int main(){
+int main() {
+    cout << fixed << setprecision(6); // (1)!
 
     double L = 0, R = 1e9;
     double eps = 0.000001; // (2)!
@@ -162,11 +163,11 @@ int main(){
         else R = mid;
     }
 
-    cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl;
+    cout << "Hads nahaei: " << R << endl;
 }
 ```
 
-1. به این شیوه عدد $x$ را با $6$ رقم اعشار خروجی میدهیم.
+1. به این شیوه اعداد اعشاری را با $6$ رقم اعشار خروجی میدهیم.
 
 2. دقت اعشاری که قرار است خروجی بدهیم.
 
@@ -177,9 +178,9 @@ int main(){
 روش دوم:
 
 ```cpp linenums="1"
-int ask(double x){
+int ask(double x) {
 
-    cout << fixed << setprecision(6) << "Ask: " << x << endl;
+    cout << "Ask: " << x << endl;
 
     int res;
     cin >> res;
@@ -187,7 +188,8 @@ int ask(double x){
     return res;
 }
 
-int main(){
+int main() {
+    cout << fixed << setprecision(6);
 
     double L = 0, R = 1e9;
 
@@ -197,7 +199,7 @@ int main(){
         else R = mid;
     }
 
-    cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl;
+    cout << "Hads nahaei: " << R << endl;
 }
 ```
 
@@ -271,9 +273,9 @@ $midl = \frac{2 * L + R}{3}$ و $midr = \frac{L + 2 * R}{3}$ باشد.
 
 ```cpp linenums="1"
 
-int ask(double x){ // (1)!
+int ask(double x) { // (1)!
 
-    cout << fixed << setprecision(6) << "Ask: " << x << endl;
+    cout << "Ask: " << x << endl;
 
     int res;
     cin >> res;
@@ -281,7 +283,8 @@ int ask(double x){ // (1)!
     return res;
 }
 
-int main(){
+int main() {
+    cout << fixed << setprecision(6);
 
     double L = 0, R = 1e9; // (2)!
 
@@ -293,7 +296,7 @@ int main(){
         else R = midr;
     }
 
-    cout << fixed << setprecision(6) << "Hads nahaei: " << R << endl; // (3)!
+    cout << "Hads nahaei: " << R << endl; // (3)!
 }
 ```
 
@@ -426,15 +429,15 @@ int main(){
 
 - [Tutorial On Tof (Ternary Search)](https://codeforces.com/blog/entry/60702) (ایده ای برای اینکه توابعی که کاملا ترنری سرچ پذیر نیستند را ترنری سرچ پذیر کنیم)
 
-## سوال ها
+## سوال ها 
 ??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
-</form> | سوال | سختی | تگ ها | جاج |
-| :-----: | :----: | :----: | :----: |
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
 |[Guess The Number](https://oj.uz/problem/view/BOI20_guess){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[باینری سرچ](/Level1/binary_search){:target="_blank"}</li></ul> </details>|:judge-ojuz: [Oj.uz](https://oj.uz){:target="_blank"}|
 |[فاصله گذاری اجتماعی](https://quera.org/course/assignments/48772/problems/168592){:target="_blank"}|1300|<details> <summary>Spoiler</summary> <ul><li>[باینری سرچ](/Level1/binary_search){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
 |[Number Game](https://codeforces.com/problemset/problem/1749/C){:target="_blank"}|1400|<details> <summary>Spoiler</summary> <ul><li>[باینری سرچ](/Level1/binary_search){:target="_blank"}</li> <li>[الگوریتم های حریصانه](/Level1/greedy){:target="_blank"}</li></ul> </details>|:judge-codeforces: [Codeforces](https://codeforces.com/){:target="_blank"}|

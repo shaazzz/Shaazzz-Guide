@@ -1,11 +1,11 @@
----
+--- 
 hide:
   - footer
 comments: true
 ---
 # پیاده سازی
 
-## توضیحات
+## توضیحات 
 به طور کلی، روند حل سوال عملی، شامل ۲ بخش ارائه الگوریتم برای سوال و نوشتن کد الگوریتم ارائه داده شده می‌باشد. برای تقویت مهارت پیاده سازی، فقط تمرین بیشتر و نوشتن کد سوالات ساده نیاز است.
 
 #### زبان برنامه نویسی
@@ -81,12 +81,12 @@ int main() {
 !!! warning ""
     پیشنهاد می‌شود از کد آماده داده شده در سوالات این بخش استفاده نکنید و سعی کنید خودتان داده ساختار مورد نیاز را پیاده کنید!
 
-## سوال ها
+## سوال ها 
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
-</form> | سوال | سختی | تگ ها | جاج |
-| :-----: | :----: | :----: | :----: |
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
 |[a + b](https://codeforces.com/problemsets/acmsguru/problem/99999/100){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Level1/implementation){:target="_blank"}</li></ul> </details>|:judge-codeforces: [SGU](https://codeforces.com/problemsets/acmsguru){:target="_blank"}|
 |[فاکتوریل](https://quera.org/problemset/589/){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Level1/implementation){:target="_blank"}</li> <li>[توابع بازگشتی](/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Quera](https://quera.org){:target="_blank"}|
 |[اعداد فیثاغورثی](https://quera.org/problemset/9774/){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Level1/implementation){:target="_blank"}</li></ul> </details>|:judge-quera: [Quera](https://quera.org){:target="_blank"}|

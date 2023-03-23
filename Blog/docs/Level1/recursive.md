@@ -1,11 +1,11 @@
----
+--- 
 hide:
   - footer
 comments: true
 ---
 # توابع بازگشتی
 
-## توضیحات
+## توضیحات 
 توابع بازگشتی درواقع توابعی هستند که در طول اجرا، خودشان را دوباره صدا می‌زنند. این توابع به نحوی پیاده‌سازی می‌شوند که پایانی وجود داشته باشد و تابع تا ابد ادامه پیدا نکند. عملکرد توابع بازگشتی تاحدودی استقرا طور است. این توابع حتما قسمت‌های پایه‌ای دارند که در این حالت‌ها، تابع دوباره فراخوانده نخواهد شد. بقیه حالات هم با استفاده از تابع برای حالت‌های دیگری حل خواهند شد. برای مثال تابع زیر برای عدد نامنفی $n$، مقدار $n$ را می‌دهد. اما اگر عدد منفی باشد، تا جایی که بتواند بازگشتی پیش می‌برد و از آنجایی که هیچ گاه به پایه `#!cpp lev == 0` نخواهد رسید، به خاطر استفاده بیش از حد از توابع بازگشتی احتمالا با رانتایم ارور یا محدودیت مموری مواجه خواهد شد. ([مموری‌ها و ارور استک اور فلو](https://stackoverflow.com/questions/214741/what-is-a-stackoverflowerror)) از نظر منطقی هم تابع برای اعداد منفی پایان ناپذیر خواهد شد.
 
 ```cpp linenums="1"
@@ -161,15 +161,15 @@ void perm(int ind){
 + [الگوریتم‌های بازگشتی](https://www.geeksforgeeks.org/introduction-to-recursion-data-structure-and-algorithm-tutorials/)
 + [بک‌ترک و تفاوت‌های آن با بازگشتی](https://www.geeksforgeeks.org/backtracking-algorithms/?ref=lbp)
 + [ممویز کردن](https://www.interviewcake.com/concept/java/memoization#:~:text=Memoization%20ensures%20that%20a%20method,usually%20in%20a%20hash%20map)
-## سوال ها
+## سوال ها 
 ??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
-</form> | سوال | سختی | تگ ها | جاج |
-| :-----: | :----: | :----: | :----: |
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
 |[فاکتوریل](https://quera.org/problemset/589/){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پیاده سازی](/Level1/implementation){:target="_blank"}</li> <li>[توابع بازگشتی](/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Quera](https://quera.org){:target="_blank"}|
 |[الگویابی](https://quera.org/course/assignments/48772/problems/166209){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
 |[پریش](https://quera.org/course/assignments/48772/problems/166207){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[توابع بازگشتی](/Level1/recursive){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|

@@ -1,18 +1,18 @@
----
+--- 
 hide:
   - footer
 comments: true
 ---
 # پریفیکس سام
 
-## توضیحات
+## توضیحات 
 پریفیکس سام یک ایده ساده و بسیار کاربردی است که ایده اصلی آن شکستن بازه $[l, r]$ به دو بازه $[0, l - 1]$ و $[0, r]$ میباشد.
 
 ### الگوریتم
 
 الگوریتم را با سوال کلاسیک پریفیکس سام توضیح می‌دهیم.
 فرض کنید یک آرایه $A$ به طول $n$ داریم.
-به شما $q$ کوئری از جنس یک بازه‌ی $[l, r]$ می‌دهند و از شما جمع مقادیر $a[l], a[l + 1], \cdots, a[r]$ را می‌خواهند.
+به شما $q$ کوئری از جنس یک بازه‌ی $[l, r]$ می‌دهند و از شما جمع مقادیر $a[l], a[l + 1], ..., a[r]$ را می‌خواهند.
 
 میخواهیم راهی از $O(n + q)$ ارئه دهیم.
 
@@ -28,10 +28,10 @@ comments: true
 int A[N], ps[N];
 
 int main() {
-    int n; cin >>n;
+    int n; cin >> n;
 
     for(int i = 1; i <= n; i++)
-        cin >>A[i];
+        cin >> A[i];
 
     for(int i = 1; i <= n; i++) {
         ps[i] = A[i];
@@ -40,8 +40,8 @@ int main() {
 
     int q; cin >>q;
     while(q--) {
-        int l, r; cin >>l >>r;
-        cout<<ps[r] - ps[l - 1] <<endl;
+        int l, r; cin >> l >> r;
+        cout << ps[r] - ps[l - 1] << endl;
     }
 }
 ```
@@ -56,27 +56,30 @@ int A[N], ans[N];
 vector<int> vc[N];
 
 int main() {
-      int n; cin >>n;
-      for(int i = 1; i <= n; i++) cin >>A[i];
+    int n; cin >> n;
+    for(int i = 1; i <= n; i++) cin >> A[i];
 
-      int q; cin >>q;
-      for(int i = 1; i <= q; i++) {
-          int l, r; cin >>l >>r;
-          vc[l - 1].push_back(-i), vc[r].push_back(i);
-      }
+    int q; cin >>q;
+    for(int i = 1; i <= q; i++) {
+        int l, r; cin >> l >> r;
+        vc[l - 1].push_back(-i);
+        vc[r].push_back(i);
+    }
 
-      int sum = 0;
-      for(int i = 0; i <= n; i++) {
-          sum += A[i];
-          for(auto j : vc[i]) {
-              if(j < 0) ans[-j] -= sum;
-              else ans[j] += sum;
-          }
-      }
+    int sum = 0;
+    for(int i = 0; i <= n; i++) {
+        sum += A[i];
+        for(auto j : vc[i]) {
+            if(j < 0)
+                ans[-j] -= sum;
+            else
+                ans[j] += sum;
+        }
+    }
 
-      for(int i = 1; i <= q; i++) {
-          cout<<ans[i] <<endl;
-      }
+    for(int i = 1; i <= q; i++) {
+        cout << ans[i] << endl;
+    }
 }
 ```
 
@@ -102,15 +105,15 @@ int main() {
 [آنلاین و آفلاین جواب دادن کوئری یعنی چی؟](https://www.geeksforgeeks.org/what-are-online-and-offline-query-based-questions-in-competitive-programming/)
 
 [تابع سی پلاس پلاس برای پریفیکس سام](https://en.cppreference.com/w/cpp/algorithm/partial_sum)
-## سوال ها
+## سوال ها 
 ??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
-</form> | سوال | سختی | تگ ها | جاج |
-| :-----: | :----: | :----: | :----: |
+</form> | سوال | سختی | تگ ها | جاج | 
+| :-----: | :----: | :----: | :----: | 
 |[Prefix Sum Queries](https://cses.fi/problemset/task/2166){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
 |[ایکسور خفن](https://quera.org/course/assignments/48772/problems/168588){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
 |[Max Subarray Sum](https://cses.fi/problemset/task/1643){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|

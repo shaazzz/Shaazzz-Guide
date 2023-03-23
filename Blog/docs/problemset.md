@@ -5,13 +5,13 @@ comments: true
 ---
 # همه سوالات
 
-??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
-
-    سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!
-
 ??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
+
+??? warning "حاوی سوالات المپیاد کامپیوتر ایران!"
+
+    سوالات المپیادی از دوره های سابق المپیاد کامپیوتر ایران است، توصیه میشود اگر میخواهید این آزمون ها را در آینده بدهید آنها را باز نکنید!
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
