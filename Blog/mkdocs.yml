@@ -1,8 +1,8 @@
 # Project information
-site_name: شاززز گاید
+site_name: شازززگاید
 site_url: https://guide.shaazzz.ir
 site_author: Shaazzz
-site_description: شاززز گاید
+site_description: شازززگاید
 
 # Copyright
 copyright: |
@@ -49,7 +49,7 @@ theme:
 # Plugins
 plugins:
   - search
-  
+
 # Customization
 extra:
   social:
