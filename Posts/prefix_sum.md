@@ -4,7 +4,7 @@
 
 الگوریتم را با سوال کلاسیک پریفیکس سام توضیح می‌دهیم.
 فرض کنید یک آرایه $A$ به طول $n$ داریم.
-به شما $q$ کوئری از جنس یک بازه‌ی $[l, r]$ می‌دهند و از شما جمع مقادیر $a[l], $a[l + 1], ..., a[r]$ را می‌خواهند.
+به شما $q$ کوئری از جنس یک بازه‌ی $[l, r]$ می‌دهند و از شما جمع مقادیر $a[l], a[l + 1], ..., a[r]$ را می‌خواهند.
 
 میخواهیم راهی از $O(n + q)$ ارئه دهیم.
 
@@ -20,10 +20,10 @@
 int A[N], ps[N];
 
 int main() {
-    int n; cin >>n;
+    int n; cin >> n;
 
     for(int i = 1; i <= n; i++)
-        cin >>A[i];
+        cin >> A[i];
 
     for(int i = 1; i <= n; i++) {
         ps[i] = A[i];
@@ -32,8 +32,8 @@ int main() {
 
     int q; cin >>q;
     while(q--) {
-        int l, r; cin >>l >>r;
-        cout<<ps[r] - ps[l - 1] <<endl;
+        int l, r; cin >> l >> r;
+        cout << ps[r] - ps[l - 1] << endl;
     }
 }
 ```
@@ -48,27 +48,30 @@ int A[N], ans[N];
 vector<int> vc[N];
 
 int main() {
-      int n; cin >>n;
-      for(int i = 1; i <= n; i++) cin >>A[i];
+    int n; cin >> n;
+    for(int i = 1; i <= n; i++) cin >> A[i];
 
-      int q; cin >>q;
-      for(int i = 1; i <= q; i++) {
-          int l, r; cin >>l >>r;
-          vc[l - 1].push_back(-i), vc[r].push_back(i);
-      }
+    int q; cin >>q;
+    for(int i = 1; i <= q; i++) {
+        int l, r; cin >> l >> r;
+        vc[l - 1].push_back(-i);
+        vc[r].push_back(i);
+    }
 
-      int sum = 0;
-      for(int i = 0; i <= n; i++) {
-          sum += A[i];
-          for(auto j : vc[i]) {
-              if(j < 0) ans[-j] -= sum;
-              else ans[j] += sum;
-          }
-      }
+    int sum = 0;
+    for(int i = 0; i <= n; i++) {
+        sum += A[i];
+        for(auto j : vc[i]) {
+            if(j < 0)
+                ans[-j] -= sum;
+            else
+                ans[j] += sum;
+        }
+    }
 
-      for(int i = 1; i <= q; i++) {
-          cout<<ans[i] <<endl;
-      }
+    for(int i = 1; i <= q; i++) {
+        cout << ans[i] << endl;
+    }
 }
 ```
 
