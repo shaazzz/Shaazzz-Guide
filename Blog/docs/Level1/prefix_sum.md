@@ -1,25 +1,25 @@
---- 
+---
 hide:
   - footer
 comments: true
 ---
 # پریفیکس سام
 
-## توضیحات 
+## توضیحات
 پریفیکس سام یک ایده ساده و بسیار کاربردی است که ایده اصلی آن شکستن بازه $[l, r]$ به دو بازه $[0, l - 1]$ و $[0, r]$ میباشد.
 
 ### الگوریتم
 
 الگوریتم را با سوال کلاسیک پریفیکس سام توضیح می‌دهیم.
 فرض کنید یک آرایه $A$ به طول $n$ داریم.
-به شما $q$ کوئری از جنس یک بازه‌ی $[l, r]$ می‌دهند و از شما جمع مقادیر $a[l]$, $a[l + 1]$, ..., $a[r]$ را می‌خواهند.
+به شما $q$ کوئری از جنس یک بازه‌ی $[l, r]$ می‌دهند و از شما جمع مقادیر $a[l], a[l + 1], \cdots, a[r]$ را می‌خواهند.
 
 میخواهیم راهی از $O(n + q)$ ارئه دهیم.
 
-در ابتدا آرایه‌ی $ps[n + 1]$ را می‌سازیم و $ps[i]$ را برابر با جمع $i$ عضو اول آرایه $A$ قرار می‌دهیم. (مقادیر آرایه $ps$ از $O(n)$ 
+در ابتدا آرایه‌ی $ps[n + 1]$ را می‌سازیم و $ps[i]$ را برابر با جمع $i$ عضو اول آرایه $A$ قرار می‌دهیم. (مقادیر آرایه $ps$ از $O(n)$
 قابل محاسبه هستند)
 
-حال برای هر کوئری به شکل $[l, r]$ جواب میشود $ps[l - 1]$ - $ps[r]$.
+حال برای هر کوئری به شکل $[l, r]$ جواب میشود $ps[l - 1] - ps[r]$.
 
 ### کد
 
@@ -30,7 +30,7 @@ int A[N], ps[N];
 int main() {
     int n; cin >>n;
 
-    for(int i = 1; i <= n; i++) 
+    for(int i = 1; i <= n; i++)
         cin >>A[i];
 
     for(int i = 1; i <= n; i++) {
@@ -42,7 +42,7 @@ int main() {
     while(q--) {
         int l, r; cin >>l >>r;
         cout<<ps[r] - ps[l - 1] <<endl;
-    }    
+    }
 }
 ```
 
@@ -75,7 +75,7 @@ int main() {
       }
 
       for(int i = 1; i <= q; i++) {
-          cout<<ans[i] <<endl;    
+          cout<<ans[i] <<endl;
       }
 }
 ```
@@ -94,7 +94,7 @@ int main() {
 ??? success "ایده کلی راه حل"
 
     برای حل این سوال می‌توان کوئری ها را به شکل یک بازه دید و به طور مثال برای کوئری $i$ام باید تمام راس هایی را که بین بازه $[y[i], i]$ هستند را ایگنور کرد از درخت و در بین بقیه راس ها راس $k$ام در مسیر را پیدا کرد. بعد از دیدن این کوئری در وکتور دو اندیس $i$ و $j$ اطلاعات این کوئری را اد میکنیم. حالا بار دیگر روی تمام کوئری ها فور میزنیم (در واقع روی اعضای دنباله فور میزنیم) و به هر اندیس که رسیدیم میتوانیم مشاهده کنیم از ابتدا تا این اندیس چند راس بین مسیر جفت راس های در وکتور این اندیس را ایگنور کرده‌ایم. یعنی در واقع برای هر کوئری مانند $i$ توانستیم یک بار راس $k$ام را با ایگنور کردن بازه $[0, y[i] - 1]$ حساب کنیم و بار دیگر راس $k$ام را با ایگنور کردن بازه $[0, i]$ حساب کنیم.
-    
+
     حالا با این دو دیتا میتوانیم جواب مساله را برای کوئری $i$ام حساب کنیم(ایگنور کردن راس های بازه $[y[i], i]$). (چگونه؟)
 
 ### مطالعه بیشتر
@@ -102,15 +102,15 @@ int main() {
 [آنلاین و آفلاین جواب دادن کوئری یعنی چی؟](https://www.geeksforgeeks.org/what-are-online-and-offline-query-based-questions-in-competitive-programming/)
 
 [تابع سی پلاس پلاس برای پریفیکس سام](https://en.cppreference.com/w/cpp/algorithm/partial_sum)
-## سوال ها 
+## سوال ها
 ??? warning "نیاز به عضویت در گروه شاززز!"
 
     برای حل برخی از سوالات باید ابتدا در [گروه شاززز](https://quera.org/course/add_to_course/course/12879/){:target="_blank"} عضو شوید.
  <form name="cf-handel-form" class="cf-handel-form" onsubmit="return cf_status_checker()">
   <input type="text" id="cf-handel" name="cf-handel" class="handel-input" placeholder="هندل کدفرسز:"><br>
   <input type="submit" value="Submit" class="md-button cf-handel-button">
-</form> | سوال | سختی | تگ ها | جاج | 
-| :-----: | :----: | :----: | :----: | 
+</form> | سوال | سختی | تگ ها | جاج |
+| :-----: | :----: | :----: | :----: |
 |[Prefix Sum Queries](https://cses.fi/problemset/task/2166){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
 |[ایکسور خفن](https://quera.org/course/assignments/48772/problems/168588){:target="_blank"}|800|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|:judge-quera: [Shaazzz](https://quera.org/course/add_to_course/course/12879/){:target="_blank"}|
 |[Max Subarray Sum](https://cses.fi/problemset/task/1643){:target="_blank"}|900|<details> <summary>Spoiler</summary> <ul><li>[پریفیکس سام](/Level1/prefix_sum){:target="_blank"}</li></ul> </details>|:judge-cses: [CSES](https://cses.fi){:target="_blank"}|
